@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## About Pattern Lab
 - [Pattern Lab Website](http://patternlab.io/)
 - [About Pattern Lab](http://patternlab.io/about.html)
@@ -60,3 +61,7 @@ By default, the Pattern Lab assets can be manually generated and the Pattern Lab
 * [Modifying the Pattern Lab Nav](http://patternlab.io/docs/advanced-pattern-lab-nav.html)
 * [Editing the config.ini Options](http://patternlab.io/docs/advanced-config-options.html)
 * [Integration with Compass](http://patternlab.io/docs/advanced-integration-with-compass.html)
+=======
+st-sophia-cathedral-website
+===========================
+>>>>>>> 1e78b93fecab15421945b4ffa268409f2679dba5
