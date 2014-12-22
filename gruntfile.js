@@ -13,7 +13,6 @@ module.exports = function(grunt) {
                 },
                 files: {    // Dictionary of files
                     'source/css/style.css': 'source/css/style.scss',    // 'destination': 'source'
-                    'source/css/style-supp.css': 'source/css/style-supp.scss'    // 'destination': 'source'
                 }
             }
         },
@@ -66,7 +65,6 @@ module.exports = function(grunt) {
     // 3. Where we tell Grunt we plan to use this plug-in.
     
     grunt.loadNpmTasks('grunt-contrib-sass');
-    grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-autoprefixer');
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
@@ -75,6 +73,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-shell');
 
     // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
-    grunt.registerTask('default', ['sass', 'cssmin', 'autoprefixer', 'shell:patternlab']);
+    grunt.registerTask('default', ['sass', 'autoprefixer', 'shell:patternlab']);
     grunt.registerTask('dev', ['connect', 'watch']);
 };
