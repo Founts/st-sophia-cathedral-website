@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html class="pl">
+	<head>
+		<title>Pattern Lab</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width" />
+		
+		<link rel="stylesheet" href="../../css/style.css?1429307440" media="all" />
+		<script src="//use.typekit.net/mjq2gph.js"></script>
+		<script>try{Typekit.load();}catch(e){}</script>
+
+		<!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
+				<!-- never cache patterns -->
+		<meta http-equiv="cache-control" content="max-age=0" />
+		<meta http-equiv="cache-control" content="no-cache" />
+		<meta http-equiv="expires" content="0" />
+		<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+		<meta http-equiv="pragma" content="no-cache" />
+		
+		<link rel="stylesheet" href="../../styleguide/css/styleguide.css?1429307440" media="all">
+		<link rel="stylesheet" href="../../styleguide/css/styleguide-specific.css?1429307440" media="all" />
+		
+
+		<!-- End Pattern Lab -->
+	
+	</head>
+	<body class="body">	
+		<style>
+/*TODO temp styles*/
+.page-header {
+	margin-bottom: 2em;
+	padding: 4em 1em;
+	text-align: center;
+	background-color: #460d11;
+	color: white;
+}
+.main-body {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 1em 2em;
+}
+.callout-notice {
+	background-color: lightgray;
+	padding: 1em;
+	margin-bottom: 1em;
+	font-weight: bold;
+	border-radius: 4px;
+}
+img {
+	border-radius: 4px;
+}
+</style>
+<div class="page-header">
+	<h1 class="page-title">FUNERALS AT SAINT SOPHIA CATHEDRAL</h1> 
+	<p class="page-intro">WHEN SOMEONE YOU LOVE DIES</p>
+</div>
+<div class="main-body">
+	<div class="callout-notice">
+		<p>When a loved one dies, please contact us immediately. Please call:</p>
+		<div class="text">
+			<ul>
+				<li>Father John Bakas (323-868-0595) or</li>
+				<li>Father Allan Boyd (323-868-0596) </li>
+			</ul>
+		</div>
+	</div>
+	<img src="../../images/dormition_icon.jpg" alt="Image of the icon of the Dorimition of the Theotokos" />
+	<blockquote>
+		<p>Blessed ever be the way, the way on which you walk this day, for there is prepared for you a place of everlasting rest.</p>
+		<cite class="citation">~ Hymn from the Orthodox funeral service</cite>
+	</blockquote>
+	<h1>Preparation</h1>
+	<p>In preparation for the funeral, you should make sure to do the following items:</p>
+	<div class="text">
+		<ul>
+			<li>
+				<div>Mortuary/Funeral Director</div>
+				<p>Choose the mortuary/funeral director you will be using and contact them. (We highly recommend <a href="http://chapmanfuneralcare.com/">Terry &amp; Mary Harmon with Chapman Funeral Directors</a> – (855) 628-0447 <a href="mailto:ChapmanFunerals@aol.com">ChapmanFunerals@aol.com</a>. They are quite fair and are very familiar with our cathedral and Orthodox Christian customs.) They are happy to meet families in the comfort of their own home; at the cathedral office; or at one of their mortuary sites. (FYI: Your selection of a mortuary/funeral director does not limit your selection of a cemetery, each of whom will work with any mortuary you choose.)</p>
+				<p><strong>NOTE:Cremation is not an option if one wishes to have an Orthodox Funeral Service.</strong> Our tradition as Orthodox Christians is to bury the dead. Out of deep respect and reverence, the body of the deceased is placed in a casket and set in a grave. This deep respect is given because Saint Paul describes every Christian’s body as “a temple of the Holy Spirit” (1 Corinthians 6:19). Thus, it is returned to the earth from which it was taken (Genesis 2:7).</p>
+			</li>
+		</ul>
+	</div>
+
+	...
+	<h1>Perspective</h1>
+	<p>The Church Fathers suggest that there is no greater freedom than to live life with a healthy relationship with death. The more we embrace the mystery of our own mortality, the more we see the need to avail ourselves of becoming ever more united with God through His Son. We begin to look deeper into things: our lives, our relationships, and the mystery of Jesus Christ. We value these things more and are moved toward mindful, wholehearted living.</p>
+	<blockquote>
+		<p>“It is better to go to a house of mourning than to go to a house of feasting, for death is the destiny of everyone; thus, the living should take this to heart.”</p>
+		<cite class="citation">~ Ecclesiastes 7:2</cite>
+	</blockquote>
+	<p>An Orthodox Christian funeral conveys a person's entire life and death in the context of our faith in the Crucified and Risen Christ. It also enables family and friends to gather together to begin the process of accepting the painful reality of death and express their love, grief and support for one another.</p>
+	<img src="../../images/resurrection.jpg" alt="Image of the icon of the Resurecction of Christ" />
+	<blockquote>
+		<p>“Remember your own last days and set hostility aside. Remember death and decay and cease from sin!”</p>
+		<cite class="citation">~ The Wisdom of Sirach 28:6</cite>
+	</blockquote>
+</div>
+	<!--DO NOT REMOVE-->
+		
+	<script>
+		// handle injection of items from PHP
+		var patternPartial = "pages-page-funeral";
+		var lineage        = [];
+		var lineageR       = [];
+		var patternState   = "";
+		var cssEnabled     = false;
+	</script>
+		<script>
+		/*!
+		 * scriptLoader - v0.1
+		 *
+		 * Copyright (c) 2014 Dave Olsen, http://dmolsen.com
+		 * Licensed under the MIT license
+		 *
+		 */
+		
+		var scriptLoader = {
+			
+			run: function(js,cb,target) {
+				var s  = document.getElementById(target+'-'+cb); 
+				for (var i = 0; i < js.length; i++) {
+					var src = (typeof js[i] != "string") ? js[i].src : js[i];
+					var c   = document.createElement('script');
+					c.src   = '../../'+src+'?'+cb;
+					if (typeof js[i] != "string") {
+						if (js[i].dep !== undefined) {
+							c.onload = function(dep,cb,target) {
+								return function() {
+									scriptLoader.run(dep,cb,target);
+								}
+							}(js[i].dep,cb,target);
+						}
+					}
+					s.parentNode.insertBefore(c,s);
+				}
+			}
+			
+		}
+	</script>
+	<script id="pl-js-polyfill-insert-1429307440">
+		(function() {
+			if (self != top) {
+				var cb = '1429307440';
+				var js = [];
+				if (typeof document !== "undefined" && !("classList" in document.documentElement)) {
+					js.push("styleguide/js/vendor/classlist-polyfill.js");
+				}
+				scriptLoader.run(js,cb,'pl-js-polyfill-insert');
+			}
+		})();
+	</script>
+	<script id="pl-js-insert-1429307440">
+		(function() {
+			if (self != top) {
+				var cb = '1429307440';
+				var js = [ { "src": "styleguide/js/vendor/jwerty.js", "dep": [ "styleguide/js/postmessage.js", { "src": "data/annotations.js", "dep": [ "styleguide/js/annotations-pattern.js" ] }, "styleguide/js/code-pattern.js" ] } ];
+				scriptLoader.run(js,cb,'pl-js-insert');
+			}
+		})();
+	</script>
+	
+
+
+	</body>
+</html>
