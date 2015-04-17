@@ -185,12 +185,12 @@ header, footer, nav, section, article, hgroup, figure {
 }
 
 .font-secondary {
-  font-family: "ff-meta-web-pro", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+  font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
 }
 
 body {
   background: white;
-  font: 100%/1.5 "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
+  font: 100%/1.5 "ff-meta-web-pro", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
   -webkit-text-size-adjust: 100%;
   color: #333333;
 }
@@ -221,7 +221,7 @@ h3, .gamma {
 
 /* Subheadings */
 .subheading {
-  font-family: "ff-meta-web-pro", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+  font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
   font-weight: normal;
 }
 
@@ -820,7 +820,7 @@ td {
 }
 
 .pullquote {
-  font-family: "ff-meta-web-pro", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+  font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
   font-size: 1.4375em;
 }
 
@@ -1247,7 +1247,7 @@ td {
 .acc-handle {
   background: #131313;
   color: white;
-  font-family: "ff-meta-web-pro", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+  font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
   display: block;
   position: relative;
