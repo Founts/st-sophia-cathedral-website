@@ -5,7 +5,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width" />
 		
-		<link rel="stylesheet" href="../../css/style.css?1429906334" media="all" />
+		<link rel="stylesheet" href="../../css/style.css?1430172712" media="all" />
 		<script src="//use.typekit.net/mjq2gph.js"></script>
 		<script>try{Typekit.load();}catch(e){}</script>
 
@@ -17,8 +17,8 @@
 		<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
 		<meta http-equiv="pragma" content="no-cache" />
 		
-		<link rel="stylesheet" href="../../styleguide/css/styleguide.css?1429906334" media="all">
-		<link rel="stylesheet" href="../../styleguide/css/styleguide-specific.css?1429906334" media="all" />
+		<link rel="stylesheet" href="../../styleguide/css/styleguide.css?1430172712" media="all">
+		<link rel="stylesheet" href="../../styleguide/css/styleguide-specific.css?1430172712" media="all" />
 		
 
 		<!-- End Pattern Lab -->
@@ -28,12 +28,56 @@
 		<style>
 .block {
 	margin: 0 auto;
-	max-width: 600px;
+	/*max-width: 600px;*/
+}
+.block a {
+	display: block;
+}
+.block img {
+	margin: 10px auto;
+	display: block;
 }
 .b-title {
-	display: inline-block;
-	max-width: 300px;
+	/*display: inline-block;*/
+	max-width: 270px;
+	margin: 10px auto;
+	font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif; /*$font-secondary : */
 }
+
+/*//switch to larger layout*/
+@media (min-width: 600px) {
+  .block img {
+    float: left;
+    /*//display: inline-block;*/
+  }
+  .b-title {
+    float: left;
+    /*//display: inline-block;*/
+    margin: 25px 10px;
+  }
+  .b-title {    
+    /*//if using text-align for centering, reset to left*/
+    text-align: left;
+  }
+  .block {
+    /*//centers inline elements. not good for text inside divs where left align is needed. http://stackoverflow.com/questions/16802728/css-margin-auto-not-centering*/
+    text-align: center; 
+    
+    /*//display table to center http://stackoverflow.com/a/10097606/1357618*/
+    /*//display: table;*/
+  }
+  .b-inner {
+    /*//margin: 0 auto;*/
+    /*//if using floats, set display to force a proper width value*/
+    display: inline-block;
+/*  &:after {
+      content: '';
+      clear: both;
+      display: block;
+    }*/
+  }
+}
+
 </style>
 <div class="block affiliate">
 	<a href="#" class="b-inner">
@@ -83,10 +127,10 @@
 			
 		}
 	</script>
-	<script id="pl-js-polyfill-insert-1429906334">
+	<script id="pl-js-polyfill-insert-1430172712">
 		(function() {
 			if (self != top) {
-				var cb = '1429906334';
+				var cb = '1430172712';
 				var js = [];
 				if (typeof document !== "undefined" && !("classList" in document.documentElement)) {
 					js.push("styleguide/js/vendor/classlist-polyfill.js");
@@ -95,10 +139,10 @@
 			}
 		})();
 	</script>
-	<script id="pl-js-insert-1429906334">
+	<script id="pl-js-insert-1430172712">
 		(function() {
 			if (self != top) {
-				var cb = '1429906334';
+				var cb = '1430172712';
 				var js = [ { "src": "styleguide/js/vendor/jwerty.js", "dep": [ "styleguide/js/postmessage.js", { "src": "data/annotations.js", "dep": [ "styleguide/js/annotations-pattern.js" ] }, "styleguide/js/code-pattern.js" ] } ];
 				scriptLoader.run(js,cb,'pl-js-insert');
 			}
