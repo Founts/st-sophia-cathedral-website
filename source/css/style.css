@@ -1147,6 +1147,64 @@ td {
   padding: 0.5em;
 }
 
+/* Block Affiliate */
+.block-affiliate {
+  margin: 0 auto;
+  /*max-width: 600px;*/
+}
+
+.block-affiliate a {
+  display: block;
+}
+
+.block-affiliate img {
+  margin: 10px auto;
+  display: block;
+}
+
+.b-title {
+  /*display: inline-block;*/
+  max-width: 270px;
+  margin: 10px auto;
+  font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
+}
+
+/*//switch to larger layout*/
+@media (min-width: 600px) {
+  .block-affiliate img {
+    float: left;
+    /*//display: inline-block;*/
+  }
+
+  .b-title {
+    float: left;
+    /*//display: inline-block;*/
+    margin: 25px 10px;
+  }
+
+  .b-title {
+    /*//if using text-align for centering, reset to left*/
+    text-align: left;
+  }
+
+  .block-affiliate {
+    /*//centers inline elements. not good for text inside divs where left align is needed. http://stackoverflow.com/questions/16802728/css-margin-auto-not-centering*/
+    text-align: center;
+    /*//display table to center http://stackoverflow.com/a/10097606/1357618*/
+    /*//display: table;*/
+  }
+
+  .b-inner {
+    /*//margin: 0 auto;*/
+    /*//if using floats, set display to force a proper width value*/
+    display: inline-block;
+    /*  &:after {
+          content: '';
+          clear: both;
+          display: block;
+        }*/
+  }
+}
 .inline-list li {
   display: inline-block;
 }
