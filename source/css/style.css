@@ -780,12 +780,18 @@ td {
 .footer {
   clear: both;
   overflow: hidden;
-  background: #131313;
+  background-color: #460d11;
   color: white;
   line-height: 1.2;
 }
 .footer a {
   color: #f9f9f9;
+}
+
+.footer-top {
+  margin-top: 1em;
+  padding: 2em;
+  background-color: lightgrey;
 }
 
 .nav-footer {
@@ -805,10 +811,20 @@ td {
   padding: 1em;
 }
 
+.footer-bottom {
+  margin-top: 2em;
+  padding: 2em;
+}
+
 @media all and (min-width: 46.8em) {
   .copyright {
     float: right;
   }
+}
+
+.colophon {
+  clear: left;
+  font-size: 0.875em;
 }
 
 /*------------------------------------*\
@@ -1162,10 +1178,6 @@ td {
     /*//if using floats, set display to force a proper width value*/
     display: inline-block;
   }
-}
-
-.block-affiliate a {
-  display: block;
 }
 
 .block-affiliate img {

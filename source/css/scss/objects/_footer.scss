@@ -4,7 +4,7 @@
 .footer {
 	clear: both;
 	overflow: hidden;
-	background: $gray-dark-2;
+	background-color: $red-dark;
 	color: $white;
 	line-height: 1.2;
 
@@ -12,7 +12,11 @@
 		color: $gray-light;
 	}
 }
-
+.footer-top {
+	margin-top: $space;
+	padding: $pad-double;
+	background-color: lightgrey;
+}
 //Footer Nav
 .nav-footer {
 	margin: (-$pad) (-$pad) $space;
@@ -31,9 +35,16 @@
 		padding: $pad;
 	}
 }
-
+.footer-bottom {
+	margin-top: $space-double;
+	padding: $pad-double;
+}
 .copyright {
 	@media all and (min-width: $bp-med) {
 		float: right;
 	}
+}
+.colophon {
+	clear: left;
+	font-size: $font-size-small-2;
 }
