@@ -1,6 +1,6 @@
 body {
 	background: $white;
-	font: 100%/1.5 $font;
+	font: 100%/1.5 $font; //http://www.filamentgroup.com/lab/how-we-learned-to-leave-body-font-size-alone.html
 	-webkit-text-size-adjust: 100%;
 	color: $gray-dark;
 }

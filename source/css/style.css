@@ -242,8 +242,8 @@ blockquote {
 /* Horizontal Rule */
 hr {
   border: 0;
-  height: 2px;
-  background: #eeeeee;
+  height: 1px;
+  background: #460d11;
   margin: 2em 0;
 }
 
@@ -766,6 +766,14 @@ td {
   padding: 1em;
 }
 
+.social-nav a {
+  font-size: 0.875em;
+}
+
+.social-nav .fa {
+  font-size: 1.416rem;
+}
+
 /*------------------------------------*\
     $MAIN CONTENT AREA
 \*------------------------------------*/
@@ -784,31 +792,81 @@ td {
   color: white;
   line-height: 1.2;
 }
-.footer a {
-  color: #f9f9f9;
-}
 
 .footer-top {
   margin-top: 1em;
   padding: 2em;
-  background-color: lightgrey;
+  background-color: #fceff0;
+}
+
+.footer-top,
+.footer-top a,
+.footer-top h3 {
+  color: #460d11;
+}
+
+.footer-top .fa {
+  font-size: 1.416rem;
+  /* rem@16px 22.652px TODO determine if rem is best design for nested. https://css-tricks.com/theres-more-to-the-css-rem-unit-than-font-sizing/*/
 }
 
 .nav-footer {
-  margin: -1em -1em 1em;
+  padding-bottom: .5em;
+  margin-bottom: 1.5em;
+}
+.nav-footer h3 {
+  margin-bottom: .3em;
+  font-size: 1.416em;
+}
+.nav-footer h3 a {
+  text-transform: uppercase;
 }
 .nav-footer li {
-  border-bottom: 1px solid #333333;
-}
-@media all and (min-width: 46.8em) {
-  .nav-footer li {
-    border: 0;
-    float: left;
-  }
+  margin-bottom: 0.5em;
 }
 .nav-footer a {
+  padding: 0;
+}
+.nav-footer li > a {
   display: block;
-  padding: 1em;
+  font-size: 0.875em;
+}
+
+.contact-options a,
+.contact-options h3 {
+  padding: 0;
+}
+
+.contact-options h3 {
+  font-size: 1.416em;
+  text-transform: uppercase;
+}
+
+.contact-options a {
+  font-size: 0.875em;
+}
+
+.contact-options h3 {
+  margin-bottom: .3em;
+}
+
+.contact-options li {
+  margin-bottom: 0.5em;
+}
+
+/* TODO need to offset text down for larger proceeding icon font-size*/
+.contact-us div {
+  margin-bottom: 0.5em;
+}
+
+.footer .vcard {
+  display: block;
+  /*below gives space for graphic*/
+  margin-left: 1.5em;
+}
+
+.newsletter-pitch {
+  margin-left: 1.5em;
 }
 
 .footer-bottom {
@@ -837,7 +895,7 @@ td {
 
 .pullquote {
   font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
-  font-size: 1.4375em;
+  font-size: 3.706em;
 }
 
 .caption {
@@ -1388,34 +1446,6 @@ td {
 }
 .social-share a:hover {
   background: gray;
-}
-
-.comments li {
-  margin-bottom: 1em;
-}
-
-.comment-container {
-  overflow: hidden;
-  margin-bottom: 1em;
-  list-style: none;
-}
-
-.comment-meta {
-  float: left;
-  width: 6.5em;
-}
-.comment-meta img {
-  display: block;
-  border: 1px solid #eeeeee;
-  margin-bottom: 0.5em;
-}
-
-.comment-name {
-  font-size: 0.75em;
-}
-
-.comment-text {
-  margin-left: 9em;
 }
 
 /*------------------------------------*\

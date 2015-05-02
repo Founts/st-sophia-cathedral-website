@@ -9,32 +9,102 @@
 	line-height: 1.2;
 
 	a {
-		color: $gray-light;
+		// color: $gray-light;
 	}
 }
+
+//footer top section
 .footer-top {
 	margin-top: $space;
 	padding: $pad-double;
-	background-color: lightgrey;
+	background-color: lighten($red-dark, 80%); //TODO make color official. #e3d8da used in comp BUT might like this better.
 }
-//Footer Nav
+.footer-top,
+.footer-top a, 
+.footer-top h3 {
+	color: $red-dark;
+}
+//footer icon graphics
+.footer-top .fa {
+	font-size: 1.416rem; /* rem@16px 22.652px TODO determine if rem is best design for nested. https://css-tricks.com/theres-more-to-the-css-rem-unit-than-font-sizing/*/
+}	
+
+//footer nav section
+
 .nav-footer {
-	margin: (-$pad) (-$pad) $space;
+	//margin: (-$pad) (-$pad) $space;
+	padding-bottom: .5em;
+	margin-bottom: 1.5em;
 
-	li {
-		border-bottom: 1px solid $gray-dark;
+	h3 {
+		margin-bottom: .3em;
+		font-size: $font-size-med; //@22
 
-		@media all and (min-width: $bp-med) {
-			border: 0;
-			float: left;
+		a {
+			text-transform: uppercase;
 		}
 	}
 
-	a {
-		display: block;
-		padding: $pad;
+	li {
+		//border-bottom: 1px solid $gray-dark;
+
+		// @media all and (min-width: $bp-med) {
+		// 	border: 0;
+		// 	float: left;
+		// }
+		margin-bottom: $space-half;//.5em;
 	}
+
+	a {
+		padding: 0;
+	}
+
+	li > a {
+		display: block;
+		// padding: $pad;
+		font-size: $font-size-small-2; //@14
+	}
+
 }
+
+//footer contact options
+//TODO consider merging this with above similar code - perhaps making it all under .footer instead
+.contact-options a, 
+.contact-options h3 {
+	padding: 0;
+}
+.contact-options h3 {
+	font-size: $font-size-med; //1.416em; @22
+	text-transform: uppercase;
+}
+.contact-options a {
+	font-size: $font-size-small-2; //0.875em; @14
+}
+.contact-options h3 {
+	margin-bottom: .3em;
+}
+.contact-options li {
+	margin-bottom: $space-half;
+}
+
+//contact us
+/* TODO need to offset text down for larger proceeding icon font-size*/
+.contact-us div {
+	margin-bottom: $space-half;
+}
+//visit-us
+.footer .vcard {
+	display: block;
+	/*below gives space for graphic*/
+	margin-left: $space-and-half;
+}
+//footer contact options
+//graphic + content 2 column
+.newsletter-pitch {
+	margin-left: $space-and-half;
+}
+
+//footer bottom section
 .footer-bottom {
 	margin-top: $space-double;
 	padding: $pad-double;
