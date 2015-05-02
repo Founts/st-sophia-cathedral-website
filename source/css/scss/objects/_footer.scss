@@ -108,6 +108,9 @@
 .footer-bottom {
 	margin-top: $space-double;
 	padding: $pad-double;
+	a {
+		color: $gray-light;
+	}
 }
 .copyright {
 	@media all and (min-width: $bp-med) {

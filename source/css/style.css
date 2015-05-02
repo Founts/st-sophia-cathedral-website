@@ -873,6 +873,9 @@ td {
   margin-top: 2em;
   padding: 2em;
 }
+.footer-bottom a {
+  color: #f9f9f9;
+}
 
 @media all and (min-width: 46.8em) {
   .copyright {
