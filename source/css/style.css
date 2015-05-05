@@ -1128,18 +1128,37 @@ td {
 .block-hero {
   margin-bottom: 0.5em;
 }
+.block-hero .b-thumb {
+  border-bottom: 16px solid #460d11;
+}
 .block-hero .b-thumb img {
   display: block;
+}
+.block-hero .b-text {
+  max-width: 300px;
+}
+.block-hero .b-title {
+  margin: 0 0 .25em;
+  font-size: 1.82em;
+}
+.block-hero .home-intro {
+  clear: left;
+  font-size: 1.125em;
+  /*1.416em;*/
+  line-height: 1.125em;
+  font-weight: 200;
 }
 @media all and (min-width: 50em) {
   .block-hero {
     position: relative;
   }
+  .block-hero .b-inner {
+    position: relative;
+  }
   .block-hero .b-text {
     position: absolute;
     bottom: 0;
-    left: 0;
-    width: 100%;
+    right: 0;
     background: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 1.5em;
