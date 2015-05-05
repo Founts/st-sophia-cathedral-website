@@ -3,6 +3,10 @@
 	"htmlClass": "pl",
 	"bodyClass": "body",
 	"img": {
+		"landscape-3x2": {
+		    "src": "../../images/fpo_3x2.png",
+		    "alt": "3x2 Image"
+		},
 		"landscape-4x3": {
 			"src": "../../images/fpo_4x3.png",
 			"alt": "4x3 Image"
