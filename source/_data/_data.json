@@ -93,5 +93,16 @@
 		{ },
 		{ },
 		{ }
-	]
+	],
+	"cta" : "Learn More",
+	"well" : {
+		"headline" : {
+			"short" : "Another Way Headline Text"
+		},
+		"excerpt" : {
+			"short" : "What if there was another way? Some other text that adds some length to the paragraph for the well section."
+		},
+		"src" : "../../images/image_well_father-john.jpg",
+		"alt" : "priest in white room looking at you"
+	}
 }
