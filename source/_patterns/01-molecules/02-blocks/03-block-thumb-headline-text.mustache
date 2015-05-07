@@ -1,0 +1,13 @@
+{{! structure based off block-thumb-headline }}
+<div class="block block-thumb">
+	<div href="{{ url }}" class="b-inner">
+		<div class="b-thumb">
+			{{> atoms-landscape-16x9 }}
+		</div>
+		<div class="b-text">
+			<h2 class="b-title">{{ title }}</h2>
+			<p>{{ excerpt.short }}</p>
+			<a href="{{ url }}" class="cta">{{ cta }}</a>
+		</div>
+	</div>
+</div>

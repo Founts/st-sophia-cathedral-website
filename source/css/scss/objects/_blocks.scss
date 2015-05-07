@@ -99,8 +99,11 @@
 			padding: 0 $pad;
 		}
 	}
+	/* Block Thumb Headline Text */
+	a {
+		//display:inline-block; //float: left;	//nothing needed??
+	}
 }
-
 
 /* Block Headline Summary */
 .block-headline-summary {
@@ -164,6 +167,19 @@
 		//centers inline elements. not good for text inside divs where left align is needed. http://stackoverflow.com/questions/16802728/css-margin-auto-not-centering
     	text-align: center; 
 	}
+	.b-title {
+		/*display: inline-block;*/
+		max-width: 270px;
+		margin: 10px auto;
+		font-family: $font-secondary;
+		@media (min-width: $bp-small-2) {
+			float: left;
+	    	margin: 25px 10px;
+	    	//since using text-align for centering, reset to left
+		    text-align: left;
+
+		}
+	}
 }
 .b-inner {
     @media (min-width: $bp-small-2) {
@@ -176,18 +192,5 @@
 	display: block;
 	@media (min-width: $bp-small-2) {
 		float: left;
-	}
-}
-.b-title {
-	/*display: inline-block;*/
-	max-width: 270px;
-	margin: 10px auto;
-	font-family: $font-secondary;
-	@media (min-width: $bp-small-2) {
-		float: left;
-    	margin: 25px 10px;
-    	//since using text-align for centering, reset to left
-	    text-align: left;
-
 	}
 }
