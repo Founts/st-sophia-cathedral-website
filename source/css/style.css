@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*                                                                                                                                         
                                                 ,,            ,,                          ,,                                             
  .M"""bgd mm                                    db          `7MM        mm         mm   `7MM                                    OO OO OO 
@@ -896,9 +897,69 @@ td {
   font-weight: bold;
 }
 
+blockquote {
+  padding: 1.5em 1em;
+  border-left: 8px solid #931c25;
+  font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
+  font-style: normal;
+  color: #931c25;
+}
+blockquote p {
+  padding: 0 48px 0;
+  margin: 0;
+  font-size: 1.82em;
+}
+blockquote p:before {
+  content: '“';
+  font-size: 3.706em;
+  line-height: 1;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: #931c25;
+}
+blockquote p:after {
+  content: '”';
+  font-size: 3.706em;
+  line-height: 1;
+  position: absolute;
+  right: 0;
+  margin: 16px;
+  color: #931c25;
+}
+blockquote .citation {
+  font-size: 1.416em;
+  padding: 0 48px 0;
+}
+
 .pullquote {
   font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
-  font-size: 2.945em;
+  font-size: 1.416em;
+  padding: 1em 0;
+  border: none;
+  color: #931c25;
+}
+.pullquote p {
+  padding: 0 2.5em 0;
+  margin: 0;
+}
+.pullquote p:before {
+  content: '“';
+  font-size: 3.706em;
+  line-height: 1;
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  color: #931c25;
+}
+.pullquote p:after {
+  content: '”';
+  font-size: 3.706em;
+  line-height: 1;
+  position: absolute;
+  right: 0;
+  margin: 12px;
+  color: #931c25;
 }
 
 .caption {

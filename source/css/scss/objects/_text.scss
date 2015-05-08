@@ -4,10 +4,74 @@
 	font-weight: bold;
 }
 
+//Blockquote TODO switch to a class?
+blockquote {
+	padding: 1.5em 1em;
+	border-left: 8px solid #931c25;	
+	font-family: $font-secondary;
+	font-style: normal;
+	color: #931c25; //TODO official color
+
+	p {
+		padding: 0 48px 0; //TODO Move to blockquote level?
+		margin: 0;
+		font-size: $font-size-med-3;
+		&:before {
+			content: '“';
+			font-size: $font-size-large-2;
+			line-height: 1;
+			position: absolute;
+			top: 8px;
+			left: 16px;
+			color: #931c25;
+		}
+		&:after {
+			content: '”';
+			font-size: $font-size-large-2;
+			line-height: 1;
+	  		position: absolute;
+	  		right: 0;
+	  		margin: 16px;
+	  		color: #931c25;
+		}
+	}
+
+	.citation {
+		font-size: $font-size-med; //22.652px;
+		padding: 0 48px 0;
+	}
+}
+
 //Pullquote
 .pullquote {
 	font-family: $font-secondary;
-	font-size: $font-size-large;
+	font-size: $font-size-med;
+	padding: 1em 0;
+	border: none;
+	color: #931c25; //TODO official color
+
+	p {
+		padding: 0 2.5em 0; //TODO Move to blockquote level?
+		margin: 0;
+		&:before {
+			content: '“';
+			font-size: $font-size-large-2;
+			line-height: 1;
+			position: absolute;
+			top: 8px;
+			left: 12px;
+			color: #931c25;
+		}
+		&:after {
+			content: '”';
+			font-size: $font-size-large-2;
+			line-height: 1;
+	  		position: absolute;
+	  		right: 0;
+	  		margin: 12px;
+	  		color: #931c25;
+		}
+	}
 }
 
 //Caption 
