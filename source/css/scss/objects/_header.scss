@@ -1,17 +1,17 @@
 .header {
 	background: $white;
 	padding: 0;
-	border-bottom: 1px solid #dbdbdb;
+	// border-bottom: 1px solid #dbdbdb;
 	@extend .lc;
 }
 
 .logo {
 	float: left;
-	max-width: 8rem;
+	max-width: 10rem;
 	margin: 0.4rem;
 
 	@media all and (min-width: $bp-med) {
-		max-width: 9rem;
+		max-width: 18rem;
 	}
 }
 
