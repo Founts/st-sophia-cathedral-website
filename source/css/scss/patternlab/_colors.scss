@@ -1,5 +1,5 @@
-@media all and (min-width: 30em) {
-	.sg-colors li {
-  		width: 10em;
+.sg-colors li {
+	@media all and (min-width: 30em) {
+  		width: 10em !important;
 	}
 }
