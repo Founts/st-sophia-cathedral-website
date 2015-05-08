@@ -898,6 +898,7 @@ td {
 }
 
 blockquote {
+  position: relative;
   padding: 1.5em 1em;
   border-left: 8px solid #931c25;
   font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
@@ -905,7 +906,7 @@ blockquote {
   color: #931c25;
 }
 blockquote p {
-  padding: 0 48px 0;
+  padding: 0 60px 0;
   margin: 0;
   font-size: 1.82em;
 }
@@ -948,18 +949,18 @@ blockquote .citation {
   }
 }
 
-.pullquote {
+blockquote .pullquote {
   font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
   font-size: 1.416em;
   padding: 1em 0;
   border: none;
   color: #931c25;
 }
-.pullquote p {
+blockquote .pullquote p {
   padding: 0 2.5em 0;
   margin: 0;
 }
-.pullquote p:before {
+blockquote .pullquote p:before {
   content: '“';
   font-size: 3.706em;
   line-height: 1;
@@ -968,7 +969,7 @@ blockquote .citation {
   left: 12px;
   color: #931c25;
 }
-.pullquote p:after {
+blockquote .pullquote p:after {
   content: '”';
   font-size: 3.706em;
   line-height: 1;

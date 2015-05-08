@@ -5,7 +5,9 @@
 }
 
 //Blockquote TODO switch to a class?
+//a significant block making a reference NOT in the article. text size TBD. Big quote symbol to open
 blockquote {
+	position: relative;
 	padding: 1.5em 1em;
 	border-left: 8px solid #931c25;	
 	font-family: $font-secondary;
@@ -13,7 +15,7 @@ blockquote {
 	color: #931c25; //TODO official color
 
 	p {
-		padding: 0 48px 0; //TODO Move to blockquote level?
+		padding: 0 60px 0; //TODO Move to blockquote level?
 		margin: 0;
 		font-size: $font-size-med-3;
 
@@ -65,7 +67,8 @@ blockquote {
 }
 
 //Pullquote
-.pullquote {
+//a quote pulled out of the article. slightly larger text than paragraph. open and close quote symbols.
+blockquote .pullquote {
 	font-family: $font-secondary;
 	font-size: $font-size-med;
 	padding: 1em 0;
