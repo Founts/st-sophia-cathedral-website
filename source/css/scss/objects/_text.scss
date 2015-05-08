@@ -16,6 +16,7 @@ blockquote {
 		padding: 0 48px 0; //TODO Move to blockquote level?
 		margin: 0;
 		font-size: $font-size-med-3;
+
 		&:before {
 			content: '“';
 			font-size: $font-size-large-2;
@@ -25,6 +26,7 @@ blockquote {
 			left: 16px;
 			color: #931c25;
 		}
+
 		&:after {
 			content: '”';
 			font-size: $font-size-large-2;
@@ -40,6 +42,26 @@ blockquote {
 		font-size: $font-size-med; //22.652px;
 		padding: 0 48px 0;
 	}
+	
+	@media all and (max-width: $bp-small-2) {
+		p {
+			padding: 0 16px 0;
+			font-size: $font-size-base;
+
+			&:before {
+				font-size: $font-size-med-4;
+			}
+			&:after {
+				font-size: $font-size-med-4;
+			}
+		}
+
+		.citation {
+			font-size: $font-size-small-2;
+			padding: 0 16px 0;
+		}
+	} 
+
 }
 
 //Pullquote

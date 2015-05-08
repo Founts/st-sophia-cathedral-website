@@ -931,6 +931,22 @@ blockquote .citation {
   font-size: 1.416em;
   padding: 0 48px 0;
 }
+@media all and (max-width: 29.75em) {
+  blockquote p {
+    padding: 0 16px 0;
+    font-size: 1.125em;
+  }
+  blockquote p:before {
+    font-size: 2.291em;
+  }
+  blockquote p:after {
+    font-size: 2.291em;
+  }
+  blockquote .citation {
+    font-size: 0.875em;
+    padding: 0 16px 0;
+  }
+}
 
 .pullquote {
   font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
