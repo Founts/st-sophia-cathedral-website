@@ -3,7 +3,8 @@
 \*------------------------------------*/
 
 //Colors
-$red-dark: #460d11; //TODO confirm official color
+$red-dark : #460d11; //TODO confirm official color
+$gold : #fdfdd1; //TODO official color
 $gray : #808080;
 $gray-light : #f9f9f9;
 $gray-light-2 : #eee;
@@ -32,6 +33,7 @@ $font-size-base : 1.125em; //18px design default font size
 $font-size-med : 1.416em; //22.652px
 $font-size-med-2 : 1.0625em; //used in intro text TODO convert to base-plus or something
 $font-size-med-3 : 1.82em; //29.124px
+$font-size-med-4 : 2.291em; //36.651px
 $font-size-large : 3.706em; //59.301px
 $font-size-large-2 : 3.706em; //59.301px
 $font-size-xl : 3.706em; //59.301px
@@ -48,6 +50,7 @@ $space-half : $space/2;
 $pad : 1em;
 $pad-and-half : $pad*1.5;
 $pad-double : $pad*2;
+$pad-triple : $pad*3;
 $pad-half : $pad/2;
 $pad-quarter :$pad/4;
 

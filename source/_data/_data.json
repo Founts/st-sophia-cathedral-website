@@ -96,13 +96,18 @@
 	],
 	"cta" : "Learn More",
 	"well" : {
+		"variation" : "featured",
 		"headline" : {
 			"short" : "Another Way Headline Text"
 		},
 		"excerpt" : {
 			"short" : "What if there was another way? Some other text that adds some length to the paragraph for the well section."
 		},
-		"src" : "../../images/image_well_father-john.jpg",
-		"alt" : "priest in white room looking at you"
+		"img" : {
+			"landscape-16x9": {
+				"src" : "../../images/image_16x9_600w_father-john.jpg",
+				"alt" : "priest in white room looking at you"
+			}
+		}
 	}
 }

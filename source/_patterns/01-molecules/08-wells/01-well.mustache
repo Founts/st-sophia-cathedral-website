@@ -1,37 +1,5 @@
 {{# well }}
-<div class="well">
+<div class="well {{ variation }}">
 	{{> molecules-block-thumb-headline-text }}
-	<!--
-	<div class="image-holder">
-		<img src="{{ src }}" alt="{{ alt }}">
-	</div>
-	<div class="lc lc-single">
-		<h2 class="well-title">{{ headline.short }}</h2>
-		<p class="well-desc">{{{ excerpt.short }}}</p>
-		<a href="{{ url }}" class="btn">{{ cta }}</a>
-	</div>
--->
 </div>
 {{/ well }}
-{{! seems like a well wrapper, block-thumb text inner item }}
-{{! 
-well. equal margin on both sides.
-	image holder. max-width is image size? 600px. Min-width 300px
-		image-medium. left aligned. width 100%
-	text block. right aligned. 
-		heading
-		text
-		(optional)CTA
-
- }}
- {{! 
-<div class="block block-thumb">
-	<a href="#" class="b-inner">
-		<div class="b-thumb">
-			<img src="../../images/fpo_square.png" alt="Square Thumbnail">		</div>
-		<div class="b-text">
-			<h2 class="b-title">Pattern Lab</h2>
-		</div>
-	</a>
-</div>
-  }}

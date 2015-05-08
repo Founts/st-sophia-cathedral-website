@@ -1,67 +1,92 @@
 // Well
 .well {
 	background: $gray-light;
-	padding: $pad-double 0;
+	padding: $pad-triple 0;
 	position: relative;
-	
+	h2 {
+		font-size: $font-size-med-4;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin-bottom: $pad-quarter;
+	}
+	p, a {
+		font-size: $font-size-med;
+		line-height: 1.1;
+	}
+	a {
+		font-weight: bold;
+		text-transform: uppercase;
+	}
 	&.featured {
 		background: $red-dark;
 		color: $gray-light;
+		a {
+			color: $gold; //or $gold;
+		}
 	}
+	
+	.block {
+		@media all and (min-width: $bp-small) {
+			max-width: $bp-small;
+			margin: 0 auto;
+		}
+	}
+
 	@media all and (min-width: $bp-large) {
-		margin: 0 auto;
-		height: auto;
+		// margin: 0 auto;
+		// height: auto;
+	}
+	
+	.block-thumb {
+		@media all and (min-width: $bp-med) {
+  			max-width: $bp-large;
+  		}
+
+		.b-thumb {
+			//overwrites of patternlab block defaults
+			@media all and (min-width: $bp-small-2) {
+				display: block;
+		  		width: auto;
+		  		margin: 0;
+		  		max-width: 100%;
+		  	}
+		  	//same as block defaults but mediaqueries shifted out a width
+		  	@media all and (min-width: $bp-med) {
+				display: table-cell;
+				vertical-align: top;	
+		  		width: 50%;
+		  		//max-width: 10em;
+
+		 		img {
+		 			display: block;
+					  width: 100%;
+					  height: auto;
+		 		}
+	 		}
+			
+			img {
+				//overwrites of patternlab block defaults
+				@media all and (min-width: $bp-small-2) {
+					display: inline;
+				}
+			}
+		}
+
+		//same as block defaults but mediaqueries shifted out a width
+		.b-text {
+			@media all and (min-width: $bp-small-2) {
+				display: block;
+  				width: auto;
+  				margin: 0;
+  				max-width: 100%;
+				padding: 0;//overwrite
+			}
+			@media all and (min-width: $bp-med) {
+				display: table-cell;
+				width: 50%;
+				padding: 0 0 0 $pad-triple;//overwrite
+				vertical-align: middle;
+			}
+		}
 	}
 }
-
-// .well .image-holder {
-// 	@media all and (min-width: $bp-large) {
-// 		max-width: 600px;
-// 	  	min-width: 300px;
-// 	  	width: 40%;
-// 	  	float: left;
-// 	  }
-
-// }
-// .well .lc {
-// 	@media all and (min-width: $bp-large) {
-// 		width: 40%;
-// 		float: left;
-// 	}
-// }
-
-/* Block Thumbnail with Headline */
-// .block-thumb {
-// 	display: table;
-// 	width: 100%;
-// 	border-collapse: collapse;
-
-// 	.b-inner {
-// 		display: table-row;
-// 		vertical-align: top;
-//   		overflow: hidden;
-// 	}
-
-// 	.b-thumb {
-// 		@media all and (min-width: $bp-small-2) {
-// 			display: table-cell;
-// 			vertical-align: top;	
-// 	  		width: 30%;
-// 	  		max-width: 10em;
-
-// 	 		img {
-// 	 			display: block;
-// 				  width: 100%;
-// 				  height: auto;
-// 	 		}
-//  		}
-// 	}
-
-// 	.b-text {
-// 		@media all and (min-width: $bp-small-2) {
-// 			display: table-cell;
-// 			width: 70%;
-// 			padding: 0 $pad;
-// 		}
-// 	}
-// }
