@@ -1170,6 +1170,7 @@ td {
   display: table;
   width: 100%;
   border-collapse: collapse;
+  /* Block Thumb Headline Text */
 }
 .block-thumb .b-inner {
   display: table-row;
@@ -1252,6 +1253,19 @@ td {
     text-align: center;
   }
 }
+.block-affiliate .b-title {
+  /*display: inline-block;*/
+  max-width: 270px;
+  margin: 10px auto;
+  font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
+}
+@media (min-width: 29.75em) {
+  .block-affiliate .b-title {
+    float: left;
+    margin: 25px 10px;
+    text-align: left;
+  }
+}
 
 @media (min-width: 29.75em) {
   .b-inner {
@@ -1267,20 +1281,6 @@ td {
 @media (min-width: 29.75em) {
   .block-affiliate img {
     float: left;
-  }
-}
-
-.b-title {
-  /*display: inline-block;*/
-  max-width: 270px;
-  margin: 10px auto;
-  font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
-}
-@media (min-width: 29.75em) {
-  .b-title {
-    float: left;
-    margin: 25px 10px;
-    text-align: left;
   }
 }
 
@@ -1485,4 +1485,93 @@ td {
   color: red;
   border-color: red;
   background: #ffbebe;
+}
+
+.well {
+  background: #f9f9f9;
+  padding: 3em 0;
+  position: relative;
+}
+.well h2 {
+  font-size: 2.291em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0.25em;
+}
+.well p, .well a {
+  font-size: 1.416em;
+  line-height: 1.1;
+}
+.well a {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.well.featured {
+  background: #460d11;
+  color: #f9f9f9;
+}
+.well.featured a {
+  color: #fdfdd1;
+}
+@media all and (min-width: 24em) {
+  .well .block {
+    max-width: 24em;
+    margin: 0 auto;
+  }
+}
+@media all and (min-width: 46.8em) {
+  .well .block-thumb {
+    max-width: 50em;
+  }
+}
+@media all and (min-width: 29.75em) {
+  .well .block-thumb .b-thumb {
+    display: block;
+    width: auto;
+    margin: 0;
+    max-width: 100%;
+  }
+}
+@media all and (min-width: 46.8em) {
+  .well .block-thumb .b-thumb {
+    display: table-cell;
+    vertical-align: top;
+    width: 50%;
+  }
+  .well .block-thumb .b-thumb img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+@media all and (min-width: 29.75em) {
+  .well .block-thumb .b-thumb img {
+    display: inline;
+  }
+}
+@media all and (min-width: 29.75em) {
+  .well .block-thumb .b-text {
+    display: block;
+    width: auto;
+    margin: 0;
+    max-width: 100%;
+    padding: 0;
+  }
+}
+@media all and (min-width: 46.8em) {
+  .well .block-thumb .b-text {
+    display: table-cell;
+    width: 50%;
+    padding: 0 0 0 3em;
+    vertical-align: middle;
+  }
+}
+
+/*------------------------------------*\
+    $PATTERNLAB
+\*------------------------------------*/
+@media all and (min-width: 30em) {
+  .sg-colors li {
+    width: 10em !important;
+  }
 }
