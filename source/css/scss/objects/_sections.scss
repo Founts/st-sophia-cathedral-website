@@ -1,7 +1,41 @@
 .section {
-	margin: 0 0 $space;
+	margin: $space-double 0;
 }
+.section-img {
+	img {
+		//center any image
+		display: block;
+		margin: 0 auto $space;
+	}
+}
+.section-body {
+	max-width: $bp-med;
+	margin: 0 auto;
 
+	@media all and (min-width: $bp-med) {
+		width: 60%;
+	}
+}
 .section-title {
-	margin-bottom: $space-half;
+	margin-bottom: $space-quarter;
+	font-size: $font-size-med-4;
+	line-height: 1;
+	color: $red-dark;
+	text-transform: uppercase;
+
+	@media all and (min-width: $bp-med) {
+		font-size: $font-size-large-2;
+	}
+}
+.section-title,
+.section-desc {
+	text-align: center;
+}
+.section-desc {
+	font-size: $font-size-med;
+	line-height: 1.25;
+	
+	@media all and (min-width: $bp-med) {
+		font-size: $font-size-med-3;
+	}
 }

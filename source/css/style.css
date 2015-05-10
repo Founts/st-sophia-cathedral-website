@@ -1513,11 +1513,50 @@ blockquote .pullquote p:after {
 }
 
 .section {
-  margin: 0 0 1em;
+  margin: 2em 0;
+}
+
+.section-img img {
+  display: block;
+  margin: 0 auto 1em;
+}
+
+.section-body {
+  max-width: 46.8em;
+  margin: 0 auto;
+}
+@media all and (min-width: 46.8em) {
+  .section-body {
+    width: 60%;
+  }
 }
 
 .section-title {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.25em;
+  font-size: 2.291em;
+  line-height: 1;
+  color: #460d11;
+  text-transform: uppercase;
+}
+@media all and (min-width: 46.8em) {
+  .section-title {
+    font-size: 3.706em;
+  }
+}
+
+.section-title,
+.section-desc {
+  text-align: center;
+}
+
+.section-desc {
+  font-size: 1.416em;
+  line-height: 1.25;
+}
+@media all and (min-width: 46.8em) {
+  .section-desc {
+    font-size: 1.82em;
+  }
 }
 
 .article-header h1 {
