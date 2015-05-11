@@ -103,6 +103,32 @@
 
 }
 
+/* Block Thumbnail with Headline */
+.block-headline-thumb {
+	text-align: center;
+
+	.b-headline {
+		color: $red-dark;
+		font-size: $font-size-med;
+		margin-bottom: $space-quarter;
+
+		h2 {
+			font-weight: normal;
+		}
+	}
+	.b-thumb {
+		margin-bottom: $space-half;
+	}
+	.b-text {
+		font-size: $font-size-base;
+	}
+	.cta {
+		text-transform: uppercase;
+		font-weight: bold;
+		color: $red-dark; //TODO alternate red
+	}
+}
+
 /* Block Headline Summary */
 .block-headline-summary {
 	a {
