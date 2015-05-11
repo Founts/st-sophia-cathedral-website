@@ -64,12 +64,19 @@
 
 
 /* Checkboxes List */
-.checkboxes {
+ul.checkboxes {
 	margin-left: $space;
-	
+	list-style: none;
+
 	ul {
 		padding-left: $space-double;
+		list-style: none;
+
+		h3 {
+			display: inline-block;
+		}
 	}
+
 	li {
 		&:before {
 			//display: inline-block;
@@ -77,5 +84,9 @@
 			font-family: FontAwesome;
 			content: "\f096";
 		}
+	}
+
+	h2 {
+		display: inline-block;
 	}
 }
