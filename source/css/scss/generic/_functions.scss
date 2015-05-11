@@ -1,4 +1,5 @@
-//convert px to em
+//convert px to em 
+//via http://vvv.tobiassjosten.net/css/px-to-em-with-sass/
 @function em($px, $base: $base-font-size) {
     @return ($px / $base) * 1em;
 }
