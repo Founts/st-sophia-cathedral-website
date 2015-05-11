@@ -32,3 +32,63 @@
 		}
 	}
 }
+
+//FUNERAL Page
+//TODO MOVE TO ARTICLE? REUSE EXISTING ARTICLE CODE?
+.page-header {
+	margin-bottom: 2em;
+	padding: $space-double $space;
+	text-align: center;
+	background-color: $red-dark;
+	color: white;
+
+	@media all and (min-width: $bp-med) {
+		padding: $space-quad $space;
+	}
+
+	.page-title {
+		font-family: $font-secondary;
+		margin: 0 auto $space-quarter;
+		max-width: 800px;
+
+		@media all and (min-width: $bp-med) {
+			font-size: $font-size-large;
+		}
+	}
+
+	.page-intro {
+		display: block;
+		max-width: 800px;
+		margin: 0 auto;
+		font-size: $font-size-base;
+
+		@media all and (min-width: $bp-med) {
+			font-size: $font-size-med;
+		}
+	}
+}
+.main-body {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 1em 2em;
+
+	> p {
+		font-size: $font-size-base;
+	}
+
+	img {
+		border-radius: 4px;
+	}
+}
+.callout-notice {
+	background-color: $gold-2;
+	color: $red-dark;
+	padding: $pad;
+	margin-bottom: $space-double;
+	font-weight: bold;
+	border-radius: 4px;
+
+	ul:last-child {
+		margin-bottom: 0;
+	}
+}
