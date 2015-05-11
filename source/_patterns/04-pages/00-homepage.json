@@ -7,46 +7,55 @@
 			"img": {
 				"landscape-16x9": {
 					"src": "../../images/sample/landscape-16x9-mountains.jpg",
-					"alt": "Mountains"	
+					"alt": "Mountains"
 				}
 			},
 			"headline" : {
-				"medium" : "Top 10 mountain ranges for hiking"
+				"medium" : "Welcome! Kalos Irthate!"
 			}
 		}
 	],
 	"touts" : [
 		{
 			"img": {
-				"landscape-4x3": {
+				"landscape-3x2": {
 					"src": "../../images/sample/tout-4x3-climber.jpg",
 					"alt": "Climber"	
 				}
 			},
 			"headline" : {
-				"short" : "Extreme climbing tips"
+				"short" : "Orthodoxy on Purpose"
+			},
+			"excerpt" : {
+				"short" : "In our video “Orthodoxy On Purpose” we hear from people from all walks of life who have embraced Orthodox Christianity."
 			}
 		},
 		{
 			"img": {
-				"landscape-4x3": {
+				"landscape-3x2": {
 					"src": "../../images/sample/tout-4x3-stream.jpg",
 					"alt": "Stream hiking"	
 				}
 			},
 			"headline" : {
 				"short" : "Stream hiking"
+			},
+			"excerpt" : {
+				"short" : "In our video “Orthodoxy On Purpose” we hear from people from all walks of life who have embraced Orthodox Christianity."
 			}
 		},
 		{
 			"img": {
-				"landscape-4x3": {
+				"landscape-3x2": {
 					"src": "../../images/sample/tout-4x3-climbers.jpg",
 					"alt": "Explore hiking trails"	
 				}
 			},
 			"headline" : {
 				"short" : "Explore hiking trails"
+			},
+			"excerpt" : {
+				"short" : "In our video “Orthodoxy On Purpose” we hear from people from all walks of life who have embraced Orthodox Christianity."
 			}
 		}
 	],
@@ -130,6 +139,35 @@
 	"latest-block" : [
 		{
 			"headline" : "This is the headline for the latest block"
+		}
+	],
+	"affiliates" : [
+		{
+			"logomark": {
+				"src": "../../images/SanFranciscoSeal-white.png",
+				"alt": "logo"
+			},
+			"affiliateName" : {
+				"txt" : "Greek Orthodox Archdiocese of America"
+			}
+		},
+		{
+			"logomark": {
+				"src": "../../images/SanFranciscoSeal-white.png",
+				"alt": "logo"
+			},
+			"affiliateName" : {
+				"txt" : "Saint Sophia Greek Orthodox Cathedral"
+			}
+		},
+		{
+			"logomark": {
+				"src": "../../images/SanFranciscoSeal-white.png",
+				"alt": "logo"
+			},
+			"affiliateName" : {
+				"txt" : "Greek Orthodox Metropolis of San Francisco"
+			}
 		}
 	]
 }
