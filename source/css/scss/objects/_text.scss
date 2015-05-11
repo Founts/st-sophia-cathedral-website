@@ -40,11 +40,6 @@ blockquote {
 		}
 	}
 
-	.citation {
-		font-size: $font-size-med; //22.652px;
-		padding: 0 48px 0;
-	}
-	
 	@media all and (max-width: $bp-small-2) {
 		p {
 			padding: 0 16px 0;
@@ -57,13 +52,17 @@ blockquote {
 				font-size: $font-size-med-4;
 			}
 		}
+	}
 
-		.citation {
+	.citation {
+		font-size: $font-size-base; 
+		padding: 0 48px 0;
+
+		@media all and (max-width: $bp-small-2) {
 			font-size: $font-size-small-2;
 			padding: 0 16px 0;
 		}
-	} 
-
+	}
 }
 
 //Pullquote
