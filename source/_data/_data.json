@@ -95,6 +95,11 @@
 		{ },
 		{ }
 	],
+	"affiliates" : [
+		{ },
+		{ },
+		{ }
+	],
 	"cta" : "Learn More",
 	"well" : {
 		"variation" : "featured",
@@ -124,5 +129,12 @@
 		"excerpt" : {
 			"short" : "What if there was another way? Some other text that adds some length to the paragraph for the section."
 		}
+	},
+	"logomark": {
+				"src": "../../images/SanFranciscoSeal-white.png",
+				"alt": "logo"
+	},
+	"affiliateName" : {
+		"txt" : "Greek Orthodox Archdiocese of America"
 	}
 }
