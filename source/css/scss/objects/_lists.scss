@@ -61,3 +61,21 @@
 		margin-bottom: $space;
 	}
 }
+
+
+/* Checkboxes List */
+.checkboxes {
+	margin-left: $space;
+	
+	ul {
+		padding-left: $space-double;
+	}
+	li {
+		&:before {
+			//display: inline-block;
+			margin-right: $space-half;
+			font-family: FontAwesome;
+			content: "\f096";
+		}
+	}
+}
