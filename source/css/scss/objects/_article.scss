@@ -34,7 +34,7 @@
 }
 
 //FUNERAL Page
-//TODO MOVE TO ARTICLE? REUSE EXISTING ARTICLE CODE?
+//TODO REUSE EXISTING ARTICLE CODE? Make generic for pages?
 .page-header {
 	margin-bottom: 2em;
 	padding: $space-double $space;
@@ -48,6 +48,7 @@
 
 	.page-title {
 		font-family: $font-secondary;
+		text-transform: uppercase;
 		margin: 0 auto $space-quarter;
 		max-width: 800px;
 
