@@ -1,12 +1,10 @@
-<div class="latest-entries widget news">
-  <h1>News</h1>
+{{# widget }}
+<div class="widget news">
+  <h1>{{ widget-heading }}</h1>
   <div>
-    <div class="title">Weekly Bulletin</div>
-    <a href="#">Jan 1, 2015</a>
+    <div class="title">{{widget-title}}</div>
+    <a href="#">{{widget-entry}}</a>
   </div>
-  <div>
-    <div class="title">Monthly Bulletin</div>
-    <a href="#">Jan 1, 2015</a>
-    <a href="#" class="cta">All Bulletins and News</a>
-  </div>
+  <a href="#" class="cta">{{widget-cta}}</a>
 </div>
+{{/ widget }}

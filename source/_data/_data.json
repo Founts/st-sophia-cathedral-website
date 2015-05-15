@@ -136,5 +136,11 @@
 	},
 	"affiliateName" : {
 		"txt" : "Greek Orthodox Archdiocese of America"
+	},
+	"widget" : {
+	  "widget-heading" : "News",
+	  "widget-title" : "Weekly Bulletin",
+	  "widget-entry" : "Jan 1, 2015",
+	  "widget-cta" : "All Bulletins and News"
 	}
 }

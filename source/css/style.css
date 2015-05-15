@@ -1412,9 +1412,9 @@ blockquote .pullquote p:after {
   font-size: 1.416em;
 }
 
-/* (sidebar? widget?) Block Latest */
-.news:before {
-  content: "\f1ea";
+/* Widget Latest Entries Block - ie sidebar, for recent entries etc */
+.widget:before {
+  content: "";
   display: block;
   font-family: FontAwesome;
   line-height: 1;
@@ -1427,22 +1427,14 @@ blockquote .pullquote p:after {
   left: 0;
 }
 @media all and (min-width: 24em) {
-  .news:before {
+  .widget:before {
     margin-right: 0.5em;
     font-size: 2.291em;
   }
 }
 
-.fa-news {
-  font-size: 1.82em;
-  line-height: 1;
-  color: #460d11;
-}
-@media all and (min-width: 24em) {
-  .fa-news {
-    font-size: 2.291em;
-    float: left;
-  }
+.news:before {
+  content: "\f1ea";
 }
 
 .widget {
@@ -1468,36 +1460,34 @@ blockquote .pullquote p:after {
     font-size: 2.291em;
   }
 }
-
-.title {
+.widget .title {
   font-weight: bold;
   color: #460d11;
   font-size: 1.125em;
   margin-bottom: 0.25em;
 }
 @media all and (min-width: 24em) {
-  .title {
+  .widget .title {
     font-size: 1.416em;
   }
 }
-
-.cta {
-  text-transform: uppercase;
-}
-
-a {
+.widget a {
   text-decoration: underline;
-  color: #460d11;
   display: block;
   margin-bottom: 0.5em;
 }
 @media all and (min-width: 24em) {
-  a {
+  .widget a {
     font-size: 1.125em;
   }
 }
-a:last-child {
+.widget a:last-child {
   margin-bottom: 1em;
+}
+.widget .cta {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 1em 0;
 }
 
 .inline-list li {
