@@ -30,7 +30,7 @@ $font-secondary : "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", se
 //sizes uses 14px, 18px, golden-ratio
 //em calculated off 16px browser default size
 //$font-size-small : 0.75em; //used in comments component
-$base-font-size : 16px; //browser default. Mainly used for em function.
+$root-font-size : 16px; //browser default. Mainly used for em function.
 $font-size-small-2 : 0.875em; //14px
 $font-size-base : 1.125em; //18px design default font size
 $font-size-med : 1.416em; //22.652px
@@ -49,6 +49,7 @@ $max-width: 72em;
 $space : 1em;
 $space-and-half : $space*1.5;
 $space-double : $space*2;
+$space-triple : $space*3;
 $space-quad : $space*4;
 $space-half : $space/2;
 $space-quarter : $space/4;
