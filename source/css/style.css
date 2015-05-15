@@ -1437,7 +1437,12 @@ blockquote .pullquote p:after {
   content: "\f1ea";
 }
 
+.events:before {
+  content: "\f073";
+}
+
 .widget {
+  position: relative;
   line-height: 1;
   padding-left: 3em;
 }
@@ -1472,7 +1477,6 @@ blockquote .pullquote p:after {
   }
 }
 .widget a {
-  text-decoration: underline;
   display: block;
   margin-bottom: 0.5em;
 }

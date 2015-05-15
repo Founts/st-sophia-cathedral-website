@@ -18,24 +18,41 @@
 		</div><!--end 3up-->
 
 		<hr />
+		<div class="g g-2up">
+			<div class="gi">
+				{{! news }}
+				<div class="widget news">
+				  <h1>{{ news.widget-heading }}</h1>
+				  <div>
+				    <div class="title">Weekly Essentials</div>
+				    <a href="#">{{news.widget-entry}}</a>
+				  </div>
+				  <div>
+				    <div class="title">Weekly Communiqué</div>
+				    <a href="#">{{news.widget-entry}}</a>
+				  </div>
+				  <div>
+				    <div class="title">Monthly Newsletter</div>
+				    <a href="#">{{news.widget-entry}}</a>
+				  </div>
+				  <a href="#" class="cta">{{news.widget-cta}}</a>
+				</div><!--end news-->
+			</div>
+			<div class="gi">
+				{{! Calendar / Events }}
+				<div class="widget events">
+				  <h1>{{ calendar.widget-heading }}</h1>
+				  <div>
+				    <div class="title">{{calendar.widget-title}}</div>
+				    <a href="#">{{calendar.widget-entry}}</a>
+				    <a href="#">{{calendar.widget-entry}}</a>
+				    <a href="#">{{calendar.widget-entry}}</a>
+				  </div>
+				  <a href="#" class="cta">{{calendar.widget-cta}}</a>
+				</div><!--end calendar-->
+			</div>
+		</div><!--end 2up-->
 
-		<div class="l-two-col">
-			<div class="l-main">
-				<section class="section latest-posts">
-					<h2 class="section-title">Latest Posts</h2>
-					<ul class="post-list">
-						{{# latest-posts }}
-							<li>{{> molecules-media-block }}</li>
-						{{/ latest-posts }}
-					</ul>
-					<a href="#" class="text-btn">View more posts</a>
-				</section>
-			</div><!--end .l-main-->
-
-			<div class="l-sidebar">
-				{{> organisms-recent-tweets }}
-			</div><!--end .l-sidebar-->
-		</div><!--end .l-two-col-->
 	</div><!--End role=main-->
 	{{> organisms-footer }}
 </div>

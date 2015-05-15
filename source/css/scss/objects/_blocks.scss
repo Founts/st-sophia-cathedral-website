@@ -203,6 +203,7 @@
 		max-width: 270px;
 		margin: 10px auto;
 		font-family: $font-secondary;
+		//font-size: $font-size-med;
 		@media (min-width: $bp-small-2) {
 			float: left;
 	    	margin: 25px 10px;
@@ -263,7 +264,11 @@
 .news:before {
 	content: "\f1ea";
 }
+.events:before {
+	content: "\f073";
+}
 .widget {
+	position: relative; //for :before element positioning
 	line-height: 1;
 	padding-left: $space-triple;
 
@@ -297,7 +302,7 @@
 	}
 
 	a {
-	  text-decoration: underline;
+	  //text-decoration: underline;
 	  //color: $red-dark;
 	  display: block;
 	  margin-bottom: $space-half;

@@ -169,5 +169,17 @@
 				"txt" : "Greek Orthodox Metropolis of San Francisco"
 			}
 		}
-	]
+	],
+	"news" : {
+		"widget-heading" : "News",
+		"widget-title" : "Weekly Bulletin",
+		"widget-entry" : "Jan 1, 2015",
+		"widget-cta" : "All Bulletins and News"  
+	},
+	"calendar" : {
+		"widget-heading" : "Calendar",
+		"widget-title" : "Upcoming Events",
+		"widget-entry" : "Fri Apr 1, 2015, 7pm: 3rd Salutations to the Theotokos",
+		"widget-cta" : "Full Calendar"
+	}
 }
