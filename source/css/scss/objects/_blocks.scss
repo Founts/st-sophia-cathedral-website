@@ -225,3 +225,115 @@
 		float: left;
 	}
 }
+
+//TODO MOVE TO LISTS
+//Sidebar Block List 
+.sidebar-block-list {
+	margin-bottom: $space-half;
+	
+	li {
+		border-bottom: 1px solid $red-dark;
+		margin: 0;
+		padding: $pad-half 0;
+	}
+
+	.b-title {
+		font-size: $font-size-med;
+	}
+}
+/* (sidebar? widget?) Block Latest */
+
+//moved to using widget container instead of seperate div
+// .a-news:before {
+//   content: "\f1ea";
+//   display: block;
+//   font-family: FontAwesome;
+//   line-height: 1;
+//   margin-right: $space-quarter;
+
+//   @media all and (min-width: $bp-small) {
+//      margin-right: $space-half; 
+//   }
+// }
+.news:before {
+  content: "\f1ea";
+  display: block;
+  font-family: FontAwesome;
+  line-height: 1;
+  margin-right: $space-quarter;
+  font-size: $font-size-med-3;
+  line-height: 1;
+  color: $red-dark;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  @media all and (min-width: $bp-small) {
+    margin-right: $space-half;
+    font-size: $font-size-med-4;
+    //float: left;
+  }
+}
+.fa-news{
+  //display: table-cell;
+  //vertical-align: top;
+  font-size: $font-size-med-3;
+  line-height: 1;
+  color: $red-dark;
+
+  @media all and (min-width: $bp-small) {
+    font-size: $font-size-med-4;
+    float: left;
+  }  
+}
+.widget {
+  line-height: 1;
+  padding-left: $space-triple;
+
+  @media all and (min-width: $bp-small) {
+    //float: left; //moved to absolute position
+    padding-left: $space-quad;
+  }
+
+  h1 {
+	  font-size: $font-size-med-3;
+	  font-weight: 100;
+	  line-height: 1;
+	  margin: 0 0 $space-quarter;
+	  padding: 0;
+	  text-transform: uppercase;
+	  color: $red-dark;
+
+	  @media all and (min-width: $bp-small) {
+	    font-size: $font-size-med-4;
+	  }
+	}
+}
+.title {
+  font-weight: bold;
+  color: $red-dark;
+  font-size: $font-size-base;
+  margin-bottom: $space-quarter;
+
+  @media all and (min-width: $bp-small) {
+    font-size: $font-size-med;
+  }
+}
+.cta {
+  text-transform: uppercase;
+}
+a {
+  text-decoration: underline;
+  color: $red-dark;
+  display: block;
+  margin-bottom: $space-half;
+  //border-bottom: dotted 1px #550000;
+
+  @media all and (min-width: $bp-small) {
+    font-size: $font-size-base;
+  }
+  
+  &:last-child { 
+    margin-bottom: $space;
+  }
+}
