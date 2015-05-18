@@ -39,3 +39,40 @@
 		font-size: $font-size-med-3;
 	}
 }
+
+//hours - group of block-headline-list molecules
+.hours {
+	color: $red-dark;
+
+	.section-title {		
+		font-weight: 100;
+		position: relative;
+		//overwrite for above - TODO fix above
+		text-align: left;
+		padding-left: $space;
+		//vertically center with icon
+		line-height: 1.2;
+		margin-bottom: 0;
+		
+		&:before {
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			content: "\f017";
+			font-family: FontAwesome;
+  			line-height: 1;
+		}
+
+		@media all and (min-width: $bp-med) {
+
+		}
+	}
+	.intro {
+		margin-bottom: 0;
+
+		@media all and (min-width: $bp-med) {
+			margin-bottom: $space-quarter;
+		}
+	}
+}
