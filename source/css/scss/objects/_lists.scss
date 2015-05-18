@@ -54,7 +54,6 @@
 
 /* Text List */
 .text-list {
-	font-size: $font-size-base;
 	margin: 0 0 1em;
 	line-height: 1.3;
 
@@ -90,22 +89,4 @@ ul.checkboxes {
 	h2 {
 		display: inline-block;
 	}
-}
-
-/* list-title-intro-list */
-//h4
-.list-title {
-	font-size: $font-size-med-3;
-	line-height: 1;
-	/*avoid below - don't need 50 different similar patterns 
-	but it looks soo good!*/
-	/*border-bottom: 1px solid black;*/
-  	margin-bottom: .25em;
-}
-.list-intro{
-	font-size: $font-size-base;
-	font-style: italic;
-	//font-weight: bold;
-	line-height: 1;
-	margin-bottom: .25em;
 }
