@@ -276,7 +276,7 @@
 		padding-left: $space-quad;
 	}
 
-  	h1 {
+  	h2 {
 	  font-size: $font-size-med-3;
 	  font-weight: 100;
 	  line-height: 1;
@@ -321,5 +321,86 @@
 	  text-transform: uppercase;
 	  font-weight: bold;
 	  margin: $space 0;
+	}
+}
+
+.section-of-headline-lists {
+	h2 {
+		font-size: $font-size-med-3;
+		font-weight: normal;
+
+		@media all and (min-width: $bp-small) {
+	    	font-size: $font-size-med-4;
+	  	}
+	}
+	/* remove space from first paragraph */
+	.intro {
+		margin-bottom: .25em;
+	}
+}
+
+.block-headline-list {
+	color: $red-dark;
+	
+	.list-title {
+		font-size: $font-size-med;
+		line-height: 1;
+		/*avoid below - don't need 50 different similar patterns 
+		but it looks soo good!*/
+		/*border-bottom: 1px solid black;*/
+	  	margin-bottom: .25em;
+
+	  	@media all and (min-width: $bp-med) {
+			font-size: $font-size-med-3;
+	  	}
+	}
+
+	//similar to pattern ".intro"
+	.list-intro {
+		font-size: $font-size-base;
+		font-style: italic;
+		font-weight: bold;
+		line-height: 1;
+		margin-bottom: .25em;
+
+		@media all and (min-width: $bp-med) {
+			font-size: $font-size-base-plus;
+		}
+	}
+	.text-list {
+		font-size: $font-size-base;
+	}
+}
+
+.cog {
+	h2 {
+		font-size: $font-size-med-3;
+		font-weight: normal;
+
+		@media all and (min-width: $bp-small) {
+	    	font-size: $font-size-med-4;
+	  	}
+	}
+
+	h4 {
+		font-size: $font-size-med;
+		/*avoid below - don't need 50 different similar patterns 
+		but it looks soo good!*/
+		/*border-bottom: 1px solid black;*/
+	  	margin-bottom: .25em;
+	}
+
+	/* remove space from first paragraph */
+	.intro {
+		margin-bottom: .25em;
+	}
+
+	.b-intro,
+	.list-desc {
+		font-style: italic;
+		font-weight: bold;
+	}
+	.text-list li {
+		font-size: $font-size-base;
 	}
 }
