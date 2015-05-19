@@ -1,14 +1,68 @@
 <div class="page" id="page">
 	{{> organisms-header }}
 	<div role="main">
-		{{# emergency }}
-			{{> molecules-alert:error }}
-		{{/ emergency }}
 		{{# hero }}
 			{{> molecules-block-hero }}
 		{{/ hero}}
 		{{> organisms-section-img-headline-desc-list }}
 		{{> molecules-well }}
+		{{! hours section start }}
+		<section class="hours">
+			{{! molecules-heading-intro }}
+			<h2 class="section-title">Hours</h2>
+			<p class="intro"><em>All hours are typical. Check the calendar or call for confirmation. If new or visiting on a Sunday, you are welcome to join us in attending Divine Liturgy.</em></p>
+			<div class="g g-4up">
+				<div class="gi">
+					{{! molecule-block-headline-list }}
+					<div class="block-headline-list">
+						<h4 class="list-title">Sunday Services</h4>
+						<div class="list-intro">Located in the Cathedral</div>
+						{{! ...for a full list of service times and events, please see the calendar. }}
+						<ul class="text-list">
+							<li>8:00 am - Orthros</li>
+							<li>9:15 am - Studies in the Faith</li>
+							<li>9:45 am - Memorials</li>
+							<li>10:00 am - Divine Liturgy</li>
+						</ul>
+					</div>
+				</div>
+				<div class="gi">
+					{{! molecule-block-headline-list }}
+					<div class="block-headline-list">
+						<h4 class="list-title">Office Hours</h4>
+						<div class="list-intro">Located in the Huffington Center</div>
+						<ul class="text-list">
+							<li>Monday - Friday: 8:30 am - 4:30 pm</li>
+							<li>Saturday - Sunday: CLOSED</li>
+						</ul>
+					</div>
+				</div>
+				<div class="gi">
+					{{! molecule-block-headline-list }}
+					<div class="block-headline-list">
+						<h4 class="list-title">Cathedral Visiting Hours</h4>
+						<ul class="text-list">
+							<li>Monday: CLOSED</li>
+							<li>Tuesday - Friday: 10:00 am - 4:00 pm</li>
+							<li>Saturday: 10:00 am - 2:00 pm</li>
+							<li>Sunday: 12:30 pm - 2:00 pm</li>
+						</ul>
+					</div>
+				</div>
+				<div class="gi">
+					{{! molecule-block-headline-list }}
+					<div class="block-headline-list">
+						<h4 class="list-title">Cathedral Bookstore</h4>
+						<div class="list-intro">Please call xyz at 555-555-5555 for help on days not open.</div>
+						<ul class="text-list">
+							<li>Monday - Saturday: CLOSED</li>
+							<li>Sunday: 12:00 pm - 1:00 pm</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<hr />
 		<div class="g g-3up">
 			{{# touts}}
 			<div class="gi">
@@ -16,13 +70,12 @@
 			</div>
 			{{/ touts}}
 		</div><!--end 3up-->
-
 		<hr />
 		<div class="g g-2up">
 			<div class="gi">
 				{{! news }}
 				<div class="widget news">
-				  <h1>{{ news.widget-heading }}</h1>
+				  <h2>{{ news.widget-heading }}</h2>
 				  <div>
 				    <div class="title">Weekly Essentials</div>
 				    <a href="#">{{news.widget-entry}}</a>
@@ -41,7 +94,7 @@
 			<div class="gi">
 				{{! Calendar / Events }}
 				<div class="widget events">
-				  <h1>{{ calendar.widget-heading }}</h1>
+				  <h2>{{ calendar.widget-heading }}</h2>
 				  <div>
 				    <div class="title">{{calendar.widget-title}}</div>
 				    <a href="#">{{calendar.widget-entry}}</a>
