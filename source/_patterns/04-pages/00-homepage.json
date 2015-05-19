@@ -181,5 +181,9 @@
 		"widget-title" : "Upcoming Events",
 		"widget-entry" : "Fri Apr 1, 2015, 7pm: 3rd Salutations to the Theotokos",
 		"widget-cta" : "Full Calendar"
+	},
+	"hours" : {
+		"title" : "Hours",
+		"intro" : "All hours are typical. Check the calendar or call for confirmation. If new or visiting on a Sunday, you are welcome to join us in attending Divine Liturgy."
 	}
 }
