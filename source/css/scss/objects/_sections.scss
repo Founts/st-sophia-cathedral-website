@@ -70,6 +70,7 @@
 	}
 	.intro {
 		margin-bottom: 0;
+		font-size: $font-size-base-plus;
 
 		@media all and (min-width: $bp-med) {
 			margin-bottom: $space-quarter;
