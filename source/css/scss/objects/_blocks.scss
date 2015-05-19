@@ -371,36 +371,3 @@
 		font-size: $font-size-base;
 	}
 }
-
-.cog {
-	h2 {
-		font-size: $font-size-med-3;
-		font-weight: normal;
-
-		@media all and (min-width: $bp-small) {
-	    	font-size: $font-size-med-4;
-	  	}
-	}
-
-	h4 {
-		font-size: $font-size-med;
-		/*avoid below - don't need 50 different similar patterns 
-		but it looks soo good!*/
-		/*border-bottom: 1px solid black;*/
-	  	margin-bottom: .25em;
-	}
-
-	/* remove space from first paragraph */
-	.intro {
-		margin-bottom: .25em;
-	}
-
-	.b-intro,
-	.list-desc {
-		font-style: italic;
-		font-weight: bold;
-	}
-	.text-list li {
-		font-size: $font-size-base;
-	}
-}
