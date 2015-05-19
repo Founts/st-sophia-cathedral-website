@@ -26,6 +26,7 @@ button, input, select, textarea {
 input, textarea {
 	width: 100%;
 	border: 1px solid $gray;
+	border-radius: 4px;
 	padding: $pad-half 0.65rem;
 }
 
@@ -34,10 +35,14 @@ input[type=text], input[type=search], input[type=url], input[type=number], texta
 }
 
 button, input[type="submit"] {
-	padding: $pad-half;
+	padding: $pad;
 	background: $gray-dark;
 	border: 1px solid $gray;
 	cursor: pointer;
+
+	@media all and (min-width: $bp-small-2) {
+		width: auto;
+	}
 }
 
 input[type="checkbox"],
