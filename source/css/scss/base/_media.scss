@@ -6,6 +6,10 @@
 img, video, object {
 	max-width: 100%;
 	height: auto;
+}	
+
+img, video {
+	border-radius: 4px;
 }
 
 iframe {
@@ -20,4 +24,10 @@ figure {
 }
 figcaption {
 	font-style: italic;
+}
+
+.iframe {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
 }

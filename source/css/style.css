@@ -286,6 +286,10 @@ img, video, object {
   height: auto;
 }
 
+img, video {
+  border-radius: 4px;
+}
+
 iframe {
   margin-bottom: 1em;
 }
@@ -299,6 +303,12 @@ figure img {
 
 figcaption {
   font-style: italic;
+}
+
+.iframe {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 /*------------------------------------*\
@@ -1864,9 +1874,6 @@ ul.checkboxes h2 {
 }
 .main-body > p {
   font-size: 1.125em;
-}
-.main-body img {
-  border-radius: 4px;
 }
 
 .callout-notice {
