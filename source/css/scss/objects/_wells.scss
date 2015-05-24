@@ -1,8 +1,10 @@
 // Well
 .well {
+	position: relative;
 	background: $gray-light;
 	padding: $pad-triple 0;
-	position: relative;
+	margin-bottom: $space-double;
+	
 	h2 {
 		font-size: $font-size-med-4;
 		font-weight: bold;
