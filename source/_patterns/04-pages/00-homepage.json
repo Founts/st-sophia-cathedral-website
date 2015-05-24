@@ -185,5 +185,19 @@
 	"hours" : {
 		"title" : "Hours",
 		"intro" : "All hours are typical. Check the calendar or call for confirmation. If new or visiting on a Sunday, you are welcome to join us in attending Divine Liturgy."
+	},
+	"intro" : {
+			"headline" : {
+				"short" : "Orthodox Christianity at Saint Sophia Cathedral"
+			},
+			"excerpt" : {
+				"short" : "We are an Orthodox Christian community of disciples of Jesus Christ… an ancient vine with 2000 year old roots and 21st century fruit, borne forth in Los Angeles.  We focus our efforts on growing together in the Light of God's teachings as revealed through the Orthodox Christian Faith.  We are a movement of people who are devoted to proclaiming the Gospel of Jesus Christ in every aspect of our lives, so that the Body of Christ may be built up…a light unto the world."
+			}
+	},
+	"feature" : {
+		"title" : "Another Way",
+		"excerpt" : {
+			"short" : "What if there is another way…one that you’ve not considered before.  In this thoughtful, 3 minute video, Fr John Bakas helps us to explore the possibility that there may very well be another side of Christianity that deserves your full consideration."
+		}		
 	}
 }

@@ -4,8 +4,12 @@
 		{{# hero }}
 			{{> molecules-block-hero }}
 		{{/ hero}}
-		{{> organisms-section-img-headline-desc-list }}
-		{{> molecules-well }}
+		{{# intro }}
+			{{> organisms-section-img-headline-desc-list }}
+		{{/ intro }}
+		{{# feature }}
+			{{> molecules-well:featured }}
+		{{/ feature }}
 		{{! hours section start }}
 		<section class="hours">
 			{{! molecules-heading-intro }}
