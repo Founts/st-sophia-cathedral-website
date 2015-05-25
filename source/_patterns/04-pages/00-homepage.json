@@ -170,12 +170,36 @@
 			}
 		}
 	],
-	"news" : {
-		"widget-heading" : "News",
-		"widget-title" : "Weekly Bulletin",
-		"widget-entry" : "Jan 1, 2015",
-		"widget-cta" : "All Bulletins and News"  
-	},
+	"news" : [
+		{
+			"widget-heading" : "News",
+			"widget-graphic" : "news",
+			"widget-title" : "Weekly Bulletins",
+			"widget-entry" : [
+				{ "text" : "Essentials" },
+				{ "text" : "Communique" }
+			],
+			"herald" : true,
+			"widget-cta" : [
+				{"cta" : "Archived Publications"}
+			]
+		},
+		{
+			"widget-heading" : "Calendar",
+			"widget-graphic" : "events",
+			"widget-title" : "Upcoming Events",
+			"widget-entry" : [
+				{ "text" :"Neighborhood Outreach – Mon, June 1"},
+				{ "text" :"Ministry Leaders Training – Sat, June 6"},
+				{ "text" :"Feast Day of St Snuffaluffagus – Wed, June 17"}
+			],
+			"herald" : false,
+			"widget-cta" : [
+				{"cta" : "Google Calendar"},
+				{"cta" : "May Calendar PDF"}
+			]
+		}
+	],
 	"calendar" : {
 		"widget-heading" : "Calendar",
 		"widget-title" : "Upcoming Events",

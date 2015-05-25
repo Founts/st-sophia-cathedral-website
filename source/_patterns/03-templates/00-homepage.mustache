@@ -76,38 +76,31 @@
 		</div><!--end 3up-->
 		<hr />
 		<div class="g g-2up">
+			{{# news }}
 			<div class="gi">
 				{{! news }}
-				<div class="widget news">
-				  <h2>{{ news.widget-heading }}</h2>
-				  <div>
-				    <div class="title">Weekly Essentials</div>
-				    <a href="#">{{news.widget-entry}}</a>
-				  </div>
-				  <div>
-				    <div class="title">Weekly Communiqué</div>
-				    <a href="#">{{news.widget-entry}}</a>
-				  </div>
-				  <div>
-				    <div class="title">Monthly Newsletter</div>
-				    <a href="#">{{news.widget-entry}}</a>
-				  </div>
-				  <a href="#" class="cta">{{news.widget-cta}}</a>
+				
+				<div class="widget {{widget-graphic}}">
+					<h2>{{ widget-heading }}</h2>
+					<div>
+						<div class="title">{{ widget-title }}</div>
+						{{# widget-entry }}
+						<a href="#">{{ text }}</a>
+						{{/ widget-entry }}
+					</div>
+					{{# herald }}
+					<div>
+						<div class="title">Monthly Herald</div>
+						<a href="#">Saint Sophia Cathedral Herald - May 2015</a>
+					</div>
+					{{/ herald}}
+					{{# widget-cta }}
+					<a href="#" class="cta">{{ cta }}</a>
+					{{/ widget-cta}}
+				
 				</div><!--end news-->
-			</div>
-			<div class="gi">
-				{{! Calendar / Events }}
-				<div class="widget events">
-				  <h2>{{ calendar.widget-heading }}</h2>
-				  <div>
-				    <div class="title">{{calendar.widget-title}}</div>
-				    <a href="#">{{calendar.widget-entry}}</a>
-				    <a href="#">{{calendar.widget-entry}}</a>
-				    <a href="#">{{calendar.widget-entry}}</a>
-				  </div>
-				  <a href="#" class="cta">{{calendar.widget-cta}}</a>
-				</div><!--end calendar-->
-			</div>
+			</div><!--end grid item-->
+			{{/ news }}
 		</div><!--end 2up-->
 
 	</div><!--End role=main-->
