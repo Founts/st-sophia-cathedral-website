@@ -19,43 +19,45 @@
 		{
 			"img": {
 				"landscape-3x2": {
-					"src": "../../images/sample/tout-4x3-climber.jpg",
-					"alt": "Climber"	
+					"src": "../../images/baby_in_spectacles-16x9.jpg",
+					"alt": "Baby with spectacles on face"
 				}
 			},
+			"video" : "https://www.youtube.com/embed/uNPZCPkewQ4?rel=0&amp;showinfo=0",
 			"headline" : {
 				"short" : "Orthodoxy on Purpose"
 			},
 			"excerpt" : {
-				"short" : "In our video “Orthodoxy On Purpose” we hear from people from all walks of life who have embraced Orthodox Christianity."
+				"short" : "In this 5 ½ minute video, “Orthodox on Purpose,” people from all walks of life share what they came to experience in the Orthodox Christian Faith."
 			}
 		},
 		{
 			"img": {
 				"landscape-3x2": {
-					"src": "../../images/sample/tout-4x3-stream.jpg",
-					"alt": "Stream hiking"	
+					"src": "../../images/baby_in_spectacles-16x9.jpg",
+					"alt": "Baby with spectacles on face"
 				}
 			},
 			"headline" : {
-				"short" : "Stream hiking"
+				"short" : "I’M NEW…WHAT DO I DO?"
 			},
 			"excerpt" : {
-				"short" : "In our video “Orthodoxy On Purpose” we hear from people from all walks of life who have embraced Orthodox Christianity."
+				"short" : "Discover more about Orthodox Christianity.  Get connected.  Find the Nursery. Get your kids into Sunday School.  Find out what’s going on in worship. Find ministries."
 			}
 		},
 		{
 			"img": {
 				"landscape-3x2": {
-					"src": "../../images/sample/tout-4x3-climbers.jpg",
-					"alt": "Explore hiking trails"	
+					"src": "../../images/baby_in_spectacles-16x9.jpg",
+					"alt": "Baby with spectacles on face"
 				}
 			},
+			"video" : "https://www.youtube.com/embed/x_z9NS-ivYI?rel=0&amp;showinfo=0",
 			"headline" : {
-				"short" : "Explore hiking trails"
+				"short" : "HAVE A LITTLE FAITH"
 			},
 			"excerpt" : {
-				"short" : "In our video “Orthodoxy On Purpose” we hear from people from all walks of life who have embraced Orthodox Christianity."
+				"short" : "In this 10 minute video, Zach, from Soul Pancake’s  “Have a Little Faith,” meets with Noah Johnson and our Cathedral’s Young Adult FORUM to explore Orthodox Christianity."
 			}
 		}
 	],
@@ -223,5 +225,39 @@
 		"excerpt" : {
 			"short" : "What if there is another way…one that you’ve not considered before.  In this thoughtful, 3 minute video, Fr John Bakas helps us to explore the possibility that there may very well be another side of Christianity that deserves your full consideration."
 		}		
-	}
+	},
+	"people" : [
+		{
+			"img" : {
+				"portrait-2x3": {
+			    	"src": "../../images/fr_john_bakas-2x3.jpg",
+			    	"alt": "2x3 Image"
+				}
+			},
+			"name" : {
+				"title": "Very Reverend",
+				"first": "John",
+				"middlei": "S.",
+				"last": "Bakas",
+				"desc" : "Very Reverend John S. Bakas is the Dean of Saint Sophia Cathedral and Greek Orthodox Community of Los Angeles since 1995. Along with the talented leadership of the Cathedral, he spearheaded the drive for the major renovation of the Cathedral grounds and adjacent buildings. This renovation and…"
+			},
+			"styleModifier" : ""
+		},
+		{
+			"img" : {
+				"portrait-2x3": {
+			    	"src": "../../images/fr_allan_boyd-2x3.jpg",
+			    	"alt": "2x3 Image"
+				}
+			},
+			"name" : {
+				"title": "Fr.",
+				"first": "Allan",
+				"middlei": "Gabriel",
+				"last": "Boyd",
+				"desc" : "Fr. Allan Gabriel Boyd, Assistant Priest, Saint Sophia Cathedral was ordained to the priesthood here on July 17th 2011.  Fr Allan is especially involved in adult education at the cathedral, beginning with his “WHY’s of Orthodoxy” & “Old Testament” classes, and helped lay the foundations for our Young Orthodox Professionals FORUM…"
+			},
+			"styleModifier" : "reverse"
+		}
+	]
 }
