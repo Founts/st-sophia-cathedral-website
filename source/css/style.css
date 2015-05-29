@@ -1559,6 +1559,92 @@ blockquote .pullquote p:after {
   font-size: 1.125em;
 }
 
+/* Clergy Section/Block */
+/*******************************************************/
+/*  Primarily uses styles from block, block-thumb design*/
+/*  flexbox reverse element order solution used*/
+/*******************************************************/
+@media all and (min-width: 46.8em) {
+  .well.person .b-inner {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media all and (min-width: 46.8em) {
+  .well.person .block-thumb .b-thumb {
+    max-width: 10em;
+    /*set a max width on image*/
+    width: 30%;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1;
+    /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  }
+}
+
+.well.person .block-thumb .b-text {
+  line-height: 1.19531em;
+}
+@media all and (min-width: 46.8em) {
+  .well.person .block-thumb .b-text {
+    width: 70%;
+    padding: 0 2em 0;
+    /* overwrites current design, adding pad on both sides*/
+    width: 70%;
+    /* For old syntax, otherwise collapses. */
+    -webkit-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+    /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    -webkit-order: 2;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+}
+
+.person.reverse .block .b-text {
+  -webkit-order: 1;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.person.reverse .block .b-thumb {
+  -webkit-order: 2;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.person .w-title {
+  font-size: 0.875em;
+  color: gray;
+}
+
+.person .b-title {
+  color: #460d11;
+}
+
+@media all and (min-width: 29.75em) {
+  .well .block-thumb .b-thumb {
+    width: auto;
+    max-width: 10em;
+  }
+}
+.well .block-thumb .b-thumb img {
+  width: 100%;
+}
+
+.well.person {
+  background: none;
+}
+
 .inline-list li {
   display: inline-block;
 }

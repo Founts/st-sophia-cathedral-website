@@ -371,3 +371,70 @@
 		font-size: $font-size-base;
 	}
 }
+
+/* Clergy Section/Block */
+/*******************************************************/
+/*  Primarily uses styles from block, block-thumb design*/
+/*  flexbox reverse element order solution used*/
+/*******************************************************/
+// TODO .person below might need to be .well after testing..."well" the selector inheritance goes to existing code so something needs attention here. Added .well chain selector to increase inheritance value
+
+// the text/thumb block wrapper should be inline, but block and max width*/
+.well.person .b-inner {
+	@media all and (min-width: $bp-med) {
+		display: flex;
+	}
+}
+//added .well to below to override .well style
+.well.person .block-thumb .b-thumb {
+    @media all and (min-width: $bp-med) {
+    	max-width: 10em;		/*set a max width on image*/
+		// flexbox layout w/fallback
+		width: 30%;
+    	flex: 1;
+		order: 1;                       /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    }
+}
+.well.person .block-thumb .b-text {
+	line-height: $font-size-base-plus;
+
+	@media all and (min-width: $bp-med) {
+		width: 70%;
+		padding: 0 2em 0; 		/* overwrites current design, adding pad on both sides*/
+		// flexbox layout w/fallback
+		width: 70%;             /* For old syntax, otherwise collapses. */
+		flex: 2;                /* NEW, Spec - Opera 12.1, Firefox 20+ */
+		align-self: center; 	// align the text to the center
+		order: 2;
+	}
+}
+
+// reverse the order with flexbox - potential for a Sass function here
+.person.reverse .block .b-text {
+	order: 1;
+}
+.person.reverse .block .b-thumb {
+	order: 2;
+}
+
+//visual styles
+.person .w-title {
+	font-size: $font-size-small-2;
+	color: $gray;
+}
+.person .b-title {
+	color: $red-dark;
+}
+.well .block-thumb .b-thumb {
+	@media all and (min-width: $bp-small-2) {
+		width: auto; // overwrites
+		max-width: 10em; // overwrites
+	}
+
+	img {
+		width: 100%; //for whatever reason, images are not full width. // overwrites
+	}
+}
+.well.person {
+	background: none; // overwrites
+}

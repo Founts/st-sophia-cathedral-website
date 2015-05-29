@@ -26,6 +26,14 @@
 		"rectangle": {
 			"src": "http://placeimg.com/400/300/tech",
 			"alt": "Rectangle"
+		},
+		"portrait-2x3": {
+		    "src": "../../images/fpo_2x3.png",
+		    "alt": "2x3 Image"
+		},
+		"portrait-3x4": {
+		    "src": "../../images/fpo_3x4.png",
+		    "alt": "3x4 Image"
 		}
 	},
 	"video" : "https://www.youtube.com/embed/uNPZCPkewQ4?rel=0&amp;showinfo=0",
@@ -44,12 +52,14 @@
 	"description" : "So, setting about it as methodically as men might smoke out a wasps' nest, the Martians spread this strange stifling vapour over the Londonward country. The horns of the crescent slowly moved apart, until at last they formed a line from Hanwell to Coombe and Malden. All night through their destructive tubes advanced.",
 	"url" : "#",
 	"name" : {
+		"title": "Very Reverend",
 		"first": "Lacy",
 		"firsti": "L",
 		"middle": "Tommie",
 		"middlei": "T",
 		"last": "Way",
-		"lasti": "W"
+		"lasti": "W",
+		"desc" : "Very Reverend John S. Bakas is the Dean of Saint Sophia Cathedral and Greek Orthodox Community of Los Angeles since 1995. Along with the talented leadership of the Cathedral, he spearheaded the drive for the major renovation of the Cathedral grounds and adjacent buildings. This renovation and…"
 	},
 	"year" : {
 		"long": "2013",

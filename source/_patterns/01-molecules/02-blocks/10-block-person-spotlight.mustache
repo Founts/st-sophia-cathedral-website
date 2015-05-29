@@ -1,0 +1,15 @@
+{{! stylemodifier options: reverse - thumb goes right, text goes on left }}
+<div class="well person {{styleModifier}}">
+	<div class="block block-thumb">
+		<div class="b-inner">
+			<div class="b-thumb">
+			{{> atoms-portrait-2x3 }}
+			</div>
+			<div class="b-text">
+				<div class="w-title">Clergy Spotlight</div>
+				<h2 class="b-title">{{name.title}} {{name.first}} {{name.middlei}} {{name.last}}</h2>
+				<p>{{name.desc}}</p>
+			</div>	
+		</div>
+	</div>
+</div>
