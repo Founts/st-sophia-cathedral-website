@@ -2,6 +2,7 @@
 	"title" : "Pattern Lab",
 	"htmlClass": "pl",
 	"bodyClass": "body",
+	"thumbimage": true,
 	"img": {
 		"landscape-3x2": {
 		    "src": "../../images/fpo_3x2.png",
@@ -36,6 +37,7 @@
 		    "alt": "3x4 Image"
 		}
 	},
+	"thumbvideo": false,
 	"video" : "https://www.youtube.com/embed/uNPZCPkewQ4?rel=0&amp;showinfo=0",
 	"logo" : "../../images/Saint-Sophia-Logo-DRAFT.png",
 	"headline" : {

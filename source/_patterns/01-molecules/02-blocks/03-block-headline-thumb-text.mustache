@@ -1,11 +1,16 @@
 {{! structure based off block-thumb-headline }}
 <div class="block block-headline-thumb">
-	<div href="{{ url }}" class="b-inner">
+	<div class="b-inner">
 		<div class="b-headline">
 			<h2 class="b-title">{{ headline.short }}</h2>
 		</div>
 		<div class="b-thumb">
-			{{> atoms-landscape-3x2 }}
+			{{#thumbimage}}
+			{{> atoms-landscape-16x9 }}
+			{{/thumbimage}}
+			{{#thumbvideo}}
+			{{> molecules-video-fitvids }}
+			{{/thumbvideo}}
 		</div>
 		<div class="b-text">
 			<p>{{ excerpt.short }}</p>
