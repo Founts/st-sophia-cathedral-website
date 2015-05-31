@@ -116,11 +116,17 @@
 
 	.b-headline {
 		color: $red-dark;
-		font-size: $font-size-med;
+		//font-size: $font-size-med;
 		margin-bottom: $space-quarter;
 
 		h2 {
+			font-size: $font-size-med-3;
 			font-weight: normal;
+			text-transform: uppercase;
+
+			@media all and (min-width: $bp-med) {
+				font-size: $font-size-med-4;
+			}
 		}
 	}
 	.b-thumb {

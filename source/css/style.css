@@ -1307,11 +1307,17 @@ blockquote .pullquote p:after {
 }
 .block-headline-thumb .b-headline {
   color: #460d11;
-  font-size: 1.416em;
   margin-bottom: 0.25em;
 }
 .block-headline-thumb .b-headline h2 {
+  font-size: 1.82em;
   font-weight: normal;
+  text-transform: uppercase;
+}
+@media all and (min-width: 46.8em) {
+  .block-headline-thumb .b-headline h2 {
+    font-size: 2.291em;
+  }
 }
 .block-headline-thumb .b-thumb {
   margin-bottom: 0.5em;
