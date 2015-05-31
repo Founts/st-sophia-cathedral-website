@@ -25,7 +25,8 @@
 			},
 			"excerpt" : {
 				"short" : "In this 5 ½ minute video, “Orthodox on Purpose,” people from all walks of life share what they came to experience in the Orthodox Christian Faith."
-			}
+			},
+			"ctasection" : false
 		},
 		{
 			"thumbimage": true,
@@ -40,7 +41,8 @@
 			},
 			"excerpt" : {
 				"short" : "Discover more about Orthodox Christianity.  Get connected.  Find the Nursery. Get your kids into Sunday School.  Find out what’s going on in worship. Find ministries."
-			}
+			},
+			"ctasection" : false
 		},
 		{
 			"thumbimage": false,
@@ -51,7 +53,8 @@
 			},
 			"excerpt" : {
 				"short" : "In this 10 minute video, Zach, from Soul Pancake’s  “Have a Little Faith,” meets with Noah Johnson and our Cathedral’s Young Adult FORUM to explore Orthodox Christianity."
-			}
+			},
+			"ctasection" : false
 		}
 	],
 	"inset-blocks" : [

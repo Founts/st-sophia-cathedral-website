@@ -115,6 +115,7 @@
 		{ },
 		{ }
 	],
+	"ctasection" : false,
 	"cta" : "Learn More",
 	"logomark": {
 				"src": "../../images/SanFranciscoSeal-white.png",
