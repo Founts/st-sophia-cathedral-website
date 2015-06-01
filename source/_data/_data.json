@@ -40,6 +40,10 @@
 	"thumbvideo": false,
 	"video" : "https://www.youtube.com/embed/uNPZCPkewQ4?rel=0&amp;showinfo=0",
 	"logo" : "../../images/Saint-Sophia-Logo-DRAFT.png",
+	"page" : {
+		"title" : "Page Title",
+		"intro" : "Description text about the current page (less than xxx characters long)"
+	},
 	"headline" : {
 		"xs" : "Lorem Ipsum",
 		"short" : "Lorem ipsum dolor sit (37 characters)",
