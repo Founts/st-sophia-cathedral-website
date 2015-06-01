@@ -209,15 +209,26 @@ a:hover, a:focus {
 /* Headings */
 /*Further Reading: http:/csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css/ */
 h1, .alpha {
+  font-size: 2.945em;
   line-height: 1.2;
 }
 
 h2, .beta {
+  font-size: 1.82em;
   line-height: 1.2;
 }
 
 h3, .gamma {
+  font-size: 1.416em;
   line-height: 1.2;
+}
+
+h4, .delta {
+  font-size: 1.125em;
+}
+
+h5, .epsilon {
+  font-size: 0.875em;
 }
 
 /* Subheadings */
@@ -907,7 +918,7 @@ td {
     $TEXT Styles
 \*------------------------------------*/
 .intro {
-  font-size: 1.0625em;
+  font-size: 1.19531em;
   font-weight: bold;
 }
 
