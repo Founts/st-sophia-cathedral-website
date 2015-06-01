@@ -105,6 +105,8 @@ blockquote .pullquote {
 
 //Passages of text
 .text {
+	font-size: $font-size-base;
+	
 	a {
 		text-decoration: underline;
 	}

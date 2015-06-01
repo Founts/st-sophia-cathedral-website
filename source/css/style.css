@@ -1010,6 +1010,9 @@ blockquote .pullquote p:after {
   font-style: italic;
 }
 
+.text {
+  font-size: 1.125em;
+}
 .text a {
   text-decoration: underline;
 }
