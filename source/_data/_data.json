@@ -2,6 +2,7 @@
 	"title" : "Pattern Lab",
 	"htmlClass": "pl",
 	"bodyClass": "body",
+	"topnav": true,
 	"thumbimage": true,
 	"img": {
 		"landscape-3x2": {
