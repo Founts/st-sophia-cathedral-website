@@ -10,7 +10,18 @@
 		{{# feature }}
 			{{> molecules-well:featured }}
 		{{/ feature }}
+		{{! begin featured content }}
+		<hr />
+		<div class="g g-3up">
+			{{# touts}}
+			<div class="gi">
+				{{> molecules-block-headline-thumb-text }}
+			</div>
+			{{/ touts}}
+		</div><!--end 3up-->
+		{{! end featured content }}
 		{{! hours section start }}
+		<hr />
 		<section class="hours">
 			{{! molecules-heading-intro }}
 			<h2 class="section-title">{{hours.title}}</h2>
@@ -66,15 +77,7 @@
 				</div>
 			</div>
 		</section>
-		<hr />
-		<div class="g g-3up">
-			{{# touts}}
-			<div class="gi">
-				{{> molecules-block-headline-thumb-text }}
-			</div>
-			{{/ touts}}
-		</div><!--end 3up-->
-		<hr />
+		{{! end hours }}
 		<div class="g g-2up">
 			{{# news }}
 			<div class="gi">
