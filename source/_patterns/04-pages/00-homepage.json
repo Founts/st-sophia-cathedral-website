@@ -1,6 +1,9 @@
 {
 	"title" : "Home Page",
 	"bodyClass": "home",
+	"topnav" : {
+		"url" : "#footer"
+	},
 	"emergency" : false,
 	"hero" : [
 		{
@@ -11,7 +14,7 @@
 				}
 			},
 			"headline" : {
-				"medium" : "Welcome! Kalos Irthate!"
+				"medium" : "All Are Welcome!"
 			}
 		}
 	],
@@ -19,7 +22,7 @@
 		{
 			"thumbimage": false,
 			"thumbvideo": true,
-			"video" : "https://www.youtube.com/embed/uNPZCPkewQ4?rel=0&amp;showinfo=0",
+			"video" : "https://www.youtube.com/embed/p1qx9R6LfPc?rel=0&amp;showinfo=0",
 			"headline" : {
 				"short" : "Orthodoxy on Purpose"
 			},
@@ -40,7 +43,7 @@
 				"short" : "I’M NEW…WHAT DO I DO?"
 			},
 			"excerpt" : {
-				"short" : "Discover more about Orthodox Christianity.  Get connected.  Find the Nursery. Get your kids into Sunday School.  Find out what’s going on in worship. Find ministries."
+				"short" : "Discover more about Orthodox Christianity.  <a href=\"http://youtube.com\">Get connected</a>.  Find <a>the Nursery</a>. Get your kids into Sunday School.  Find out what’s going on in worship. Find ministries."
 			},
 			"ctasection" : false
 		},
