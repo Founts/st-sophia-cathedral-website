@@ -4,7 +4,8 @@
 
 //Colors
 $red-dark : #460d11; //TODO confirm official color
-$red : lighten($red-dark, 50%); //TODO confirm official color
+$red : lighten($red-dark, 30%); //TODO confirm official color
+$red-lightest : lighten($red-dark, 80%);
 $gold : #fdfdd1; //TODO official color
 $gold-2: darken($gold, 15%); //TODO official gold color
 $gray-light : #f9f9f9;
