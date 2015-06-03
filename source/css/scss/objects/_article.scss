@@ -37,6 +37,7 @@
 //TODO REUSE EXISTING ARTICLE CODE? Make generic for pages?
 .page-header {
 	margin-bottom: 2em;
+	margin-top: 80px; //fix for floating header. TODO reevalute this and header solution. this doesn't seem good.
 	padding: $space-double $space;
 	text-align: center;
 	background-color: $red-dark;
