@@ -5,6 +5,18 @@
 	@extend .lc;
 }
 
+// styles for setting header over hero
+.header {
+  background: none;
+  padding: 0;
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
 .logo {
 	float: left;
 	max-width: 10rem;
