@@ -716,14 +716,34 @@ td {
 }
 
 .logo {
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease;
   float: left;
   max-width: 10rem;
   margin: 0.4rem;
+}
+.logo svg {
+  width: 100%;
 }
 @media all and (min-width: 46.8em) {
   .logo {
     max-width: 18rem;
   }
+}
+.logo .backdrop,
+.logo .window-left,
+.logo .windows path,
+.logo .logo-text-top path,
+.logo .logo-text-bottom path {
+  fill: white;
+}
+.logo .roof-cross {
+  stroke: white;
+  fill: white;
+  stroke-width: 3;
+}
+.logo .dome-cross {
+  fill: none;
 }
 
 .nav-toggle {
@@ -733,6 +753,7 @@ td {
   font-size: 1.3rem;
   line-height: 1;
   border-left: 1px solid #dbdbdb;
+  color: white;
 }
 @media all and (min-width: 46.8em) {
   .nav-toggle {
@@ -770,6 +791,7 @@ td {
   display: block;
   padding: 1em;
   border-top: 1px solid #eeeeee;
+  color: white;
 }
 .nav.active {
   max-height: 40em;

@@ -18,12 +18,35 @@
 }
 
 .logo {
+	transition: $transition-default;
+
+	svg {
+		width: 100%;
+	}
+
 	float: left;
 	max-width: 10rem;
 	margin: 0.4rem;
 
 	@media all and (min-width: $bp-med) {
 		max-width: 18rem;
+	}
+
+	//svg
+	.backdrop,
+	.window-left,
+	.windows path,
+	.logo-text-top path,
+	.logo-text-bottom path {
+	  fill: white;
+	}
+	.roof-cross {
+	  stroke: $white;
+	  fill: $white;
+	  stroke-width: 3;
+	}
+	.dome-cross {
+	  fill: none;
 	}
 }
 
@@ -34,6 +57,7 @@
 	font-size: 1.3rem;
 	line-height: 1;
 	border-left: 1px solid #dbdbdb;
+	color: $white;
 
 	@media all and (min-width: $bp-med) {
 		display: none;
