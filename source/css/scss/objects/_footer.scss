@@ -106,8 +106,11 @@
 
 //footer bottom section
 .footer-bottom {
-	margin-top: $space-double;
 	padding: $pad-double;
+	@media all and (min-width: $bp-med) {
+		margin-top: $space-double;
+	}
+	
 	a {
 		color: $gray-light;
 	}
