@@ -929,8 +929,12 @@ td {
 }
 
 .footer-bottom {
-  margin-top: 2em;
   padding: 2em;
+}
+@media all and (min-width: 46.8em) {
+  .footer-bottom {
+    margin-top: 2em;
+  }
 }
 .footer-bottom a {
   color: #f9f9f9;
@@ -1354,12 +1358,10 @@ blockquote .pullquote p:after {
 }
 
 /* Block Thumbnail with Headline */
-.block-headline-thumb {
-  text-align: center;
-}
 .block-headline-thumb .b-headline {
   color: #460d11;
   margin-bottom: 0.25em;
+  text-align: center;
 }
 .block-headline-thumb .b-headline h2 {
   font-size: 1.82em;
@@ -1376,6 +1378,11 @@ blockquote .pullquote p:after {
 }
 .block-headline-thumb .b-text {
   font-size: 1.125em;
+}
+@media all and (min-width: 46.8em) {
+  .block-headline-thumb .b-text {
+    text-align: center;
+  }
 }
 .block-headline-thumb .cta {
   text-transform: uppercase;
@@ -1443,12 +1450,19 @@ blockquote .pullquote p:after {
   max-width: 270px;
   margin: 10px auto;
   font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
+  font-size: 1.416em;
+  text-align: center;
 }
-@media (min-width: 29.75em) {
+@media all and (min-width: 29.75em) {
   .block-affiliate .b-title {
     float: left;
     margin: 25px 10px;
     text-align: left;
+  }
+}
+@media all and (min-width: 46.8em) {
+  .block-affiliate .b-title {
+    font-size: 1.82em;
   }
 }
 
@@ -1466,6 +1480,11 @@ blockquote .pullquote p:after {
 @media (min-width: 29.75em) {
   .block-affiliate img {
     float: left;
+  }
+}
+@media (min-width: 46.8em) {
+  .block-affiliate img {
+    float: none;
   }
 }
 
@@ -2047,8 +2066,13 @@ ul.checkboxes h2 {
 .well {
   position: relative;
   background: #f9f9f9;
-  padding: 3em 0;
+  padding: 1em 0.5em;
   margin-bottom: 2em;
+}
+@media all and (min-width: 46.8em) {
+  .well {
+    padding: 3em 0.5em;
+  }
 }
 .well h2 {
   font-size: 2.291em;
