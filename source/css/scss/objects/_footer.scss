@@ -74,14 +74,12 @@
 	padding: 0;
 }
 .contact-options h3 {
+	margin-bottom: .3em;
 	font-size: $font-size-med; //1.416em; @22
 	text-transform: uppercase;
 }
 .contact-options a {
 	font-size: $font-size-small-2; //0.875em; @14
-}
-.contact-options h3 {
-	margin-bottom: .3em;
 }
 .contact-options li {
 	margin-bottom: $space-half;
@@ -101,7 +99,7 @@
 //footer contact options
 //graphic + content 2 column
 .newsletter-pitch {
-	margin-left: $space-and-half;
+//	margin-left: $space-and-half;
 }
 
 //footer bottom section

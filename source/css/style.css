@@ -915,16 +915,13 @@ td {
 }
 
 .contact-options h3 {
+  margin-bottom: .3em;
   font-size: 1.416em;
   text-transform: uppercase;
 }
 
 .contact-options a {
   font-size: 0.875em;
-}
-
-.contact-options h3 {
-  margin-bottom: .3em;
 }
 
 .contact-options li {
@@ -939,10 +936,6 @@ td {
 .footer .vcard {
   display: block;
   /*below gives space for graphic*/
-  margin-left: 1.5em;
-}
-
-.newsletter-pitch {
   margin-left: 1.5em;
 }
 
