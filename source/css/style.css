@@ -1407,6 +1407,10 @@ blockquote .pullquote p:after {
     text-align: center;
   }
 }
+.block-headline-thumb .b-text a {
+  border-bottom: 1px solid #460d11;
+  border-bottom: 1px solid currentColor;
+}
 .block-headline-thumb .cta {
   text-transform: uppercase;
   font-weight: bold;

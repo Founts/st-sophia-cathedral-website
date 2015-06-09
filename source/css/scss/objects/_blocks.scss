@@ -152,6 +152,11 @@
 		@media all and (min-width: $bp-med) {
 			text-align: center;
 		}
+
+		a {
+			border-bottom: 1px solid $red-dark; //fallback
+			border-bottom: 1px solid currentColor;
+		}
 	}
 	.cta {
 		text-transform: uppercase;
