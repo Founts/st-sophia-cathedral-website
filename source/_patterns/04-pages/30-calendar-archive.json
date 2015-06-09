@@ -1,0 +1,14 @@
+{
+	"page" : {
+		"title" : "Calendar",
+		"intro" : "Saint Sophia Monthly Calendar"
+	},
+	"headline" : {
+		"xs" : "Calendar Archive"
+	},
+	"intro": {
+		"excerpt" : {
+			"xs" : "Saint Sophia monthly calendars in PDF format by year and month"
+		}
+	}
+}

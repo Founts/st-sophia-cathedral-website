@@ -1,0 +1,20 @@
+{{> organisms-header:header--light }}
+{{> molecules-page-header }}
+<div class="main-body">
+	<div class="pub-archive">
+		<div class="list-section list-section-pub-archive">
+			<h2 class="list-section-title">{{ headline.xs }}</h2>
+			{{# intro }}
+			<div class="list-intro">{{ excerpt.xs }}</div>
+			{{/ intro }}
+			<ul class="text-list">
+				<li><a href="#">March 2015</a></li>
+				<li><a href="#">February 2015</a></li>
+				<li><a href="#">January 2015</a></li>
+				<li><a href="#">December 2014</a></li>
+				<li><a href="#">November 2014</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+{{> organisms-footer }}
