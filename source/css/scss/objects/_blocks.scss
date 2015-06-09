@@ -23,6 +23,7 @@
 /* Hero Block */
 .block-hero {
 	margin-bottom: $space-half;
+	position: relative;
 
 	.b-thumb {
 		border-bottom: 16px solid $red-dark;
@@ -32,11 +33,19 @@
 		}
 	}
 	.b-text {
-		max-width: 300px;
+		//max-width: 300px;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		padding: $pad 0;
+		width: 100%;
+		background: $dim;
+		color: $white;
+		text-align: center;
 	}
 	.b-title {
 		margin: 0 0 .25em;
-		font-size: 1.82em;
+		font-size: $font-size-med;
 	}
 	.home-intro {
 		clear: left;
@@ -58,10 +67,14 @@
 			bottom: 0;
 			// left: 0;
 			right: 0;
-			// width: 100%;
+			width: auto;
 			background: $dim;
-			color: $white;
+			//color: $white;
 			padding: $pad-and-half;
+			text-align: left;
+		}
+		.b-title {
+			font-size: $font-size-med-3;
 		}
 	}
 }
@@ -226,13 +239,15 @@
 			font-size: $font-size-med-3;
 		}
 	}
+
+	.b-inner {
+		@media all and (min-width: $bp-small-2) {
+		    /*//if using floats, set display to force a proper width value*/
+			display: inline-block;
+		}
+	}
 }
-.b-inner {
-    @media (min-width: $bp-small-2) {
-	    /*//if using floats, set display to force a proper width value*/
-    	display: inline-block;
-    }
-}
+
 .block-affiliate img {
 	margin: 10px auto;
 	display: block;

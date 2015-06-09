@@ -767,6 +767,24 @@ td {
   }
 }
 
+.header--light .nav-toggle {
+  color: #460d11;
+}
+.header--light .nav a {
+  color: #460d11;
+}
+.header--light .logo .backdrop,
+.header--light .logo .window-left,
+.header--light .logo .windows path,
+.header--light .logo .logo-text-top path,
+.header--light .logo .logo-text-bottom path {
+  fill: #460d11;
+}
+.header--light .logo .roof-cross {
+  stroke: #460d11;
+  fill: #460d11;
+}
+
 .search-form {
   overflow: hidden;
   max-height: 0;
@@ -1277,6 +1295,7 @@ blockquote .pullquote p:after {
 /* Hero Block */
 .block-hero {
   margin-bottom: 0.5em;
+  position: relative;
 }
 .block-hero .b-thumb {
   border-bottom: 16px solid #460d11;
@@ -1286,11 +1305,18 @@ blockquote .pullquote p:after {
   border-radius: initial;
 }
 .block-hero .b-text {
-  max-width: 300px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 1em 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
 }
 .block-hero .b-title {
   margin: 0 0 .25em;
-  font-size: 1.82em;
+  font-size: 1.416em;
 }
 .block-hero .home-intro {
   clear: left;
@@ -1310,9 +1336,13 @@ blockquote .pullquote p:after {
     position: absolute;
     bottom: 0;
     right: 0;
+    width: auto;
     background: rgba(0, 0, 0, 0.5);
-    color: white;
     padding: 1.5em;
+    text-align: left;
+  }
+  .block-hero .b-title {
+    font-size: 1.82em;
   }
 }
 
@@ -1465,9 +1495,8 @@ blockquote .pullquote p:after {
     font-size: 1.82em;
   }
 }
-
-@media (min-width: 29.75em) {
-  .b-inner {
+@media all and (min-width: 29.75em) {
+  .block-affiliate .b-inner {
     /*//if using floats, set display to force a proper width value*/
     display: inline-block;
   }
