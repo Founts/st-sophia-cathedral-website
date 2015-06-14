@@ -475,3 +475,15 @@
 .well.person {
 	background: none; // overwrites
 }
+
+// 
+// block contact
+//
+.block-contact {
+  	padding: 1em;
+  	margin: 1em;
+  	background-color: $red-lightest;
+}
+.block-contact a {
+	display: block;
+}

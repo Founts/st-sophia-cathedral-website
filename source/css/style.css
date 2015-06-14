@@ -1742,6 +1742,16 @@ blockquote .pullquote p:after {
   background: none;
 }
 
+.block-contact {
+  padding: 1em;
+  margin: 1em;
+  background-color: #fceff0;
+}
+
+.block-contact a {
+  display: block;
+}
+
 .inline-list li {
   display: inline-block;
 }
