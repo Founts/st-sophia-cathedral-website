@@ -265,7 +265,7 @@ abbr {
 }
 
 mark, .highlighter {
-  background-color: #fafa88;
+  background-color: #fff59f;
 }
 
 ol, ul {
@@ -352,14 +352,15 @@ input[type=text], input[type=search], input[type=url], input[type=number], texta
   -webkit-appearance: none;
 }
 
-button, input[type="submit"] {
+button,
+input[type="submit"] {
   padding: 1em;
-  background: #333333;
-  border: 1px solid gray;
+  background: #d2bc00;
   cursor: pointer;
 }
 @media all and (min-width: 29.75em) {
-  button, input[type="submit"] {
+  button,
+  input[type="submit"] {
     width: auto;
   }
 }
@@ -1230,7 +1231,7 @@ blockquote .pullquote p:after {
 \*------------------------------------*/
 .btn {
   display: inline-block;
-  background: #333333;
+  background: #d2bc00;
   color: white;
   line-height: 1;
   font-weight: bold;
@@ -1240,12 +1241,16 @@ blockquote .pullquote p:after {
   text-align: center;
 }
 .btn:hover, .btn:focus {
-  background: gray;
+  background: #e2ce00;
   color: white;
 }
 .btn.disabled {
   background: #eeeeee;
   color: gray;
+}
+.btn:active {
+  background: #c9b700;
+  box-shadow: 2px 3px 0px 0px rgba(1, 1, 1, 0.2) inset;
 }
 
 .btn-small {
@@ -1255,13 +1260,17 @@ blockquote .pullquote p:after {
 .btn-large {
   padding: 0.5em;
   text-transform: uppercase;
-  background: gray;
+  background: #d2bc00;
   font-size: 1.4rem;
   font-weight: normal;
 }
 
 .text-btn {
   font-style: italic;
+}
+
+.btn.alt {
+  background: #d2bc00;
 }
 
 /* Generic Placeholder Brick: REMOVE FOR PRODUCTION */
@@ -2071,7 +2080,7 @@ ul.checkboxes h2 {
 }
 
 .callout-notice {
-  background-color: #fafa88;
+  background-color: #fff59f;
   color: #460d11;
   padding: 1em;
   margin-bottom: 2em;
@@ -2129,7 +2138,7 @@ ul.checkboxes h2 {
   color: #f9f9f9;
 }
 .well.featured a {
-  color: #fdfdd1;
+  color: #fff59f;
 }
 @media all and (min-width: 24em) {
   .well .block {

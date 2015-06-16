@@ -6,8 +6,12 @@
 $red-dark : #460d11; //TODO confirm official color
 $red : lighten($red-dark, 30%); //TODO confirm official color
 $red-lightest : lighten($red-dark, 80%);
-$gold : #fdfdd1; //TODO official color
-$gold-2: darken($gold, 15%); //TODO official gold color
+$gold : #d2bc00; //Official. base button color.
+$gold-light : lighten($gold, 40%);
+$gold-bright : #e2ce00; //gold base-button hover
+$gold-shade : darken($gold-bright, 5%); //gold base-button-hover click //#e2ce00 + 5% black? (black w 5% opacity)
+$gold-2: #a19908; //gold-brown from mockup swatch. not used.
+$gray-alpha-20 : rgba(1,1,1,0.2); //inner shadow for base-button, blackish @ Photoshop rgb 1 1 1 20% opacity 4px 120degrees 
 $gray-light : #f9f9f9;
 $gray-light-2 : #eee;
 $gray-light-3 : #ddd;

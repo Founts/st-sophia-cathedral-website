@@ -34,10 +34,10 @@ input[type=text], input[type=search], input[type=url], input[type=number], texta
 	-webkit-appearance: none;
 }
 
-button, input[type="submit"] {
+button, 
+input[type="submit"] {
 	padding: $pad;
-	background: $gray-dark;
-	border: 1px solid $gray;
+	background: $gold;
 	cursor: pointer;
 
 	@media all and (min-width: $bp-small-2) {
