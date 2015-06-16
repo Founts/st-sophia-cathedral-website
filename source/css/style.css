@@ -319,6 +319,10 @@ figcaption {
 /*------------------------------------*\
     $FORMS
 \*------------------------------------*/
+form {
+  font-size: 1.125em;
+}
+
 form ol, form ul {
   list-style: none;
   margin-left: 0;
@@ -335,6 +339,10 @@ label {
   padding-bottom: 0.5em;
 }
 
+form label {
+  color: #460d11;
+}
+
 button, input, select, textarea {
   font-family: inherit;
   font-size: 100%;
@@ -343,9 +351,9 @@ button, input, select, textarea {
 
 input, textarea {
   width: 100%;
-  border: 1px solid gray;
+  border: 1px solid #460d11;
   border-radius: 4px;
-  padding: 0.5em 0.65rem;
+  padding: 0.5em;
 }
 
 input[type=text], input[type=search], input[type=url], input[type=number], textarea {
@@ -381,6 +389,10 @@ input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
+input.currency {
+  max-width: 8em;
+}
+
 .field-container {
   margin-bottom: 1em;
 }
@@ -391,7 +403,7 @@ input[type="search"]::-webkit-search-decoration {
 .inline-form input[type=submit], .inline-form button, .inline-form .btn {
   font-size: 0.875em;
   padding: 0.65rem 1.3rem;
-  background: #333333;
+  background: #d2bc00;
   position: absolute;
   top: 0;
   right: 0;
@@ -399,7 +411,7 @@ input[type="search"]::-webkit-search-decoration {
   width: auto;
 }
 .inline-form input[type=submit]:hover, .inline-form input[type=submit]:focus, .inline-form button:hover, .inline-form button:focus, .inline-form .btn:hover, .inline-form .btn:focus {
-  background: gray;
+  background: #c9b700;
   color: white;
 }
 
@@ -418,14 +430,6 @@ input[type="search"]::-webkit-search-decoration {
 /* Search Form */
 .search-field {
   padding-right: 3em;
-}
-
-.inline-form .search-submit {
-  background: none;
-  padding: 0.78em 1em;
-  border: 0;
-  border-left: 1px solid gray;
-  color: gray;
 }
 
 /*------------------------------------*\
@@ -2004,6 +2008,18 @@ ul.checkboxes h2 {
   .hours .intro {
     margin-bottom: 0.25em;
   }
+}
+
+.callout-info {
+  background-color: #fff59f;
+  color: #460d11;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 4px;
+}
+
+.callout-info--small {
+  font-size: 0.875em;
 }
 
 .article-header h1 {

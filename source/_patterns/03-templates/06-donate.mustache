@@ -1,0 +1,39 @@
+{{> organisms-header:header--light }}
+{{> molecules-page-header }}
+<div class="main-body">
+	<form>
+		<div class="field-container">
+			{{! donation amount }}
+			<label for="donation_amount">Donation Amount</label>
+			{{! input w $ mask }}
+			<input type="text" id="donation_amount" class="currency" placeholder="enter amount">
+		</div>
+		<div class="field-container">
+			{{! Optional Donation Notes }}
+			<label>Optional Donation Notes</label>
+			{{! notes incl helper copy for memorials, flowers, coffee hour sponsorship }}
+			<textarea placeholder="copy for notes: enter any donation notes e.g. memorials, flowers, coffee hour sponsorship" cols="40" rows="10" ></textarea>
+		</div>
+		<div class="callout-info callout-info--small">
+			<p>In the optional notes, you can tell us if this is for flowers, coffee hour sponsorship or a memorial.</p>
+			<p>If it is for a memorial, please include the following information in the comments section of the payment page (page 3 of this process):</p>
+			<p>In honor of ________________<br />
+			or<br />
+			In memory of _________________</p>
+			<p>Please use the Shipping Address field on the Payment page to include the name and address of the person to be notified of your donation.</p>
+		</div>
+		{{! credit card info - phase 2}}
+		{{! billing info - phase 2}}
+		{{! Make donation button }}
+		<p><a href="#" class="btn">Proceed With Donation <span class="fa fa-chevron-right"></span></a></p>
+	</form>
+	{{! <div class="callout-notice">
+		<div class="text">
+			<p>In the Optional Donation Notes section, please include the following information:<br>
+		In honor of [person's name] or<br>
+		In memory of [person's name]<br>
+		Please use the Shipping Address field on the Payment page to include the name and address of the person to be notified of your donation.</p>
+		</div>
+	</div> }}
+</div>
+{{> organisms-footer }}

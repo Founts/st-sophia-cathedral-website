@@ -77,3 +77,14 @@
 		}
 	}
 }
+
+.callout-info {
+	background-color: $gold-light;
+	color: $red-dark;
+	padding: $pad;
+	margin-bottom: $space;
+	border-radius: 4px;
+}
+.callout-info--small {
+	font-size: $font-size-small-2;
+}
