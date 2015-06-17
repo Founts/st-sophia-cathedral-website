@@ -1,0 +1,70 @@
+{{> organisms-header:header--light }}
+{{> molecules-page-header }}
+<div class="main-body">
+	<form>
+		<h2>Select Fees</h2>
+		<p class="intro">Select any fees which you wish to pay</p>
+		<div class="field-container">
+			{{! Hellenic Academy (Greek Language School) }}
+			<label for="cb1">
+				<input type="checkbox" id="cb1"></input>Hellenic Academy (Greek Language School) - $50000
+			</label>
+		</div>
+		<div class="field-container">
+			{{! Marriage Service Deposit (non-stewards) }}
+			<label for="cb2">
+				<input type="checkbox" id="cb2"></input>Marriage Service Deposit - $300
+			</label>
+		</div>
+		<div class="field-container">
+			{{! Marriage Service Remainder (non-stewards)}}
+			<label for="cb3">
+				<input type="checkbox" id="cb3"></input>Marriage Service Remainder - $1450
+			</label>
+		</div>
+		<div class="field-container">
+			{{! Baptism Service Deposit }}
+			<label for="cb4">
+				<input type="checkbox" id="cb4"></input>Baptism Service Deposit - $300
+			</label>
+		</div>
+		<div class="field-container">
+			{{! Baptism Service Remainder }}
+			<label for="cb5">
+				<input type="checkbox" id="cb5"></input>Baptism Service Remainder - $350
+			</label>
+		</div>
+		<div class="field-container">
+			{{! Sunday School }}
+			<label for="cb6">
+				<input type="checkbox" id="cb6"></input>Sunday School - $50000
+			</label>
+		</div>
+		<div class="field-container">
+			{{! Dance Group }}
+			<label for="cb7">
+				<input type="checkbox" id="cb7"></input>Dance Group - $50000
+			</label>
+		</div>
+		<div class="field-container">
+			{{! other fee amount }}
+			<label for="other_fee_amount">Other Fee Amount</label>
+			{{! input w $ mask }}
+			<input type="text" id="other_fee_amount" class="currency" placeholder="enter amount">
+		</div>
+		<div class="field-container">
+			{{! Optional Fee Payment Notes }}
+			<label>Optional Fee Payment Notes</label>
+			<textarea placeholder="enter any fee payment notes e.g. &lsquo;For Toula and Joseph's Sunday School&rsquo; or &lsquo;For the Lenten Retreat&rsquo;" cols="40" rows="10" ></textarea>
+		</div>
+		<div class="field-container">
+			{{! total of fees }}
+			<span id="total" class="gamma">$500,000</span><span> will be submitted for payment.</span>
+		</div>
+		{{! credit card info - phase 2}}
+		{{! billing info - phase 2}}
+		{{! Make donation button }}
+		<p><a href="#" class="btn">Proceed With Payment <span class="fa fa-chevron-right"></span></a></p>
+	</form>
+</div>
+{{> organisms-footer }}
