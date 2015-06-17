@@ -134,5 +134,8 @@
 	  "widget-title" : "Weekly Bulletin",
 	  "widget-entry" : "Jan 1, 2015",
 	  "widget-cta" : "All Bulletins and News"
+	},
+	"topnav" : {
+		"url" : "#footer"
 	}
 }
