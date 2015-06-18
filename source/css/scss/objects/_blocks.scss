@@ -455,6 +455,7 @@
 }
 
 //visual styles
+//TODO consider converting this to a section
 .person .w-title {
 	font-size: $font-size-small-2;
 	color: $gray;
@@ -474,6 +475,9 @@
 }
 .well.person {
 	background: none; // overwrites
+}
+.person .b-text p {
+	margin-bottom: .5em;
 }
 
 // 

@@ -1755,6 +1755,10 @@ blockquote .pullquote p:after {
   background: none;
 }
 
+.person .b-text p {
+  margin-bottom: .5em;
+}
+
 .block-contact {
   padding: 1em;
   margin: 1em;

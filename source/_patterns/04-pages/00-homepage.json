@@ -18,6 +18,14 @@
 			}
 		}
 	],
+	"intro" : {
+			"headline" : {
+				"short" : "Orthodox Christianity at Saint&nbsp;Sophia Cathedral"
+			},
+			"excerpt" : {
+				"short" : "We are an Orthodox Christian community of disciples of Jesus Christ… an ancient vine with 2000 year old roots and 21st century fruit, borne forth in Los Angeles.  We focus our efforts on growing together in the Light of God's teachings as revealed through the Orthodox Christian Faith.  We are a movement of people who are devoted to proclaiming the Gospel of Jesus Christ in every aspect of our lives, so that the Body of Christ may be built up…a light unto the world."
+			}
+	},
 	"touts" : [
 		{
 			"thumbimage": false,
@@ -139,14 +147,6 @@
 		"title" : "Hours",
 		"intro" : "All hours are typical. Check the calendar or call for confirmation. If new or visiting on a Sunday, you are welcome to join us in attending Divine Liturgy."
 	},
-	"intro" : {
-			"headline" : {
-				"short" : "Orthodox Christianity at Saint Sophia Cathedral"
-			},
-			"excerpt" : {
-				"short" : "We are an Orthodox Christian community of disciples of Jesus Christ… an ancient vine with 2000 year old roots and 21st century fruit, borne forth in Los Angeles.  We focus our efforts on growing together in the Light of God's teachings as revealed through the Orthodox Christian Faith.  We are a movement of people who are devoted to proclaiming the Gospel of Jesus Christ in every aspect of our lives, so that the Body of Christ may be built up…a light unto the world."
-			}
-	},
 	"feature" : {
 		"title" : "Another Way",
 		"excerpt" : {
@@ -168,7 +168,8 @@
 				"last": "Bakas",
 				"desc" : "Very Reverend John S. Bakas is the Dean of Saint Sophia Cathedral and Greek Orthodox Community of Los Angeles since 1995. Along with the talented leadership of the Cathedral, he spearheaded the drive for the major renovation of the Cathedral grounds and adjacent buildings. This renovation and…"
 			},
-			"styleModifier" : ""
+			"styleModifier" : "",
+			"url" : "link.pages-father-john"
 		},
 		{
 			"img" : {
@@ -184,7 +185,8 @@
 				"last": "Boyd",
 				"desc" : "Fr. Allan Gabriel Boyd, Assistant Priest, Saint Sophia Cathedral was ordained to the priesthood here on July 17th 2011.  Fr Allan is especially involved in adult education at the cathedral, beginning with his “WHY’s of Orthodoxy” & “Old Testament” classes, and helped lay the foundations for our Young Orthodox Professionals FORUM…"
 			},
-			"styleModifier" : "reverse"
+			"styleModifier" : "reverse",
+			"url" : "link.pages-father-allan"
 		}
 	]
 }
