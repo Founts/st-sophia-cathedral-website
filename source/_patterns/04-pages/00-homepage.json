@@ -113,12 +113,21 @@
 			"widget-graphic" : "news",
 			"widget-title" : "Weekly Bulletins",
 			"widget-entry" : [
-				{ "text" : "Essentials" },
-				{ "text" : "Communique" }
+				{ 
+					"url" : "link.pages-publications",
+					"text" : "Essentials"
+				},
+				{ 
+					"url" : "link.pages-publications",
+					"text" : "Communique"
+				}
 			],
 			"herald" : true,
 			"widget-cta" : [
-				{"cta" : "Archived Publications"}
+				{
+					"url" : "link.pages-publications",
+					"cta" : "Archived Publications"
+				}
 			]
 		},
 		{
@@ -126,14 +135,26 @@
 			"widget-graphic" : "events",
 			"widget-title" : "Upcoming Events",
 			"widget-entry" : [
-				{ "text" :"Neighborhood Outreach – Mon, June 1"},
-				{ "text" :"Ministry Leaders Training – Sat, June 6"},
-				{ "text" :"Feast Day of St Snuffaluffagus – Wed, June 17"}
+				{ 
+					"text" :"Neighborhood Outreach – Mon, June 1"
+					},
+				{ 
+					"text" :"Ministry Leaders Training – Sat, June 6"}
+					,
+				{ 
+					"text" :"Feast Day of St Snuffaluffagus – Wed, June 17"
+				}
 			],
 			"herald" : false,
 			"widget-cta" : [
-				{"cta" : "Google Calendar"},
-				{"cta" : "May Calendar PDF"}
+				{
+					"url" : "http://www.google.com",
+					"cta" : "Google Calendar"
+					},
+				{
+					"url" : "http://stsophia.org",
+					"cta" : "May Calendar PDF"
+				}
 			]
 		}
 	],
