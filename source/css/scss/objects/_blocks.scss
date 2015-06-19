@@ -256,6 +256,9 @@
 .block-affiliate img {
 	margin: 10px auto;
 	display: block;
+	max-width: 85px;
+	border-radius: 0;
+	
 	@media (min-width: $bp-small-2) {
 		float: left;
 	}

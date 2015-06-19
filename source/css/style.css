@@ -1515,6 +1515,8 @@ blockquote .pullquote p:after {
 .block-affiliate img {
   margin: 10px auto;
   display: block;
+  max-width: 85px;
+  border-radius: 0;
 }
 @media (min-width: 29.75em) {
   .block-affiliate img {
