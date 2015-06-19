@@ -85,7 +85,7 @@
 				"alt": "logo"
 			},
 			"affiliateName" : {
-				"txt" : "Greek Orthodox Archdiocese of America"
+				"txt" : "Greek&nbsp;Orthodox Archdiocese of America"
 			}
 		},
 		{
@@ -94,7 +94,7 @@
 				"alt": "logo"
 			},
 			"affiliateName" : {
-				"txt" : "Saint Sophia Greek Orthodox Cathedral"
+				"txt" : "Saint&nbsp;Sophia Greek&nbsp;Orthodox Cathedral"
 			}
 		},
 		{
@@ -103,7 +103,7 @@
 				"alt": "logo"
 			},
 			"affiliateName" : {
-				"txt" : "Greek Orthodox Metropolis of San Francisco"
+				"txt" : "Greek&nbsp;Orthodox Metropolis of San Francisco"
 			}
 		}
 	],
