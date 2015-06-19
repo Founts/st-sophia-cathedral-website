@@ -87,6 +87,10 @@
 	font-weight: bold;
 	border-radius: 4px;
 
+	h2 {
+		font-size: $font-size-med; //TODO again, ck if this should be set at h2
+	}
+
 	ul:last-child {
 		margin-bottom: 0;
 	}

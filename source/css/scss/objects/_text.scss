@@ -105,8 +105,11 @@ blockquote .pullquote {
 
 //Passages of text
 .text {
-	font-size: $font-size-base;
 	font-family: $font-secondary;
+
+	p {
+		font-size: $font-size-base;
+	}
 
 	h2,h3,h4,h5,h6 {
 		font-family: $font;

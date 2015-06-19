@@ -1068,8 +1068,10 @@ blockquote .pullquote p:after {
 }
 
 .text {
-  font-size: 1.125em;
   font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
+}
+.text p {
+  font-size: 1.125em;
 }
 .text h2, .text h3, .text h4, .text h5, .text h6 {
   font-family: "ff-meta-web-pro", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
@@ -2113,6 +2115,9 @@ ul.checkboxes h2 {
   margin-bottom: 2em;
   font-weight: bold;
   border-radius: 4px;
+}
+.callout-notice h2 {
+  font-size: 1.416em;
 }
 .callout-notice ul:last-child {
   margin-bottom: 0;
