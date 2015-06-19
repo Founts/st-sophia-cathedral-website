@@ -834,6 +834,10 @@ td {
   }
 }
 
+a.nav-toggle {
+  color: white;
+}
+
 .pagination {
   overflow: hidden;
 }
