@@ -2075,6 +2075,7 @@ ul.checkboxes h2 {
 }
 .page-header .page-title {
   font-family: "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif;
+  font-size: 1.82em;
   text-transform: uppercase;
   margin: 0 auto 0.25em;
   max-width: 800px;

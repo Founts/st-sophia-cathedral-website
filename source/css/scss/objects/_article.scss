@@ -49,6 +49,7 @@
 
 	.page-title {
 		font-family: $font-secondary;
+		font-size: $font-size-med-3;//TODO evaluate if default H1 should be set to this
 		text-transform: uppercase;
 		margin: 0 auto $space-quarter;
 		max-width: 800px;
