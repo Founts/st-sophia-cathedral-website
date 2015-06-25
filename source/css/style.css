@@ -1312,6 +1312,11 @@ blockquote .pullquote p:after {
 .block-hero .b-thumb {
   border-bottom: 16px solid #460d11;
 }
+@media all and (min-width: 46.8em) {
+  .block-hero .b-thumb {
+    max-height: 700px;
+  }
+}
 .block-hero .b-thumb img {
   display: block;
   border-radius: initial;
@@ -1957,11 +1962,6 @@ ul.checkboxes h2 {
 .section-body {
   max-width: 46.8em;
   margin: 0 auto;
-}
-@media all and (min-width: 46.8em) {
-  .section-body {
-    width: 60%;
-  }
 }
 
 .section-title {

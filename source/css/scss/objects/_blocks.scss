@@ -27,6 +27,10 @@
 
 	.b-thumb {
 		border-bottom: 16px solid $red-dark;
+		@media all and (min-width: $bp-med) {
+			max-height: 700px; //TODO responsive images
+		}
+
 		img {
 			display: block;
 			border-radius: initial;

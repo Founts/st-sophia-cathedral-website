@@ -12,9 +12,9 @@
 	max-width: $bp-med;
 	margin: 0 auto;
 
-	@media all and (min-width: $bp-med) {
-		width: 60%;
-	}
+	// @media all and (min-width: $bp-med) {
+	// 	width: $bp-med;
+	// }
 }
 .section-title {
 	margin-bottom: $space-quarter;
