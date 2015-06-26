@@ -137,13 +137,17 @@
 		margin-bottom: $space-quarter;
 		text-align: center;
 
-		h2 {
+		.b-title {
 			font-size: $font-size-med-3;
 			font-weight: normal;
 			text-transform: uppercase;
 
 			@media all and (min-width: $bp-med) {
 				font-size: $font-size-med-4;
+				//align bottom centered for ie10+
+				display: flex;
+				align-items: flex-end;
+				justify-content: center;
 			}
 		}
 	}
