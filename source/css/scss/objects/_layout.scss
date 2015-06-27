@@ -17,14 +17,6 @@
 .l-two-col {
 	@extend .cf;
 
-	.l-main {
-		@media all and (min-width: $bp-large) {
-			float: left;
-			width: 70%;
-			padding-right: $pad;
-		}
-	}
-	
 	.l-sidebar {
 		@media all and (max-width: $bp-large) {
 			clear: both;
@@ -33,9 +25,19 @@
 		@media all and (min-width: $bp-large) {
 			float: left;
 			width: 30%;
-			padding: 0 0 0 $pad;
+			padding: 0 $pad 0 0;
 		}
 	}
+
+	.l-main {
+		@media all and (min-width: $bp-large) {
+			float: left;
+			width: 70%;
+			padding-left: $pad;
+		}
+	}
+	
+
 }
 
 
@@ -284,5 +286,26 @@
 			float: right;
 			text-align: right;
 		}
+	}
+}
+
+/* main body content layout */
+.main-body {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 1em 2em;
+
+	> p {
+		font-size: $font-size-base;
+	}
+}
+.main-body--wide {
+	//@extend .main-body;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 1em 2em;
+
+	> p {
+		font-size: $font-size-base;
 	}
 }

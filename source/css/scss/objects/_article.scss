@@ -70,15 +70,7 @@
 		}
 	}
 }
-.main-body {
-	max-width: 800px;
-	margin: 0 auto;
-	padding: 0 1em 2em;
 
-	> p {
-		font-size: $font-size-base;
-	}
-}
 .callout-notice {
 	background-color: $gold-light;
 	color: $red-dark;
