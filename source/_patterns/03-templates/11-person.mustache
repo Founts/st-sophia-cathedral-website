@@ -1,0 +1,20 @@
+{{> organisms-header:header--light }}
+{{> molecules-page-header }}
+<div class="main-body--wide">
+	{{! image & contact | left 1/4 at large }}
+	<div class="l-two-col">
+		<div class="l-sidebar section-person-contact">
+			{{#profile-image}}
+			{{> atoms-portrait-2x3 }}
+			{{/profile-image}}
+			{{>molecules-block-contact}}
+		</div>
+		<div class="l-main">
+			<div class="text">
+			{{{bio}}}
+			</div>
+		</div>
+	</div>
+</div>
+{{! staff quick access }}
+{{> organisms-footer }}
