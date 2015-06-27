@@ -483,13 +483,6 @@ td {
     $TEMPLATES
 \*------------------------------------*/
 /* Two Column Layout */
-@media all and (min-width: 50em) {
-  .l-two-col .l-main {
-    float: left;
-    width: 70%;
-    padding-right: 1em;
-  }
-}
 @media all and (max-width: 50em) {
   .l-two-col .l-sidebar {
     clear: both;
@@ -499,7 +492,14 @@ td {
   .l-two-col .l-sidebar {
     float: left;
     width: 30%;
-    padding: 0 0 0 1em;
+    padding: 0 1em 0 0;
+  }
+}
+@media all and (min-width: 50em) {
+  .l-two-col .l-main {
+    float: left;
+    width: 70%;
+    padding-left: 1em;
   }
 }
 
@@ -699,6 +699,25 @@ td {
 .g-opposites .gi:last-child {
   float: right;
   text-align: right;
+}
+
+/* main body content layout */
+.main-body {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1em 2em;
+}
+.main-body > p {
+  font-size: 1.125em;
+}
+
+.main-body--wide {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1em 2em;
+}
+.main-body--wide > p {
+  font-size: 1.125em;
 }
 
 /*------------------------------------*\
@@ -2042,6 +2061,16 @@ ul.checkboxes h2 {
   font-size: 0.875em;
 }
 
+.section-person-contact {
+  margin-bottom: 2em;
+}
+@media all and (min-width: 39.8em) and (max-width: 50em) {
+  .section-person-contact .block-contact {
+    display: inline-block;
+    margin-left: 2em;
+  }
+}
+
 .article-header h1 {
   font-size: 2.5em;
 }
@@ -2105,15 +2134,6 @@ ul.checkboxes h2 {
   .page-header .page-intro {
     font-size: 1.416em;
   }
-}
-
-.main-body {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 1em 2em;
-}
-.main-body > p {
-  font-size: 1.125em;
 }
 
 .callout-notice {

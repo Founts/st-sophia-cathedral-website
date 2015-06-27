@@ -88,3 +88,14 @@
 .callout-info--small {
 	font-size: $font-size-small-2;
 }
+
+.section-person-contact {
+	margin-bottom: 2em;
+
+	.block-contact {
+		@media all and (min-width: $bp-small-3) and (max-width: $bp-large){
+			display: inline-block;
+			margin-left: 2em;
+		}
+	}
+}
