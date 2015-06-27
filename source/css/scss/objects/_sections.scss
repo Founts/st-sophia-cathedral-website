@@ -92,6 +92,11 @@
 .section-person-contact {
 	margin-bottom: 2em;
 
+	img {
+		width: 100%;
+		max-width: 400px;
+	}
+
 	.block-contact {
 		@media all and (min-width: $bp-small-3) and (max-width: $bp-large){
 			display: inline-block;

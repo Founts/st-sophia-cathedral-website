@@ -2064,6 +2064,10 @@ ul.checkboxes h2 {
 .section-person-contact {
   margin-bottom: 2em;
 }
+.section-person-contact img {
+  width: 100%;
+  max-width: 400px;
+}
 @media all and (min-width: 39.8em) and (max-width: 50em) {
   .section-person-contact .block-contact {
     display: inline-block;
