@@ -78,8 +78,9 @@
 			"headline" : "This is the headline for the latest block"
 		}
 	],
-	"affiliates" : [
-		{
+	"affiliates" : {
+		"1" : {
+			"url" : "http://sf.goarch.org/",
 			"logomark": {
 				"src": "../../images/SanFranciscoSeal-white.png",
 				"alt": "logo"
@@ -88,25 +89,17 @@
 				"txt" : "Greek&nbsp;Orthodox Archdiocese of America"
 			}
 		},
-		{
-			"logomark": {
-				"src": "../../images/saint-sophia-logomark-white.svg",
-				"alt": "logo"
-			},
-			"affiliateName" : {
-				"txt" : "Saint&nbsp;Sophia Greek&nbsp;Orthodox Cathedral"
-			}
-		},
-		{
+		"2" : {
+			"url" : "http://www.goarch.org/",
 			"logomark": {
 				"src": "../../images/SanFranciscoSeal-white.png",
 				"alt": "logo"
 			},
 			"affiliateName" : {
-				"txt" : "Greek&nbsp;Orthodox Metropolis of San Francisco"
+				"txt" : "Greek&nbsp;Orthodox Metropolis of San&nbsp;Francisco"
 			}
 		}
-	],
+	},
 	"news" : [
 		{
 			"widget-heading" : "News",
