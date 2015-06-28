@@ -104,3 +104,44 @@
 		}
 	}
 }
+
+//footer bottom section
+.footer-bottom {
+	padding: $pad-double $pad $pad;
+	background-color: $red-dark;
+	
+	@media all and (min-width: $bp-med) {
+		margin-top: $space-double;
+
+		.g {
+			display: flex;
+		}
+
+		.gi {
+			display: flex;
+			align-items: center;
+		}
+	}
+	
+	a {
+		color: $gray-light;
+	}
+
+	.logotext {
+		display: block;
+		width: 100%;
+		margin: 0 auto;
+		max-width: 370px;
+		fill: $white;
+	}
+
+	.copyright {
+		@media all and (min-width: $bp-med) {
+			float: right;
+		}
+	}
+	.colophon {
+		clear: left;
+		font-size: $font-size-small-2;
+	}
+}

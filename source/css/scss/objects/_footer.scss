@@ -101,24 +101,3 @@
 .newsletter-pitch {
 //	margin-left: $space-and-half;
 }
-
-//footer bottom section
-.footer-bottom {
-	padding: $pad-double;
-	@media all and (min-width: $bp-med) {
-		margin-top: $space-double;
-	}
-	
-	a {
-		color: $gray-light;
-	}
-}
-.copyright {
-	@media all and (min-width: $bp-med) {
-		float: right;
-	}
-}
-.colophon {
-	clear: left;
-	font-size: $font-size-small-2;
-}
