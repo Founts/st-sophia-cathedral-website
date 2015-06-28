@@ -1,0 +1,22 @@
+{
+	"affiliates" : {
+		"1" : {
+			"logomark": {
+				"src": "../../images/SanFranciscoSeal-white.png",
+				"alt": "logo"
+			},
+			"affiliateName" : {
+				"txt" : "Greek&nbsp;Orthodox Archdiocese of America"
+			}
+		},
+		"2" : {
+			"logomark": {
+				"src": "../../images/SanFranciscoSeal-white.png",
+				"alt": "logo"
+			},
+			"affiliateName" : {
+				"txt" : "Greek&nbsp;Orthodox Metropolis of San&nbsp;Francisco"
+			}
+		}
+	}
+}
