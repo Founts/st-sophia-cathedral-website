@@ -1,21 +1,8 @@
-<div class="page" id="page">
-	{{> organisms-header }}
-	<div role="main">
-		<div class="l-two-col">
-			<div class="l-main">
-				<article class="article">
-					<header class="article-header">
-						<h1>Article Headline Lorem ipsum dolor sit aweofij</h1>
-						{{> molecules-byline }}
-					</header>
-					{{> organisms-article-body }}
-				</article><!--end .article-->
-				{{> molecules-social-share }}
-				
-			</div><!--end l-main-->
-
-			
-		</div><!--end l-two-col-->	
-	</div><!--End role=main-->
-	{{> organisms-footer }}
+{{> organisms-header:header--light }}
+{{> molecules-page-header }}
+<div class="main-body">
+	<div class="text">
+	{{{ body-text }}}
+	</div>
 </div>
+{{> organisms-footer }}
