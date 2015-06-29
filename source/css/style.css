@@ -1071,6 +1071,7 @@ blockquote .pullquote p:after {
 }
 .text h2, .text h3, .text h4, .text h5, .text h6 {
   font-family: "ff-meta-web-pro", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+  margin-bottom: 0.5em;
 }
 .text a {
   text-decoration: underline;
