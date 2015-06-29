@@ -115,11 +115,28 @@
 		{ },
 		{ }
 	],
-	"affiliates" : [
-		{ },
-		{ },
-		{ }
-	],
+	"affiliates" : {
+		"1" : {
+			"url" : "http://sf.goarch.org/",
+			"logomark": {
+				"src": "../../images/SanFranciscoSeal-white.png",
+				"alt": "logo"
+			},
+			"affiliateName" : {
+				"txt" : "Greek&nbsp;Orthodox Archdiocese of America"
+			}
+		},
+		"2" : {
+			"url" : "http://www.goarch.org/",
+			"logomark": {
+				"src": "../../images/SanFranciscoSeal-white.png",
+				"alt": "logo"
+			},
+			"affiliateName" : {
+				"txt" : "Greek&nbsp;Orthodox Metropolis of San&nbsp;Francisco"
+			}
+		}
+	},
 	"ctasection" : false,
 	"cta" : "Learn More",
 	"logomark": {
