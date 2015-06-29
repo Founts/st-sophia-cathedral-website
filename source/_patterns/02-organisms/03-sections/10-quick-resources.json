@@ -1,0 +1,36 @@
+{
+	"links" : [
+		{
+			"url" : "http://www.stsophia.org/sacraments/marriage/sacrament_of_holy_matrimony.pdf",
+			"text" : "Sacrament of Holy Matrimony [PDF]"
+		 },
+		 {
+			"url" : "http://www.stsophia.org/sacraments/marriage/ecclesiastical_requirements.pdf",
+			"text" : "Ecclesiastical Requirements [PDF]"
+		 },
+		{ 
+			"url" : "http://www.stsophia.org/sacraments/marriage/marriage_parish_requirements.pdf",
+			"text" : "Parish Requirements, Obligations, Services and Fees [PDF]"
+		},
+		{ 
+			"url" : "http://www.stsophia.org/sacraments/marriage/cathedral_policies_and_guildlines.pdf",
+			"text" : "Cathedral Policies and Guidelines [PDF]"
+		},
+		{ 
+			"url" : "https://docs.google.com/forms/d/17r-14s5PNb-cuq7Xo12v2Q4RJYWJG_CU27dX2zK6LJc/viewform",
+			"text" : "Marriage Request Form"
+		},
+		{ 
+			"url" : "#",
+			"text" : "Pay Reservation Deposit"
+		},
+		{ 
+			"url" : "#",
+			"text" : "Pay Cathedral Service Fee"
+		},
+		{ 
+			"url" : "https://docs.google.com/forms/d/1dQ9N-c4Axwkfdz2kEEXBOxaiQqAOfB6qU1Bt6caxmNM/viewform?embedded=true",
+			"text" : "Pay Stewardship"
+		}
+	]
+}
