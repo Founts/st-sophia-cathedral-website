@@ -1,0 +1,28 @@
+{{> organisms-header:header--light }}
+{{> molecules-page-header }}
+<div class="main-body">
+	<p class="intro">Please <a href="https://docs.google.com/forms/d/1dQ9N-c4Axwkfdz2kEEXBOxaiQqAOfB6qU1Bt6caxmNM/viewform?embedded=true">pledge stewardship</a> first before you pay online.</p>
+	<form action="https://webservice.paymentxp.com/wh/EnterPayment.aspx" method="post">
+		<div class="field-container">
+			{{! Stewardship Payment amount }}
+			<label for="payment_amount">Stewardship Payment Amount</label>
+			{{! input w $ mask }}
+			<input type="text" name="TransactionAmount" id="payment_amount" class="currency" placeholder="enter amount">
+		</div>
+		{{! credit card info - phase 2}}
+		{{! billing info - phase 2}}
+		{{! merchant processor info }}
+		{{! PaymentXP PaymentMemo has 50 character limit. Custominfo1 has 255 }}
+		<input type="hidden" name="PaymentMemo" value="Stewardship Payment">
+		<input type="hidden" name="TransactionType" value="CreditCardHosted">
+		<input type="hidden" name="MerchantID" value="14765">
+		<input type="hidden" name="Description" value="General Online Transaction">
+		<input type="hidden" name="MerchantKey" value="71f4e341-d665-4250-80e6-9bcd942aeb6c">
+		<input type="hidden" name="ReturnURL" value="">
+		<input type="hidden" name="ReferenceNumber" value="General">
+		{{! Make payment button }}
+		{{! <p><a href="#" class="btn">Proceed With Payment <span class="fa fa-chevron-right"></span></a></p> }}
+		<p><input type="submit" value="Proceed With Payment" />
+	</form>
+</div>
+{{> organisms-footer }}
