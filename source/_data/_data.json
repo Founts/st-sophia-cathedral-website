@@ -158,7 +158,8 @@
 	"contact-block" : {
 		"heading" : "<a href=\"#dept-name\">Department, Title or Person</a>",
 		"phone" : "+1.555.555.1212",
-		"email" : "dept@stsophia.org"
+		"email" : "dept@stsophia.org",
+		"person-page" : true
 	},
 	"profile-image" : true
 }
