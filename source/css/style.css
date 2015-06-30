@@ -169,6 +169,10 @@ header, footer, nav, section, article, hgroup, figure {
   }
 }
 
+.nowrap {
+  white-space: nowrap;
+}
+
 .valid {
   color: #089e00;
 }
