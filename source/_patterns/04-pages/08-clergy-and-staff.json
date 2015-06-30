@@ -1,0 +1,72 @@
+{
+	"page" : {
+		"title" : "Clergy and Staff",
+		"intro" : "Find the appropriate department or contact at Saint Sophia"
+	},
+	"staff" : [
+		{
+			"contact-block" : {
+				"heading" : "Fr. John Bakas",
+				"phone" : "+1.323.737.2424",
+				"email" : "frbakas@stsophia.org",
+				"person-page" : true
+			}
+		},
+		{
+			"contact-block" : {
+				"heading" : "Fr. Allan Boyd",
+				"phone" : "+1.323.737.2424",
+				"email" : "frboyd@stsophia.org",
+				"person-page" : true
+			}
+		},
+		{ 
+			"contact-block" : {
+				"heading" : "Office Administrator",
+				"phone" : "+1.323.737.2424 Ext. 107",
+				"email" : "office@stsophia.org",
+				"person-page" : false
+			}
+		},
+		{
+			"contact-block" : {
+				"heading" : "Sacrament Coordinator",
+				"phone" : "+1.323.737.2424 Ext. 103",
+				"email" : "secretary@stsophia.org",
+				"person-page" : false
+			}
+		},
+		{
+			"contact-block" : {
+				"heading" : "Events Director",
+				"phone" : "+1.323.737.2424 Ext. 108",
+				"email" : "events@huffingtoncenter.org",
+				"person-page" : false
+			}
+		},
+		{
+			"contact-block" : {
+				"heading" : "Receptionist / Front Desk",
+				"phone" : "+1.323.737.2424 Ext. 100",
+				"email" : "frontdesk@stsophia.org",
+				"person-page" : false
+			}
+		},
+		{
+			"contact-block" : {
+				"heading" : "Sexton (Cathedral Tours)",
+				"phone" : "+1.323.737.2424 Ext. 302",
+				"email" : "office@stsophia.org",
+				"person-page" : false
+			}
+		},
+				{
+			"contact-block" : {
+				"heading" : "Bookstore - Bill Striglos",
+				"phone" : "213-804-1283",
+				"email" : "wstriglos@sbcglobal.net",
+				"person-page" : false
+			}
+		}
+	]
+}
