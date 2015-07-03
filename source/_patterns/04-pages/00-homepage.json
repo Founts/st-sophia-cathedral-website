@@ -7,12 +7,7 @@
 	"emergency" : false,
 	"hero" : [
 		{
-			"img": {
-				"landscape-16x9": {
-					"src": "../../images/sample/landscape-16x9-mountains.jpg",
-					"alt": "Mountains"
-				}
-			},
+			"src" : "../../images/hero.jpg",
 			"headline" : {
 				"medium" : "All Are Welcome!"
 			}
@@ -126,27 +121,15 @@
 		{
 			"widget-heading" : "Calendar",
 			"widget-graphic" : "events",
-			"widget-title" : "Upcoming Events",
-			"widget-entry" : [
-				{ 
-					"text" :"Neighborhood Outreach – Mon, June 1"
-					},
-				{ 
-					"text" :"Ministry Leaders Training – Sat, June 6"}
-					,
-				{ 
-					"text" :"Feast Day of St Snuffaluffagus – Wed, June 17"
-				}
-			],
 			"herald" : false,
 			"widget-cta" : [
 				{
-					"url" : "http://www.google.com",
+					"url" : "https://www.google.com/calendar/embed?src=stsophiala%40gmail.com&ctz=America/Los_Angeles",
 					"cta" : "Google Calendar"
 					},
 				{
-					"url" : "http://stsophia.org",
-					"cta" : "May Calendar PDF"
+					"url" : "http://www.stsophia.org/herald/calendar/herald_2015-06_calendar.pdf",
+					"cta" : "June Calendar [PDF]"
 				}
 			]
 		}
@@ -159,7 +142,7 @@
 	},
 	"hours" : {
 		"title" : "Hours",
-		"intro" : "All hours are typical. Check the calendar or call for confirmation. If new or visiting on a Sunday, you are welcome to join us in attending Divine Liturgy."
+		"intro" : "Offices are also closed for most major holidays.  To verify event information, go to the calendar link below. You are welcome to join us for Divine Liturgy on Sunday."
 	},
 	"feature" : {
 		"title" : "Another Way",
