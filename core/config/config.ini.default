@@ -21,7 +21,7 @@ pageFollowPort = "8003"
 qrCodeGeneratorOn = "false"
 
 // pattern lab's xip host if you have it configured, to be used with the QR code generator
-xipHostname = "http://patternlab.*.xip.io"
+xipHostname = "http://patternlab.*.xip.io:9001"
 
 // whether the public directory should be cleaned when generating your site
 cleanPublic = "true"
