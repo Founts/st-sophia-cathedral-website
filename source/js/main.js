@@ -6,6 +6,20 @@ $( document ).ready(function(){
     //stuff to do delayed, run through resizer
     resizer();
   });
+
+  function scrollToAnchor(aid){
+    var aTag = $("#"+ aid);
+    $('html,body').animate({scrollTop: aTag.offset().top},1200);
+  }
+
+  $(function() {
+    $('a#menu').click(function() {
+      scrollToAnchor('footer');     
+    });
+    $('a#menu-small').click(function() {
+      scrollToAnchor('footer');     
+    });
+  });
 });
 
 var h //largest height variable
@@ -33,3 +47,4 @@ function adjustHeadingHeight(){
     });
   };
 }
+
