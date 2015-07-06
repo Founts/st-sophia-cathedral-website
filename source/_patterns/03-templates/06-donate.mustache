@@ -1,18 +1,19 @@
 {{> organisms-header:header--light }}
 {{> molecules-page-header }}
 <div class="main-body">
-	<form>
+	<form action="https://webservice.paymentxp.com/wh/EnterPayment.aspx" method="post">
 		<div class="field-container">
 			{{! donation amount }}
 			<label for="donation_amount">Donation Amount</label>
 			{{! input w $ mask }}
-			<input type="text" id="donation_amount" class="currency" placeholder="enter amount">
+			<input type="text" name="TransactionAmount" id="donation_amount" class="currency" placeholder="enter amount">
 		</div>
 		<div class="field-container">
 			{{! Optional Donation Notes }}
 			<label>Optional Donation Notes</label>
 			{{! notes incl helper copy for memorials, flowers, coffee hour sponsorship }}
-			<textarea placeholder="enter any donation notes" cols="40" rows="10" ></textarea>
+			{{! PaymentXP PaymentMemo has 50 character limit. Custominfo1 has 255 }}
+			<textarea name="Custominfo1" placeholder="enter any donation notes" cols="40" rows="10" ></textarea>
 		</div>
 		<div class="callout-info callout-info--small">
 			<p>In the optional notes, you can tell us if this is for a memorial.</p>
@@ -24,8 +25,16 @@
 		</div>
 		{{! credit card info - phase 2}}
 		{{! billing info - phase 2}}
+		{{! merchant processor info }}
+		<input type="hidden" name="TransactionType" value="CreditCardHosted">
+		<input type="hidden" name="MerchantID" value="14765">
+		<input type="hidden" name="Description" value="General Online Transaction">
+		<input type="hidden" name="MerchantKey" value="71f4e341-d665-4250-80e6-9bcd942aeb6c">
+		<input type="hidden" name="ReturnURL" value="">
+		<input type="hidden" name="ReferenceNumber" value="General">
 		{{! Make donation button }}
-		<p><a href="#" class="btn">Proceed With Donation <span class="fa fa-chevron-right"></span></a></p>
+		{{! <p><a href="#" class="btn">Proceed With Donation <span class="fa fa-chevron-right"></span></a></p> }}
+		<p><input type="submit" value="Proceed With Donation" />
 	</form>
 	{{! <div class="callout-notice">
 		<div class="text">

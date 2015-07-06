@@ -1,49 +1,50 @@
+<script src="..\..\js\forms.js"></script>
 {{> organisms-header:header--light }}
 {{> molecules-page-header }}
 <div class="main-body">
-	<form>
+	<form action="https://webservice.paymentxp.com/wh/EnterPayment.aspx" method="post">
 		<h2>Select Fees</h2>
 		<p class="intro">Select any fees which you wish to pay</p>
 		<div class="field-container">
 			{{! Hellenic Academy (Greek Language School) }}
 			<label for="cb1">
-				<input type="checkbox" id="cb1"></input>Hellenic Academy (Greek Language School) - $50000
+				<input type="checkbox" value="1000" id="cb1"></input>Hellenic Academy (Greek Language School) - $1000
 			</label>
 		</div>
 		<div class="field-container">
 			{{! Marriage Service Deposit (non-stewards) }}
 			<label for="cb2">
-				<input type="checkbox" id="cb2"></input>Marriage Service Deposit - $300
+				<input type="checkbox" value="300" id="cb2"></input>Marriage Service Deposit - $300
 			</label>
 		</div>
 		<div class="field-container">
 			{{! Marriage Service Remainder (non-stewards)}}
 			<label for="cb3">
-				<input type="checkbox" id="cb3"></input>Marriage Service Remainder - $1450
+				<input type="checkbox" value="1450" id="cb3"></input>Marriage Service Remainder - $1450
 			</label>
 		</div>
 		<div class="field-container">
 			{{! Baptism Service Deposit }}
 			<label for="cb4">
-				<input type="checkbox" id="cb4"></input>Baptism Service Deposit - $300
+				<input type="checkbox" value="300" id="cb4"></input>Baptism Service Deposit - $300
 			</label>
 		</div>
 		<div class="field-container">
 			{{! Baptism Service Remainder }}
 			<label for="cb5">
-				<input type="checkbox" id="cb5"></input>Baptism Service Remainder - $350
+				<input type="checkbox" value="350" id="cb5"></input>Baptism Service Remainder - $350
 			</label>
 		</div>
 		<div class="field-container">
 			{{! Dance Group }}
 			<label for="cb6">
-				<input type="checkbox" id="cb7"></input>Coffee Hour Sponsorship - $150
+				<input type="checkbox" value="150" id="cb6"></input>Coffee Hour Sponsorship - $150
 			</label>
 		</div>
 		<div class="field-container">
 			{{! Dance Group }}
 			<label for="cb7">
-				<input type="checkbox" id="cb7"></input>Dance Group - $50000
+				<input type="checkbox" value="250" id="cb7"></input>Dance Group - $250
 			</label>
 		</div>
 		<div class="field-container">
@@ -59,12 +60,22 @@
 		</div>
 		<div class="field-container">
 			{{! total of fees }}
-			<span id="total" class="gamma">$500,000</span><span> will be submitted for payment.</span>
+			<input type="hidden" id="totalCost" name="TransactionAmount" type="text" val="">
+  			<div class="beta">Total: <span id="totalCostText">$0.00</span> will be submitted for payment.</div>
 		</div>
 		{{! credit card info - phase 2}}
 		{{! billing info - phase 2}}
 		{{! Make donation button }}
-		<p><a href="#" class="btn">Proceed With Payment <span class="fa fa-chevron-right"></span></a></p>
+		{{! merchant processor info }}
+		<input type="hidden" name="TransactionType" value="CreditCardHosted">
+		<input type="hidden" name="MerchantID" value="14765">
+		<input type="hidden" name="Description" value="General Online Transaction">
+		<input type="hidden" name="MerchantKey" value="71f4e341-d665-4250-80e6-9bcd942aeb6c">
+		<input type="hidden" name="ReturnURL" value="">
+		<input type="hidden" name="ReferenceNumber" value="General">
+		{{! Make donation button }}
+		{{! <p><a href="#" class="btn">Proceed With Donation <span class="fa fa-chevron-right"></span></a></p> }}
+		<p><input type="submit" value="Proceed With Payment" />
 	</form>
 </div>
 {{> organisms-footer }}
