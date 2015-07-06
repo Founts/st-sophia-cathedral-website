@@ -2149,15 +2149,18 @@ ul.checkboxes h2 {
 
 .page-header {
   margin-bottom: 2em;
-  margin-top: 80px;
+  margin-top: 60px;
   padding: 2em 1em;
   text-align: center;
   background-color: #460d11;
   color: white;
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease;
 }
 @media all and (min-width: 46.8em) {
   .page-header {
     padding: 4em 1em;
+    margin-top: 80px;
   }
 }
 .page-header .page-title {

@@ -37,14 +37,16 @@
 //TODO REUSE EXISTING ARTICLE CODE? Make generic for pages?
 .page-header {
 	margin-bottom: 2em;
-	margin-top: 80px; //fix for floating header. TODO reevalute this and header solution. this doesn't seem good.
+	margin-top: 60px;
 	padding: $space-double $space;
 	text-align: center;
 	background-color: $red-dark;
 	color: white;
+	transition: all 0.5s ease;
 
 	@media all and (min-width: $bp-med) {
 		padding: $space-quad $space;
+		margin-top: 80px; //fix for floating header. TODO reevalute this and header solution. this doesn't seem good.
 	}
 
 	.page-title {
