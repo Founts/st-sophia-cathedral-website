@@ -8,6 +8,10 @@ $(document).ready(function () {
     $(this).val(parseFloat($(this).val()).toFixed(2));
     updateTotal();
   });
+  //only allow numbers in form text field with currency class
+  $(".currency").keypress(function() {
+    validateKey()
+  });
 });
 
 //form function
@@ -33,3 +37,16 @@ function updateTotal() {
   });
   $("#totalCostText").fadeIn();
 };
+
+//only allow numbers
+//http://stackoverflow.com/a/469419/1357618
+function validateKey(evt) {
+  var theEvent = evt || window.event;
+  var key = theEvent.keyCode || theEvent.which;
+  key = String.fromCharCode( key );
+  var regex = /[0-9]|\./;
+  if( !regex.test(key) ) {
+    theEvent.returnValue = false;
+    if(theEvent.preventDefault) theEvent.preventDefault();
+  }
+}
