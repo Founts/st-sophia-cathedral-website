@@ -2,12 +2,12 @@
 .well {
 	position: relative;
 	background: $gray-light;
-	padding: $pad $pad-half;
+	padding: $pad;
 	margin-bottom: $space-double;
 	@media all and (min-width: $bp-med) {
 		// margin: 0 auto;
 		// height: auto;
-		padding: $pad-triple $pad-half;
+		padding: $pad-triple $pad;
 	}
 
 	h2 {
@@ -49,7 +49,7 @@
 			@media all and (min-width: $bp-small-2) {
 				display: block;
 		  		width: auto;
-		  		margin: 0;
+		  		//margin: 0;
 		  		max-width: 100%;
 		  	}
 		  	//same as block defaults but mediaqueries shifted out a width

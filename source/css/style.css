@@ -2222,12 +2222,12 @@ ul.checkboxes h2 {
 .well {
   position: relative;
   background: #f9f9f9;
-  padding: 1em 0.5em;
+  padding: 1em;
   margin-bottom: 2em;
 }
 @media all and (min-width: 46.8em) {
   .well {
-    padding: 3em 0.5em;
+    padding: 3em 1em;
   }
 }
 .well h2 {
@@ -2266,7 +2266,6 @@ ul.checkboxes h2 {
   .well .block-thumb .b-thumb {
     display: block;
     width: auto;
-    margin: 0;
     max-width: 100%;
   }
 }
