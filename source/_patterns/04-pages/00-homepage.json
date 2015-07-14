@@ -8,6 +8,7 @@
 	"hero" : [
 		{
 			"src" : "../../images/hero.jpg",
+			"alt" : "Exterior photo of Saint Sophia Cathedral",
 			"headline" : {
 				"medium" : "All Are Welcome!"
 			}
