@@ -60,11 +60,27 @@
 				"person-page" : false
 			}
 		},
-				{
+		{
 			"contact-block" : {
 				"heading" : "Bookstore - Bill Striglos",
-				"phone" : "213-804-1283",
+				"phone" : "+1.213.804.1283",
 				"email" : "wstriglos@sbcglobal.net",
+				"person-page" : false
+			}
+		},
+		{
+			"contact-block" : {
+				"heading" : "Dr. Andri Christodoulidou, Hellenic Academy Director",
+				"phone" : "+1.323.737.2424",
+				"email" : "andri.christodoulidou@cantab.net",
+				"person-page" : false
+			}
+		},
+		{
+			"contact-block" : {
+				"heading" : "Cathedral Accounting Office",
+				"phone" : "+1.323.737.2424 x333",
+				"email" : "accountant@stsophia.org",
 				"person-page" : false
 			}
 		}
