@@ -16,6 +16,16 @@ module.exports = function(grunt) {
                 }
             }
         },
+        imagemin: {
+            dynamic: {
+                files: [{
+                    expand: true,
+                    cwd: 'source/images',
+                    src: ['**/*.{png,jpg,gif}'],
+                    dest: 'public/images'
+                }]
+            }
+        },
         autoprefixer: {
             options: {
                 cascade: 'true'
@@ -71,8 +81,10 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-connect');
     grunt.loadNpmTasks('grunt-shell');
+    grunt.loadNpmTasks('grunt-contrib-imagemin');
 
     // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
     grunt.registerTask('default', ['sass', 'autoprefixer', 'shell:patternlab']);
     grunt.registerTask('dev', ['connect', 'watch']);
+    grunt.registerTask('images', ['imagemin']);
 };
