@@ -7,7 +7,7 @@
 	"emergency" : false,
 	"hero" : [
 		{
-			"src" : "../../images/hero.jpg",
+			"src" : "../../images/hero-16x9.jpg",
 			"alt" : "Exterior photo of Saint Sophia Cathedral",
 			"headline" : {
 				"medium" : "All Are Welcome!"
@@ -47,7 +47,7 @@
 				"short" : "I’M NEW…<br>WHAT DO I DO?"
 			},
 			"excerpt" : {
-				"short" : "Discover more about Orthodox Christianity.  <a href=\"http://youtube.com\">Get connected</a>.  Find the <a>Nursery</a>. Get your kids into <a>Sunday School</a>.  Find out <a>what’s going on in worship</a>. Find <a>ministries</a>."
+				"short" : "Discover more about Orthodox Christianity.  <a href=\"https://www.youtube.com/channel/UCUHb2fqMM5NHUFVMHXDpctA\">Get connected</a>.  Find the <a>Nursery</a>. Get your kids into <a>Sunday School</a>.  Find out <a>what’s going on in worship</a>. Find <a>ministries</a>."
 			},
 			"ctasection" : false
 		},
