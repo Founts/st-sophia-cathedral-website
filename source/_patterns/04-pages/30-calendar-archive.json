@@ -1,14 +1,22 @@
 {
 	"page" : {
 		"title" : "Calendar",
-		"intro" : "Saint Sophia Monthly Calendar"
+		"intro" : "Saint&nbsp;Sophia Monthly Calendar"
+	},
+	"sub": {
+		"headline" : {
+			"xs" : "Google Calendar"
+		},
+		"excerpt" : {
+			"xs" : "Events are published on our <a href=\"https://www.google.com/calendar/embed?src=stsophiala%40gmail.com&ctz=America/Los_Angeles\">Google Calendar.</a>"
+		}
 	},
 	"headline" : {
-		"xs" : "Calendar Archive"
+		"xs" : "Calendar PDF Archive"
 	},
 	"intro": {
 		"excerpt" : {
-			"xs" : "Saint Sophia monthly calendars in PDF format by year and month"
+			"xs" : "The Saint Sophia calendar is available on Google Calendar and as monthly calendars in PDF format by year and month"
 		}
 	}
 }
