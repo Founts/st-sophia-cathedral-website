@@ -3,6 +3,10 @@
 <div class="main-body">
 	<div class="pub-archive">
 		<div class="list-section list-section-pub-archive">
+			{{# sub }}
+			<h2>{{ headline.xs }}</h2>
+			<p>{{{ excerpt.xs }}}</p>
+			{{/ sub }}
 			<h2 class="list-section-title">{{ headline.xs }}</h2>
 			{{# intro }}
 			<div class="list-intro">{{ excerpt.xs }}</div>
