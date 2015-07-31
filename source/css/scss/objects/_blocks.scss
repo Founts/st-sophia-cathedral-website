@@ -88,6 +88,7 @@
 	display: table;
 	width: 100%;
 	border-collapse: collapse;
+	table-layout: fixed; //IE hack to get widths to render correctly http://codepen.io/e-river/pen/EvzLI/
 
 	.b-inner {
 		display: table-row;
