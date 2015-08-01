@@ -1566,7 +1566,7 @@ blockquote .pullquote p:after {
   font-family: FontAwesome;
   line-height: 1;
   margin-right: 0.25em;
-  font-size: 1.82em;
+  font-size: 29.12px;
   line-height: 1;
   color: #460d11;
   position: absolute;
@@ -1576,7 +1576,7 @@ blockquote .pullquote p:after {
 @media all and (min-width: 24em) {
   .widget:before {
     margin-right: 0.5em;
-    font-size: 2.291em;
+    font-size: 36.656px;
   }
 }
 

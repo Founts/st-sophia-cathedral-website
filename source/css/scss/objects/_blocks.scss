@@ -307,7 +307,7 @@
   font-family: FontAwesome;
   line-height: 1;
   margin-right: $space-quarter;
-  font-size: $font-size-med-3;
+  font-size: ($font-size-med-3 / 1em) * 16px; //hack for IE for :before pseudo elements and ems
   line-height: 1;
   color: $red-dark;
   position: absolute;
@@ -316,7 +316,7 @@
 
   @media all and (min-width: $bp-small) {
     margin-right: $space-half;
-    font-size: $font-size-med-4;
+    font-size: ($font-size-med-4 / 1em) * 16px; //hack for IE for :before pseudo elements and ems
   }
 }
 .news:before {
