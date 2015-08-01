@@ -38,7 +38,7 @@ input, textarea {
 	padding: $pad-half;
 }
 
-input[type=text], input[type=search], input[type=url], input[type=number], textarea {
+input[type=text], input[type=search], input[type=submit], input[type=url], input[type=number], textarea {
 	-webkit-appearance: none;
 }
 
