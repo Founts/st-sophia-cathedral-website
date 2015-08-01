@@ -6,6 +6,7 @@
 img, video, object {
 	max-width: 100%;
 	height: auto;
+	border: 0px; //IE10 hack to remove 1px white border around images e.g. affiliate logos
 }	
 
 img, video {
