@@ -923,7 +923,7 @@ a.nav-toggle {
   padding: 0;
 }
 .nav-footer li > a {
-  display: block;
+  display: inline-block;
   font-size: 0.875em;
 }
 
