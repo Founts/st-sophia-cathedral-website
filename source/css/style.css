@@ -1520,6 +1520,28 @@ blockquote .pullquote p:after {
     float: left;
   }
 }
+.block-affiliate .b-inner svg {
+  margin: 10px auto;
+  display: block;
+  width: 100%;
+  max-width: 85px;
+  border-radius: 0;
+}
+@media (min-width: 29.75em) {
+  .block-affiliate .b-inner svg {
+    float: left;
+  }
+}
+@media (min-width: 46.8em) {
+  .block-affiliate .b-inner svg {
+    float: none;
+  }
+}
+@media (min-width: 66em) {
+  .block-affiliate .b-inner svg {
+    float: left;
+  }
+}
 .block-affiliate .b-inner .b-title {
   /*display: inline-block;*/
   max-width: 10em;

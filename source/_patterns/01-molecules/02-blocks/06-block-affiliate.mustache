@@ -1,7 +1,14 @@
 {{! THIS IS SIMILAR TO BLOCK THUMB HEADLINE PATTERN }}
 <div class="block block-affiliate">
 	<a href="{{url}}" class="b-inner">
+		{{# affiliate.img }}
 		<img src="{{ logomark.src }}" />
+		{{/ affiliate.img }}
+
+		{{# affiliate.svg }}
+		{{{ logomark.svg }}}
+		{{/ affiliate.svg }}
+		
 		<h2 class="b-title">{{{ affiliateName.txt }}}</h2>
 	</a>
 </div>
