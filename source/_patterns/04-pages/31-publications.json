@@ -1,0 +1,23 @@
+{
+	"pageHeaderClass" : "",
+	"page" : {
+		"title" : "Publications Archive",
+		"intro" : "The Monthly Herald and Weekly Bulletins"
+	},
+	"sub" : {
+		"headline" : {
+			"xs" : "sub headline"
+		},
+		"excerpt" : {
+			"xs" : "excerpt for sub"
+		}
+	},
+	"headline" : {
+		"xs" : "Some words for section title"
+	},
+	"intro" : {
+		"excerpt" : {
+			"xs" : "Monthly Bulletins"
+		}
+	}
+}
