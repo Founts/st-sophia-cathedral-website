@@ -1,4 +1,12 @@
 @charset "UTF-8";
+/*
+Theme Name: Saint Sophia Cathedral
+Theme URI: http://StSophia.org
+Author: Jason Founts
+Author URI: http://jasonfounts.com
+Description: Custom theme for the Saint Sophia Cathedral. "Freely you received, freely give."
+Version: 1.0
+*/
 /*------------------------------------*\
     $TABLE OF CONTENTS 
     based generally on Harry Roberts excellent CSS Guidelines https://github.com/csswizardry/CSS-Guidelines
@@ -892,12 +900,6 @@ a.nav-toggle {
   margin-top: 1em;
   padding: 2em;
   background-color: #fceff0;
-}
-
-.footer-top,
-.footer-top a,
-.footer-top h3 {
-  color: #460d11;
 }
 
 .footer-top .fa {
