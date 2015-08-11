@@ -35,6 +35,15 @@ module.exports = function(grunt) {
                 dest: 'source/css/style.css'
             }            
         },
+        copy: {
+          main: {
+            files: [
+              { src:"source/css/style.css", dest:"/Users/jasonfounts/sites/stsophia.dev/wp-content/themes/saint-sophia/css/style.css" },
+              //{ src:"public/js/production.min.js", dest:"../wordpress/wp-content/themes/pittsburghfoodbank/js/production.min.js" },
+              { expand: true, cwd: 'public/', src:"images/*", dest:"/Users/jasonfounts/sites/stsophia.dev/wp-content/themes/saint-sophia/" }
+            ]
+          }
+        },
         watch: {
             options: {
                 livereload: true,
@@ -48,7 +57,7 @@ module.exports = function(grunt) {
             },
             css: {
                 files: ['source/**/*.scss'],
-                tasks: ['sass', 'autoprefixer', 'shell:patternlab']
+                tasks: ['sass', 'autoprefixer', 'copy', 'shell:patternlab']
             },
             js: {
                 files: ['source/js/*.js'],
@@ -82,9 +91,10 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-connect');
     grunt.loadNpmTasks('grunt-shell');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
+    grunt.loadNpmTasks('grunt-contrib-copy')
 
     // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
-    grunt.registerTask('default', ['sass', 'autoprefixer', 'shell:patternlab']);
+    grunt.registerTask('default', ['sass', 'autoprefixer', 'copy', 'shell:patternlab']);
     grunt.registerTask('dev', ['connect', 'watch']);
     grunt.registerTask('images', ['imagemin']);
 };
