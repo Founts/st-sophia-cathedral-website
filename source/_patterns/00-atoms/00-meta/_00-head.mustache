@@ -6,14 +6,14 @@
 		<meta name="viewport" content="width=device-width" />
 		
 		<link rel="stylesheet" href="../../css/style.css?{{ cacheBuster }}" media="all" />
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		{{! vendor styles }}
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 		{{! vendor JS }}
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 		<script src="../../js/jquery.fitvids.js"></script>
 		{{! load web fonts }}
 		<script src="//use.typekit.net/mjq2gph.js"></script>
 		<script>try{Typekit.load();}catch(e){}</script>
-		{{! vendor styles }}
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 		<!--favicons-->
 		<link rel="apple-touch-icon" sizes="57x57" href="../../apple-touch-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="../../apple-touch-icon-60x60.png">
@@ -38,4 +38,3 @@
 	
 	</head>
 	<body class="{{ bodyClass }}">	
-		
