@@ -1882,6 +1882,30 @@ ul.checkboxes h2 {
   display: inline-block;
 }
 
+/* add media query for >small view */
+.embed-container {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+@media all and (min-width: 46.8em) {
+  .embed-container {
+    padding-bottom: 56.25%;
+  }
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .tooltip-container {
   display: inline-block;
   position: relative;
