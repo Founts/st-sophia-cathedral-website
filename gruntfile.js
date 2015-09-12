@@ -39,7 +39,6 @@ module.exports = function(grunt) {
           main: {
             files: [
               { src:"source/css/style.css", dest:"/Users/jasonfounts/sites/stsophia.dev/wp-content/themes/saint-sophia/css/style.css" },
-              //{ src:"public/js/production.min.js", dest:"../wordpress/wp-content/themes/pittsburghfoodbank/js/production.min.js" },
               { expand: true, cwd: 'public/', src:"images/*", dest:"/Users/jasonfounts/sites/stsophia.dev/wp-content/themes/saint-sophia/" }
             ]
           }
@@ -91,7 +90,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-connect');
     grunt.loadNpmTasks('grunt-shell');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
-    grunt.loadNpmTasks('grunt-contrib-copy')
+    grunt.loadNpmTasks('grunt-contrib-copy');
 
     // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
     grunt.registerTask('default', ['sass', 'autoprefixer', 'copy', 'shell:patternlab']);
