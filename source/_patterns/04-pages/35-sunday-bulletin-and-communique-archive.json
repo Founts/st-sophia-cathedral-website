@@ -1,0 +1,16 @@
+{
+	"pageHeaderClass" : "",
+	"page" : {
+		"title" : "Sunday Bulletin and Communique",
+		"intro" : "The Saint Sophia Weekly Bulletins"
+	},
+	"sub" : {
+		"excerpt" : {
+			"xs" : "The <a href=\"#\">Monthly Herald archive</a> is also available."
+		}
+	},
+	"headline" : {
+		"xs" : "Archived Sunday Bulletins and Communiques"
+	},
+	"publication-list" : "<ul class=\"text-list\"><li><a href=\"#\">August 30, 2015-Communiqué</a></li><li><a href=\"#\">August 30, 2015-Essentials</a></li><li><a href=\"#\">August 23, 2015-Communiqué</a></li><li><a href=\"#\">August 23, 2015-Essentials</a></li><li><a href=\"#\">August 16, 2015-Communiqué</a></li><li><a href=\"#\">August 16, 2015-Essentials</a></li></ul>"
+}

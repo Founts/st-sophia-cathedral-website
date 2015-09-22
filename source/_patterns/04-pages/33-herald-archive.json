@@ -1,24 +1,19 @@
 {
 	"pageHeaderClass" : "",
 	"page" : {
-		"title" : "Publications Archive",
-		"intro" : "The Monthly Herald and Weekly Bulletins"
+		"title" : "Herald",
+		"intro" : "The Saint Sophia Monthly Newsletter"
 	},
 	"sub" : {
 		"headline" : {
 			"xs" : "sub headline"
 		},
 		"excerpt" : {
-			"xs" : "excerpt for sub"
+			"xs" : "The <a href=\"#\">Sunday Bulletin and Communique archive</a> is also available."
 		}
 	},
 	"headline" : {
-		"xs" : "Some words for section title"
-	},
-	"intro" : {
-		"excerpt" : {
-			"xs" : "Monthly Bulletins"
-		}
+		"xs" : "Archived Herald Newsletters"
 	},
 	"publication-list" : "<ul class=\"text-list\"><li><a href=\"#\">March 2015</a></li><li><a href=\"#\">February 2015</a></li><li><a href=\"#\">January 2015</a></li><li><a href=\"#\">December 2014</a></li><li><a href=\"#\">November 2014</a></li></ul>"
 }
