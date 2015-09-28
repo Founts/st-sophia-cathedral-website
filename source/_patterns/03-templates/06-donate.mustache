@@ -7,7 +7,7 @@
 			{{! donation amount }}
 			<label for="donation_amount">Donation Amount</label>
 			{{! input w $ mask }}
-			<input type="text" pattern="[0-9]*" name="TransactionAmount" id="donation_amount" class="currency" placeholder="enter amount">
+			<input type="text" pattern="\d+(\.\d{2})?" name="TransactionAmount" id="donation_amount" class="currency" placeholder="enter amount">
 		</div>
 		<div class="field-container">
 			{{! Optional Donation Notes }}

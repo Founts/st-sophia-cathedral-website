@@ -4,8 +4,12 @@ $(document).ready(function () {
     updateTotal();
   });
   $("input[type='text']").focusout(function() {
-    //format to two decimals
-    $(this).val(parseFloat($(this).val()).toFixed(2));
+     //check if field is NOT empty
+    if ( $(this).val() ) {
+      //format to two decimals
+      $(this).val(parseFloat($(this).val()).toFixed(2));
+    }
+    //update total whether empty or with a value
     updateTotal();
   });
   //only allow numbers in form text field with currency class
