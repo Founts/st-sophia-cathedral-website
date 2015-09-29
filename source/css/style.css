@@ -999,7 +999,7 @@ blockquote p:before {
   left: 16px;
   color: #931c25;
 }
-blockquote p:after {
+blockquote p:last-child:after {
   content: '”';
   font-size: 3.706em;
   line-height: 1;

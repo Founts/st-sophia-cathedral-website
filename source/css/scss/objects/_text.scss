@@ -29,7 +29,7 @@ blockquote {
 			color: #931c25;
 		}
 
-		&:after {
+		&:last-child:after {
 			content: '”';
 			font-size: $font-size-large-2;
 			line-height: 1;
