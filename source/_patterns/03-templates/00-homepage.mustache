@@ -4,14 +4,8 @@
 	{{> molecules-block-hero }}
 	{{/ hero}}
 	<div role="main">
-		{{# intro }}
-			{{> organisms-section-img-headline-desc-list }}
-		{{/ intro }}
-		{{# feature }}
-			{{> molecules-well:featured }}
-		{{/ feature }}
 		{{! begin featured content }}
-		<div id="featured-content" class="g g-3up">
+		<div id="featured-content" class="section g g-3up">
 			{{# touts}}
 			<div class="gi">
 				{{> molecules-block-headline-thumb-text }}
@@ -19,8 +13,14 @@
 			{{/ touts}}
 		</div><!--end 3up-->
 		{{! end featured content }}
-		{{! hours section start }}
+		{{# feature }}
+			{{> molecules-well:featured }}
+		{{/ feature }}
+		{{# intro }}
+			{{> organisms-section-img-headline-desc-list }}
+		{{/ intro }}
 		<hr />
+		{{! hours section start }}
 		<section id="hours" class="hours">
 			{{! molecules-heading-intro }}
 			<h2 class="section-title">{{hours.title}}</h2>
@@ -77,6 +77,8 @@
 			</div>
 		</section>
 		{{! end hours }}
+		<hr />
+		{{! begin news and events }}
 		<div class="g g-2up">
 			{{# news }}
 			<div class="gi">
@@ -104,6 +106,7 @@
 			</div><!--end grid item-->
 			{{/ news }}
 		</div><!--end 2up-->
+		{{! end news and events }}
 		<hr />
 		{{! begin clergy }}
 		{{# people }}
