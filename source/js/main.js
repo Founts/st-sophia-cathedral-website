@@ -1,10 +1,12 @@
 $( document ).ready(function(){
-  adjustHeadingHeight();
+  var objFeaturedTitles = $("#featured-content .gi .b-title");
+  adjustHeadingHeight(objFeaturedTitles);
   $(window).resize(function() {
     //stuff to do immediately/during resize
-    adjustHeadingHeight();
+    //adjustHeadingHeight();
+    adjustHeadingHeight(objFeaturedTitles);
     //stuff to do delayed, run through resizer
-    resizer();
+    //resizer();
   });
 
   $('a#menu').click(function() {
@@ -21,21 +23,20 @@ function scrollToAnchor(aid){
   $('html,body').animate({scrollTop: aTag.offset().top},1200);
 }
 
-var h //largest height variable
-
-function adjustHeadingHeight(){
-  //width check //748.8px bp-med
+function adjustHeadingHeight(objHeadings){
+  var h; //largest height variable
+  //width check //748.8px = bp-med
   if ($("body").width() > 748.8) {
     iterate();
-    $("#featured-content .gi .b-title").height(h);
+    objHeadings.height(h);
   }else {
-    $("#featured-content .gi .b-title").each(function(){
-      $("#featured-content .gi .b-title").css("height", "");
+    objHeadings.each(function(){
+      objHeadings.css("height", "");
     });
   }
   //find the tallest heading by iterating through them all
   function iterate(){
-    $("#featured-content .gi .b-title").each(function(index){
+    objHeadings.each(function(index){
       //if h is empty, set it
       //else compare with current item, if bigger set it, else do nothing
       if(h == null) {
