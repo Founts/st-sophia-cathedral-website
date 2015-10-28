@@ -7,20 +7,19 @@ $( document ).ready(function(){
     resizer();
   });
 
-  function scrollToAnchor(aid){
-    var aTag = $("#"+ aid);
-    $('html,body').animate({scrollTop: aTag.offset().top},1200);
-  }
-
-  $(function() {
-    $('a#menu').click(function() {
-      scrollToAnchor('footer');     
-    });
-    $('a#menu-small').click(function() {
-      scrollToAnchor('footer');     
-    });
+  $('a#menu').click(function() {
+    scrollToAnchor('footer');     
   });
+  $('a#menu-small').click(function() {
+    scrollToAnchor('footer');     
+  });
+
 });
+
+function scrollToAnchor(aid){
+  var aTag = $("#"+ aid);
+  $('html,body').animate({scrollTop: aTag.offset().top},1200);
+}
 
 var h //largest height variable
 
