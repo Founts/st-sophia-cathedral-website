@@ -1,9 +1,11 @@
 // When the page is ready
 $(document).ready(function () {
+  //when a checkbox is selected, update the total amount
   $("input[type='checkbox']").click(function(event) {
     updateTotal();
   });
-  $("input[type='text']").focusout(function() {
+
+  $("#other_fee_amount").focusout(function() {
      //check if field is NOT empty
     if ( $(this).val() ) {
       //format to two decimals
@@ -25,10 +27,10 @@ function updateTotal() {
   $("form input:checked").each(function() {
     total += parseFloat(this.value);
   });
-  //sum some text input values also
-  $("form input[type='text']:visible").each(function() {
+  //sum other fee amount value also
+  $("#other_fee_amount").each(function() {
     //make sure text field isn't null/blank before summing
-    if ($(this).val() != ''){
+    if ( $(this).val() ){
       total += parseFloat($(this).val());
     }
   });
@@ -48,7 +50,9 @@ function validateKey(evt) {
   var theEvent = evt || window.event;
   var key = theEvent.keyCode || theEvent.which;
   key = String.fromCharCode( key );
+
   var regex = /[0-9]|\./;
+
   if( !regex.test(key) ) {
     theEvent.returnValue = false;
     if(theEvent.preventDefault) theEvent.preventDefault();
