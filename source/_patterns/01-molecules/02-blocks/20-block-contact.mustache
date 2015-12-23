@@ -1,8 +1,12 @@
 <div class="block block-contact">
 	<div class="b-body">
 		<h3 id="dept-name" class="b-title">{{{contact-block.heading}}}</h3>
+		{{#contact-block.person-phone}}
 		<a href="tel:{{contact-block.phone}}" class="b-phone"><span class="fa fa-phone pull-left"></span>{{contact-block.phone}}</a>
+		{{/contact-block.person-phone}}
+		{{#contact-block.person-email}}
 		<a href="mailto:{{contact-block.email}}" class="b-email"><span class="fa fa-envelope pull-left"></span>{{contact-block.email}}</a>
+		{{/contact-block.person-email}}
 		{{#contact-block.person-page}}
 		<a href="#" class="text-btn">Staff Page</a>
 		{{/contact-block.person-page}}
