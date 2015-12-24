@@ -11,8 +11,7 @@ module.exports = function(grunt) {
                     style: 'expanded'
                 },
                 files: {    // Dictionary of files
-                    src: 'source/css/style.scss',
-                    dest: 'source/css/style.css'
+                    'source/css/style.css' : 'source/css/style.scss'
                 }
             }
         },
@@ -22,12 +21,12 @@ module.exports = function(grunt) {
             },
             dist: {
                 src: 'source/css/style.css',
-                dest: 'source/css/style.css'
+                dest: 'source/css/style.pre.css'
             }
         },
         cssmin: {
             dist: {
-                src: 'source/css/style.css',
+                src: 'source/css/style.pre.css',
                 dest: 'source/css/style.min.css'
             }
         },
