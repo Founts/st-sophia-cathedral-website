@@ -19,25 +19,26 @@ blockquote {
 		margin: 0;
 		font-size: $font-size-med-3;
 
-		&:before {
-			content: '“';
-			font-size: $font-size-large-2;
-			line-height: 1;
-			position: absolute;
-			top: 8px;
-			left: 16px;
-			color: #931c25;
-		}
+	}
+	
+	> :first-child:before {
+		content: '“';
+		font-size: $font-size-large-2;
+		line-height: 1;
+		position: absolute;
+		top: 8px;
+		left: 16px;
+		color: #931c25;
+	}
 
-		&:last-child:after {
-			content: '”';
-			font-size: $font-size-large-2;
-			line-height: 1;
-	  		position: absolute;
-	  		right: 0;
-	  		margin: 16px;
-	  		color: #931c25;
-		}
+	> :last-child:after {
+		content: '”';
+		font-size: $font-size-large-2;
+		line-height: 1;
+		position: absolute;
+		right: 0;
+		margin: 16px;
+		color: #931c25;
 	}
 
 	@media all and (max-width: $bp-small-2) {

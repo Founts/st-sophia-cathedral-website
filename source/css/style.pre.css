@@ -52,8 +52,7 @@ Tags: white, custom-header, custom-menu, featured-images
 /* Border-Box http:/paulirish.com/2012/box-sizing-border-box-ftw/ */
 * {
   -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+       box-sizing: border-box;
 }
 
 html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, li, form, legend, label, table, header, footer, nav, section, figure {
@@ -452,10 +451,7 @@ td {
 
 .animate-fade {
   -webkit-transition: opacity 0.3s ease-out;
-  -moz-transition: opacity 0.3s ease-out;
-  -ms-transition: opacity 0.3s ease-out;
-  -o-transition: opacity 0.3s ease-out;
-  transition: opacity 0.3s ease-out;
+          transition: opacity 0.3s ease-out;
 }
 .animate-fade:hover {
   opacity: 0;
@@ -463,10 +459,7 @@ td {
 
 .animate-move > .demo-shape {
   -webkit-transition: all 0.8s ease-in-out;
-  -moz-transition: all 0.8s ease-in-out;
-  -ms-transition: all 0.8s ease-in-out;
-  -o-transition: all 0.8s ease-in-out;
-  transition: all 0.8s ease-in-out;
+          transition: all 0.8s ease-in-out;
 }
 
 /*------------------------------------*\
@@ -748,7 +741,8 @@ td {
   width: 100%;
   max-width: 10rem;
   margin: 0.4rem;
-  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease;
 }
 @media all and (min-width: 46.8em) {
   .logo-wrap {
@@ -1220,10 +1214,8 @@ blockquote .pullquote p:after {
   content: "\61";
   display: inline-block;
   -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 
 .icon-play:before {
@@ -1427,9 +1419,15 @@ blockquote .pullquote p:after {
 @media all and (min-width: 46.8em) {
   .block-headline-thumb .b-headline .b-title {
     font-size: 2.291em;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
+    -webkit-align-items: flex-end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 .block-headline-thumb .b-thumb {
@@ -1733,6 +1731,8 @@ blockquote .pullquote p:after {
 /*******************************************************/
 @media all and (min-width: 46.8em) {
   .well.person .b-inner {
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
   }
 }
@@ -1742,8 +1742,12 @@ blockquote .pullquote p:after {
     max-width: 10em;
     /*set a max width on image*/
     width: 30%;
-    flex: 1;
-    order: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1;
     /* NEW, Spec - Opera 12.1, Firefox 20+ */
   }
 }
@@ -1758,19 +1762,29 @@ blockquote .pullquote p:after {
     /* overwrites current design, adding pad on both sides*/
     width: 70%;
     /* For old syntax, otherwise collapses. */
-    flex: 2;
+    -webkit-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
     /* NEW, Spec - Opera 12.1, Firefox 20+ */
-    align-self: center;
-    order: 2;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    -webkit-order: 2;
+        -ms-flex-order: 2;
+            order: 2;
   }
 }
 
 .person.reverse .block .b-text {
-  order: 1;
+  -webkit-order: 1;
+      -ms-flex-order: 1;
+          order: 1;
 }
 
 .person.reverse .block .b-thumb {
-  order: 2;
+  -webkit-order: 2;
+      -ms-flex-order: 2;
+          order: 2;
 }
 
 .person .w-title {
@@ -2108,11 +2122,17 @@ ul.checkboxes h2 {
     margin-top: 2em;
   }
   .footer-bottom .g {
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
   }
   .footer-bottom .gi {
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 .footer-bottom a {
@@ -2180,7 +2200,8 @@ ul.checkboxes h2 {
   text-align: center;
   background-color: #460d11;
   color: white;
-  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease;
 }
 @media all and (min-width: 46.8em) {
   .page-header {
