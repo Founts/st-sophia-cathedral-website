@@ -58,3 +58,24 @@
 .event-links {
 	margin-left: 7em;
 }
+
+/////////////////////////////////
+// Simple Calendar Grid design //
+/////////////////////////////////
+
+.simcal-default-calendar-grid.simcal-default-calendar-light .simcal-day:hover {
+    background-color: rgba($red, .1) !important; //rgba(0, 0, 0, 0.1);
+}
+.simcal-nav-button,
+.simcal-current-month,
+.simcal-week-day,
+.simcal-event-title,
+.simcal-event-start-date {
+    color: $red-dark !important;
+}
+.simcal-day-label {
+	background-color: $red-lightest !important;
+}
+.simcal-today .simcal-day-label {
+	background-color: $red-dark !important;	
+}
