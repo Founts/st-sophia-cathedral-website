@@ -4,78 +4,92 @@
 /* overrides */
 .simcal-default-calendar-list {
 	padding: 0;
-}
-.simcal-default-calendar-list dt.simcal-day-label {
-	font-weight: bold;
-    /*border-bottom: 1px solid #460d11;*/
-    background-color: $red-lightest;
-    color: $red-dark;
-    margin: 0 !important;
-}
-.simcal-default-calendar-list dt.simcal-day-label:first-of-type {
-	margin-top: 10px;
-}
-.simcal-default-calendar-list ul.simcal-events {
-	margin: 0 !important;
-}
-.simcal-event {
-	padding: 8px 20px;
-	margin-bottom: 0 !important;
-	border-bottom: 1px solid $red;
-}
-.simcal-event:first-of-type {
-	border-top: 1px solid $red;
-}
-.simcal-event-start-time {
-	display: block;
-    width: 4.5em;
-    float: left;
-}
-.simcal-event-title {
-	display: block;
-	float: left;
-}
-.event-details-label {
-	display: block;
-	width: 7em;
-	float:left;
-	font-weight: bold;
-}
-.simcal-default-calendar-list .simcal-event-details {
-    /*font-size: .84em;*/
-    /*line-height: 1.5;*/
-    overflow: hidden;
-}
-.event-details {
-	display: none;
-}
-.detail-item {
-	clear: left;
-}
-.event-when {
-	float:left;
-}
-.event-links {
-	margin-left: 7em;
+
+	dt.simcal-day-label {
+		font-weight: bold;
+	    /*border-bottom: 1px solid #460d11;*/
+	    background-color: $red-lightest !important;
+	    color: $red-dark !important;
+	    margin: 0 !important;
+	}
+
+	dt.simcal-day-label:first-of-type {
+		margin-top: 10px;
+	}
+
+	ul.simcal-events {
+		margin: 0 !important;
+	}
+
+	.simcal-event:first-of-type {
+		border-top: 1px solid $red !important;
+	}
+
+	.simcal-event {
+		padding: 8px 20px;
+		margin-bottom: 0 !important;
+		border-bottom: 1px solid $red;
+	}
+
+	.simcal-event-start-time {
+		display: block;
+	    width: 4.5em;
+	    float: left;
+	}
+	.simcal-event-title {
+		display: block;
+		float: left;
+	}
+	.event-details-label {
+		display: block;
+		width: 7em;
+		float:left;
+		font-weight: bold;
+	}
+	.simcal-default-calendar-list .simcal-event-details {
+	    /*font-size: .84em;*/
+	    /*line-height: 1.5;*/
+	    overflow: hidden;
+	}
+	.event-details {
+		display: none;
+	}
+	.detail-item {
+		clear: left;
+	}
+	.event-when {
+		float:left;
+	}
+	.event-links {
+		margin-left: 7em;
+	}
 }
 
 /////////////////////////////////
 // Simple Calendar Grid design //
 /////////////////////////////////
+.simcal-default-calendar-grid{
+	.simcal-day:hover {
+    	background-color: rgba($red, .1) !important; //rgba(0, 0, 0, 0.1);
+    }
 
-.simcal-default-calendar-grid.simcal-default-calendar-light .simcal-day:hover {
-    background-color: rgba($red, .1) !important; //rgba(0, 0, 0, 0.1);
-}
-.simcal-nav-button,
-.simcal-current-month,
-.simcal-week-day,
-.simcal-event-title,
-.simcal-event-start-date {
-    color: $red-dark !important;
-}
-.simcal-day-label {
-	background-color: $red-lightest !important;
-}
-.simcal-today .simcal-day-label {
-	background-color: $red-dark !important;	
+    .simcal-nav-button,
+	.simcal-current-month,
+	.simcal-week-day,
+	.simcal-event-title,
+	.simcal-event-start-date {
+	    color: $red-dark !important;
+	}
+	
+	.simcal-day-label {
+		background-color: $red-lightest !important;
+	}
+
+	.simcal-today .simcal-day-label {
+		background-color: $red-dark !important;	
+	}
+
+	.simcal-event {
+		border-bottom: 1px solid rgba($red, .1) !important;
+	}
 }

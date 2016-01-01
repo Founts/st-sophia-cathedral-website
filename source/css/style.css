@@ -1813,91 +1813,78 @@ blockquote .pullquote p:after {
 .simcal-default-calendar-list {
   padding: 0;
 }
-
 .simcal-default-calendar-list dt.simcal-day-label {
   font-weight: bold;
   /*border-bottom: 1px solid #460d11;*/
-  background-color: #fceff0;
-  color: #460d11;
+  background-color: #fceff0 !important;
+  color: #460d11 !important;
   margin: 0 !important;
 }
-
 .simcal-default-calendar-list dt.simcal-day-label:first-of-type {
   margin-top: 10px;
 }
-
 .simcal-default-calendar-list ul.simcal-events {
   margin: 0 !important;
 }
-
-.simcal-event {
+.simcal-default-calendar-list .simcal-event:first-of-type {
+  border-top: 1px solid #c72530 !important;
+}
+.simcal-default-calendar-list .simcal-event {
   padding: 8px 20px;
   margin-bottom: 0 !important;
   border-bottom: 1px solid #c72530;
 }
-
-.simcal-event:first-of-type {
-  border-top: 1px solid #c72530;
-}
-
-.simcal-event-start-time {
+.simcal-default-calendar-list .simcal-event-start-time {
   display: block;
   width: 4.5em;
   float: left;
 }
-
-.simcal-event-title {
+.simcal-default-calendar-list .simcal-event-title {
   display: block;
   float: left;
 }
-
-.event-details-label {
+.simcal-default-calendar-list .event-details-label {
   display: block;
   width: 7em;
   float: left;
   font-weight: bold;
 }
-
-.simcal-default-calendar-list .simcal-event-details {
+.simcal-default-calendar-list .simcal-default-calendar-list .simcal-event-details {
   /*font-size: .84em;*/
   /*line-height: 1.5;*/
   overflow: hidden;
 }
-
-.event-details {
+.simcal-default-calendar-list .event-details {
   display: none;
 }
-
-.detail-item {
+.simcal-default-calendar-list .detail-item {
   clear: left;
 }
-
-.event-when {
+.simcal-default-calendar-list .event-when {
   float: left;
 }
-
-.event-links {
+.simcal-default-calendar-list .event-links {
   margin-left: 7em;
 }
 
-.simcal-default-calendar-grid.simcal-default-calendar-light .simcal-day:hover {
+.simcal-default-calendar-grid .simcal-day:hover {
   background-color: rgba(199, 37, 48, 0.1) !important;
 }
-
-.simcal-nav-button,
-.simcal-current-month,
-.simcal-week-day,
-.simcal-event-title,
-.simcal-event-start-date {
+.simcal-default-calendar-grid .simcal-nav-button,
+.simcal-default-calendar-grid .simcal-current-month,
+.simcal-default-calendar-grid .simcal-week-day,
+.simcal-default-calendar-grid .simcal-event-title,
+.simcal-default-calendar-grid .simcal-event-start-date {
   color: #460d11 !important;
 }
-
-.simcal-day-label {
+.simcal-default-calendar-grid .simcal-day-label {
   background-color: #fceff0 !important;
 }
-
-.simcal-today .simcal-day-label {
+.simcal-default-calendar-grid .simcal-today .simcal-day-label {
   background-color: #460d11 !important;
+}
+.simcal-default-calendar-grid .simcal-event {
+  border-bottom: 1px solid rgba(199, 37, 48, 0.1) !important;
 }
 
 .inline-list li {
