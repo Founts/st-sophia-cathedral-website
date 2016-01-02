@@ -1,1 +1,16 @@
-{{> templates-publication-archive }}
+{{> organisms-header:header--light }}
+{{> molecules-page-header }}
+<div class="main-body">
+	<h2 class="list-section-title">Google Calendar</h2>
+	<p>Events are published on our <a href="https://www.google.com/calendar/embed?src=stsophiala%40gmail.com&ctz=America/Los_Angeles\">Google Calendar (subscribe here)</a>.<p>
+	{{>organisms-simple-calendar-grid}}
+	<br>
+	<div class="">
+		<h2 class="list-section-title">{{ headline.xs }}</h2>
+		{{# sub }}
+		<p>{{{ excerpt.xs }}}</p>
+		{{/ sub }}
+		{{{ publication-list }}
+	</div>
+</div>
+{{> organisms-footer }}
