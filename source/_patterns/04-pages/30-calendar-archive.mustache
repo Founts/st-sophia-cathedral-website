@@ -2,8 +2,13 @@
 {{> molecules-page-header }}
 <div class="main-body">
 	<h2 class="list-section-title">Google Calendar</h2>
-	<p>Events are published on our <a href="https://www.google.com/calendar/embed?src=stsophiala%40gmail.com&ctz=America/Los_Angeles\">Google Calendar (subscribe here)</a>.<p>
-	{{>organisms-simple-calendar-grid}}
+	<p>Events are published on our <a href="https://www.google.com/calendar/embed?src=stsophiala%40gmail.com&ctz=America/Los_Angeles\">Google Calendar (subscribe here)</a>.</p>
+	<div class="hide-med hide-large">
+		{{>organisms-simple-calendar-list}}
+	</div>
+	<div class="hide-small">
+		{{>organisms-simple-calendar-grid}}
+	</div>
 	<br>
 	<div class="">
 		<h2 class="list-section-title">{{ headline.xs }}</h2>
