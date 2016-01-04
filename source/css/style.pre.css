@@ -1825,7 +1825,7 @@ blockquote .pullquote p:after {
 
 /* overrides */
 .simcal-default-calendar-list {
-  padding: 0;
+  padding: 0 !important;
 }
 .simcal-default-calendar-list dt.simcal-day-label {
   font-weight: bold;
@@ -1840,18 +1840,13 @@ blockquote .pullquote p:after {
 .simcal-default-calendar-list ul.simcal-events {
   margin: 0 !important;
 }
-.simcal-default-calendar-list .simcal-event:first-of-type {
+.simcal-default-calendar-list .simcal-events-list-container {
   border-top: 1px solid #c72530 !important;
 }
 .simcal-default-calendar-list .simcal-event {
   padding: 8px 20px;
   margin-bottom: 0 !important;
   border-bottom: 1px solid #c72530;
-}
-.simcal-default-calendar-list .simcal-event-start-time {
-  display: block;
-  width: 4.5em;
-  float: left;
 }
 .simcal-default-calendar-list .simcal-event-title {
   display: block;
@@ -1879,6 +1874,14 @@ blockquote .pullquote p:after {
 }
 .simcal-default-calendar-list .event-links {
   margin-left: 7em;
+  clear: left;
+  float: left;
+}
+
+.simcal-calendar-list .simcal-event-start-time, .simcal-calendar-list .simcal-event-start-date {
+  display: block;
+  float: left;
+  padding-right: .5em;
 }
 
 .simcal-default-calendar-grid .simcal-day:hover {
@@ -1899,6 +1902,25 @@ blockquote .pullquote p:after {
 }
 .simcal-default-calendar-grid .simcal-event {
   border-bottom: 1px solid rgba(199, 37, 48, 0.1) !important;
+}
+
+.simcal-calendar-list-compact .simcal-events p {
+  margin-bottom: 0 !important;
+}
+
+.calendar-list-compact-wrapper .simcal-event-start-time, .calendar-list-compact-wrapper .simcal-event-start-date {
+  display: inline;
+  float: none;
+}
+.calendar-list-compact-wrapper .simcal-event-title {
+  width: 65%;
+}
+.calendar-list-compact-wrapper .date-time-label {
+  display: block;
+  float: left;
+  width: 33%;
+  min-width: 11em;
+  max-width: 11em;
 }
 
 .inline-list li {

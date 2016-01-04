@@ -3,7 +3,7 @@
 /////////////////////////////////
 /* overrides */
 .simcal-default-calendar-list {
-	padding: 0;
+	padding: 0 !important;
 
 	dt.simcal-day-label {
 		font-weight: bold;
@@ -21,7 +21,7 @@
 		margin: 0 !important;
 	}
 
-	.simcal-event:first-of-type {
+	.simcal-events-list-container {
 		border-top: 1px solid $red !important;
 	}
 
@@ -31,11 +31,6 @@
 		border-bottom: 1px solid $red;
 	}
 
-	.simcal-event-start-time {
-		display: block;
-	    width: 4.5em;
-	    float: left;
-	}
 	.simcal-event-title {
 		display: block;
 		float: left;
@@ -62,6 +57,16 @@
 	}
 	.event-links {
 		margin-left: 7em;
+		clear: left;
+		float: left;
+	}
+}
+.simcal-calendar-list {
+	.simcal-event-start-time, .simcal-event-start-date {
+		display: block;
+	    // width: 4.5em;
+	    float: left;
+	    padding-right: .5em;
 	}
 }
 
@@ -91,5 +96,27 @@
 
 	.simcal-event {
 		border-bottom: 1px solid rgba($red, .1) !important;
+	}
+}
+
+.simcal-calendar-list-compact {
+	.simcal-events p {
+		margin-bottom: 0 !important;
+	}
+}
+.calendar-list-compact-wrapper {
+	.simcal-event-start-time, .simcal-event-start-date {
+		display: inline;
+	    float: none;
+	}
+	.simcal-event-title {
+		width: 65%;
+	}
+	.date-time-label {
+		display: block;
+		float: left;
+		width: 33%;
+		min-width: 11em;
+		max-width: 11em;
 	}
 }
