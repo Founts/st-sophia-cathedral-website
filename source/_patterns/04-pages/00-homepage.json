@@ -127,14 +127,15 @@
 			"herald" : false,
 			"widget-cta" : [
 				{
-					"url" : "https://www.google.com/calendar/embed?src=stsophiala%40gmail.com&ctz=America/Los_Angeles",
-					"cta" : "Google Calendar"
+					"url" : "link.pages-calendar-archive",
+					"cta" : "Full Google Calendar"
 					},
 				{
 					"url" : "http://www.stsophia.org/herald/calendar/herald_2015-06_calendar.pdf",
 					"cta" : "June Calendar [PDF]"
 				}
-			]
+			],
+			"calendar-widget" : "true"
 		}
 	],
 	"calendar" : {

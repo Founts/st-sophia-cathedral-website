@@ -98,6 +98,10 @@
 						<a href="http://www.stsophia.org/herald/herald_2015-06.pdf">Saint Sophia Cathedral Herald - May 2015</a>
 					</div>
 					{{/ herald}}
+					{{# calendar-widget }}
+					<p><em>Upcoming Events</em></p>
+					{{> organisms-simple-calendar-list-widget }}
+					{{/ calendar-widget}}
 					{{# widget-cta }}
 					<a href="{{ url }}" class="cta">{{ cta }}</a>
 					{{/ widget-cta}}
