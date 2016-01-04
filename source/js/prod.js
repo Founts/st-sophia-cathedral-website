@@ -15,6 +15,10 @@ $( document ).ready(function(){
   $('a#menu-small').click(function() {
     scrollToAnchor('footer');     
   });
+  // toggle visibility of calendar list item details
+  $('.simcal-event').on('click', function() {
+    $(this).find('.event-details').toggle();
+  });
 
 });
 
