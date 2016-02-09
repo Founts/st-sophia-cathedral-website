@@ -47,7 +47,7 @@
 				"short" : "I’M NEW…<br>WHAT DO I DO?"
 			},
 			"excerpt" : {
-				"short" : "Discover more about Orthodox Christianity.  <a href=\"https://www.youtube.com/channel/UCUHb2fqMM5NHUFVMHXDpctA\">Get connected</a>.  Find the <a>Nursery</a>. Get your kids into <a>Sunday School</a>.  Find out <a>what’s going on in worship</a>. Find <a>ministries</a>."
+				"short" : "Discover more about Orthodox Christianity.  <a href=\"https://www.youtube.com/channel/UCUHb2fqMM5NHUFVMHXDpctA\">Get connected</a>.  Find the <a href=\"http://localhost:9001/public/?p=pages-nursery\">Nursery</a>. Get your kids into <a href=\"http://localhost:9001/public/?p=pages-sunday-school\">Sunday School</a>.  View the <a href=\"http://localhost:9001/public/?p=pages-calendar-archive\">calendar</a> of liturgical services and ministry events."
 			},
 			"ctasection" : false
 		},
