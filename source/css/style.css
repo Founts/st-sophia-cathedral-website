@@ -1100,6 +1100,10 @@ blockquote .pullquote p:after {
   margin-bottom: 0;
 }
 
+.visit-us .vcard a {
+  font-size: inherit;
+}
+
 /*------------------------------------*\
     $COMPONENTS
 \*------------------------------------*/
